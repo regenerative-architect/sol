@@ -1,0 +1,173 @@
+{
+  "created": "2026-10-14",
+  "algorithm": "SHA-256",
+  "scope": "All packaged files except this manifest",
+  "meaning": "Detects byte changes only; not a signature or source authentication",
+  "files": [
+    {
+      "path": "ANALYTIC_STANDARDS.md",
+      "sha256": "784ac8ceaa30fbd8ec9864eee201218c65b95b0b0c8f5ce2399c47f4ca6f1c8f",
+      "bytes": 1517
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "506f524f83e48e3a0af4bf5e99c4233180a9cc39626ec34e0ab9badacf49949f",
+      "bytes": 1102
+    },
+    {
+      "path": "MANDATE_AND_SAFEGUARDS.md",
+      "sha256": "b3ab710ca6bb26f2cfc6a8797becec9faf375ccc2fc707c41ce3d198eb8fcf76",
+      "bytes": 1455
+    },
+    {
+      "path": "README.md",
+      "sha256": "2e8f0d545093e598676abc38790fd6fd2fb91ade6117d354b215968179525a30",
+      "bytes": 3180
+    },
+    {
+      "path": "RUNBOOK.md",
+      "sha256": "f5f2ac04e169b2332bd5159bbc872409ff05d1ebc990b95549e1bf63a0ba0514",
+      "bytes": 6660
+    },
+    {
+      "path": "SITREP.md",
+      "sha256": "8c0c1ed7c0a0cfabec55d751ab39b9558866f2eb592ccc1f18b32c9eedf15105",
+      "bytes": 3878
+    },
+    {
+      "path": "TESTING.md",
+      "sha256": "3ef0fd2db48a6abab242dcaf49207e5100201e2183881f8d455fdbbf73718e68",
+      "bytes": 2665
+    },
+    {
+      "path": "assets/app.js",
+      "sha256": "8a25327127b9dfa1822bcb7dbb0aeaa140f746856c730adbacd9741f05e849c2",
+      "bytes": 91319
+    },
+    {
+      "path": "assets/icon.svg",
+      "sha256": "cb94e6936f32c2640aac5e248b80d4fe133ebbb978e3db918a2f49bfbe0968e0",
+      "bytes": 437
+    },
+    {
+      "path": "assets/styles.css",
+      "sha256": "eaa55e4f75a66f344b3f4d8b125558a70047d204eeaa60c963c2d29df79d72d5",
+      "bytes": 18303
+    },
+    {
+      "path": "data/actions.json",
+      "sha256": "81885efe94e0b4423c5e1ba6704763e694ac4c5523ca81ea8c8a7ab6f9ae74d8",
+      "bytes": 4785
+    },
+    {
+      "path": "data/handoff_schema_v1.json",
+      "sha256": "0de5475a62821c6fe3c32b7687663e894c17c9fcb43dbbb9336acf644363c8f2",
+      "bytes": 914
+    },
+    {
+      "path": "data/scope_matrix.json",
+      "sha256": "36cfe4940719beb57d8112785194dc04330d0c0ccf5b4a16b77bc55001caab9d",
+      "bytes": 1955
+    },
+    {
+      "path": "data/sources.json",
+      "sha256": "1dc7109f89cf4ec06422b03f0ccbecc1bc31e27dca3fa0ab542f2cdcc504f173",
+      "bytes": 5317
+    },
+    {
+      "path": "index.html",
+      "sha256": "091dfb894860870bb6e19178a9bc747b42d40e7b697d43b32b4075dc53c3ac94",
+      "bytes": 3917
+    },
+    {
+      "path": "modules/casebook/index.html",
+      "sha256": "7a0e69839ba942bef08f8a61bac2ee71f52f57b8d716fa3752caffda753d0f58",
+      "bytes": 4061
+    },
+    {
+      "path": "modules/ceasefire/index.html",
+      "sha256": "07aba38671b3796d08dd9ce6178ee6121b11e9702d406439b7a16d45a0e4473a",
+      "bytes": 4066
+    },
+    {
+      "path": "modules/compliance/index.html",
+      "sha256": "3f3dd166fcb761f3a504de6f86ebe3ffd01f834c85ed320050d35c9a888bd567",
+      "bytes": 4071
+    },
+    {
+      "path": "modules/cyber/index.html",
+      "sha256": "4bfa72dd6fdf5c43bdee7ac9c8176eb3ba0ff6bf0ccd381eed2a20180e7bdda7",
+      "bytes": 4079
+    },
+    {
+      "path": "modules/doctrine/index.html",
+      "sha256": "ee04ea79b0feb6e2ce6295cb68174a1cd178c1972b2aa60aac09b56e34d22d28",
+      "bytes": 4064
+    },
+    {
+      "path": "modules/evidence/index.html",
+      "sha256": "da479290d6a4c4c707284f751bd351a56ff101e0de8f493cda9218c724002730",
+      "bytes": 4049
+    },
+    {
+      "path": "modules/framework/index.html",
+      "sha256": "304af1495f04876baa6b7bc96990ac651464209593ab62a64afad191a8f2f4f1",
+      "bytes": 4045
+    },
+    {
+      "path": "modules/governance/index.html",
+      "sha256": "ffb399297df608375536e99ef6191d60468f7530637d926b0c00e0a172497aab",
+      "bytes": 4067
+    },
+    {
+      "path": "modules/humanitarian/index.html",
+      "sha256": "0126a46a51d3cc5a4bcb5147ede4d399cbbe23966dbe25f2ffc66f1be31776a1",
+      "bytes": 4076
+    },
+    {
+      "path": "modules/metrics/index.html",
+      "sha256": "5dcde27260303ac1be848095ddb413383a51225083e6e28e4e389ebf4efe9a55",
+      "bytes": 4066
+    },
+    {
+      "path": "modules/nodes/index.html",
+      "sha256": "4f46fe632e83227a2642a8e09a02af70c864be5867dac6b55dd8f4b3fc302472",
+      "bytes": 4047
+    },
+    {
+      "path": "modules/premortem/index.html",
+      "sha256": "0954c9cb5e9fac24f1419735e370468cad23e05aaa6a8b5f5a7001e948517136",
+      "bytes": 4047
+    },
+    {
+      "path": "modules/register/index.html",
+      "sha256": "cec08e3f9c428c94fdda259213f2b9a17ff190ffac1018a1e91b883784824153",
+      "bytes": 4040
+    },
+    {
+      "path": "modules/sitrep/index.html",
+      "sha256": "d791403fe6a34fa9581c2b603615f42dd8121242efe25f10b68b767b97b62dc0",
+      "bytes": 4028
+    },
+    {
+      "path": "service_worker.js",
+      "sha256": "4147686367ee21699372b5321453c6415bb10becee7b8f60cc2006d0e9b9d791",
+      "bytes": 1666
+    },
+    {
+      "path": "site.webmanifest",
+      "sha256": "0db9b5b6f8e8309b48d24c2a33e052566576c5622e0c6c4e664c8ba28bfa3aff",
+      "bytes": 496
+    },
+    {
+      "path": "tests/smoke_browser.py",
+      "sha256": "530e6bef1d203a6d37edb9ab6a84352d49f82e7bcc4eec90fd1c22034ed93c97",
+      "bytes": 5130
+    },
+    {
+      "path": "tests/verify_structure.py",
+      "sha256": "4bffa4c1fde9870a5c4354d7f1887de9dc29e386caf1099aa871f3a32afa56b8",
+      "bytes": 824
+    }
+  ]
+}

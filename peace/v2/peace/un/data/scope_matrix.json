@@ -1,0 +1,56 @@
+[
+  {
+    "id": "un",
+    "name": "UN public research concept",
+    "status": "this edition; not UN endorsed",
+    "scope": "Civilian protection, public source synthesis; formal UN processes are separately mandated."
+  },
+  {
+    "id": "usss",
+    "name": "U.S. Secret Service prototype",
+    "status": "prior edition; not connected",
+    "scope": "Financial integrity within applicable remit; never route protected UN beneficiary data."
+  },
+  {
+    "id": "fbi",
+    "name": "FBI prototype",
+    "status": "prior edition; not connected",
+    "scope": "Public export-control cases, criminal investigations only within real authorities."
+  },
+  {
+    "id": "military",
+    "name": "U.S. Military peace prototype",
+    "status": "prior edition; not connected",
+    "scope": "Policy, IHL and civilian protection public research; no operational plans."
+  },
+  {
+    "id": "cia",
+    "name": "CIA analysis prototype",
+    "status": "prior edition; not connected",
+    "scope": "Foreign analytic public-source synthesis only; no aid-actor recruitment or clandestine role."
+  },
+  {
+    "id": "icrc",
+    "name": "ICRC (independent, NOT a UN agency)",
+    "status": "external conceptual partner only",
+    "scope": "Neutral humanitarian organization; protection cases require strict confidentiality and independent consent."
+  },
+  {
+    "id": "osce",
+    "name": "OSCE (NOT a UN agency)",
+    "status": "historical/reference only",
+    "scope": "Any renewed monitoring must have independent authority; 2014–22 SMM is closed."
+  },
+  {
+    "id": "ukraine",
+    "name": "Government of Ukraine",
+    "status": "sovereign decision-maker; not connected",
+    "scope": "Consent, sovereignty, protection of civilians, and national legal review."
+  },
+  {
+    "id": "russia",
+    "name": "Government of Russia",
+    "status": "sovereign decision-maker; not connected",
+    "scope": "Reciprocal agreements, access, obligations and independent compliance review."
+  }
+]

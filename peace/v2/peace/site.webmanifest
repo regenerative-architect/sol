@@ -1,0 +1,19 @@
+{
+  "id": "./",
+  "name": "SOL Peace Commons \u2014 Convergence Worlds",
+  "short_name": "SOL Convergence",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#09121c",
+  "theme_color": "#101d2c",
+  "description": "Offline-first public research, RPG-inspired learning and consent-based peacebuilding collaboration.",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

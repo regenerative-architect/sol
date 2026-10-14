@@ -1,0 +1,142 @@
+[
+  {
+    "id": "UN-CHARTER",
+    "date": "1945; accessed 2026-10-14",
+    "type": "Primary international law",
+    "title": "United Nations Charter, including Articles 2, 24, 25, 33 and 51",
+    "url": "https://www.un.org/en/about-us/un-charter/full-text"
+  },
+  {
+    "id": "UN-PEACE-PRINCIPLES",
+    "date": "2026-06-11",
+    "type": "UN Peacekeeping doctrine",
+    "title": "Consent, impartiality, non-use of force except self-defense and defense of mandate",
+    "url": "https://peacekeeping.un.org/en/principles-of-peacekeeping"
+  },
+  {
+    "id": "UN-MANDATES",
+    "date": "accessed 2026-10-14",
+    "type": "UN Peacekeeping institutional",
+    "title": "Mandates and legal basis for United Nations peacekeeping",
+    "url": "https://peacekeeping.un.org/en/mandates-and-the-legal-basis-for-peacekeeping"
+  },
+  {
+    "id": "OHCHR-AUG",
+    "date": "2026-09-16",
+    "type": "UN verified minimum",
+    "title": "OHCHR: Protection of Civilians in Armed Conflict — August 2026",
+    "url": "https://ukraine.ohchr.org/en/Protection-of-Civilians-in-Armed-Conflict-August-2026"
+  },
+  {
+    "id": "OHCHR-INDEX",
+    "date": "accessed 2026-10-14",
+    "type": "UN source index",
+    "title": "HRMMU monthly and thematic reports (check for newly published updates)",
+    "url": "https://ukraine.ohchr.org/en/reports"
+  },
+  {
+    "id": "OHCHR-OCT",
+    "date": "2026-10-09 (statement dated Oct 8)",
+    "type": "UN Human Rights official statement",
+    "title": "Volker Türk on deadly strikes in Ukraine and electricity outages",
+    "url": "https://ukraine.ohchr.org/en/Comment-by-UN-Human-Rights-Chief-Volker-T%C3%BCrk-on-deadly-strikes-in-Ukraine"
+  },
+  {
+    "id": "OCHA-HNRP",
+    "date": "2026-01-13",
+    "type": "UN humanitarian appeal",
+    "title": "2026 Ukraine Humanitarian Needs and Response Plan, 10.8m estimated in need; 4.1m target; $2.3bn appeal",
+    "url": "https://ukraine.un.org/en/308290-relentless-war-ukraine-grinds-humanitarian-partners-aim-reach-41-million-people-2026"
+  },
+  {
+    "id": "OCHA-WINTER",
+    "date": "2026-07-22",
+    "type": "UN humanitarian appeal",
+    "title": "Ukraine 2026–2027 Winter Response Plan, 2.1m target; $358.4m appeal",
+    "url": "https://ukraine.un.org/en/319798-humanitarian-community-launches-winter-response-plan-help-21-million-people-across-ukraine"
+  },
+  {
+    "id": "OSCE-SMM",
+    "date": "2022-03-31; accessed 2026-10-14",
+    "type": "OSCE institutional history (not UN)",
+    "title": "OSCE Special Monitoring Mission to Ukraine closed in 2022",
+    "url": "https://www.osce.org/special-monitoring-mission-to-ukraine"
+  },
+  {
+    "id": "UN-SC-MONITOR",
+    "date": "2025-04-07",
+    "type": "UN Security Council meeting",
+    "title": "UN officials on ceasefire monitoring, technological support and political conditions",
+    "url": "https://press.un.org/en/2025/sc16039.doc.htm"
+  },
+  {
+    "id": "UN-POW",
+    "date": "accessed 2026-10-14",
+    "type": "Independent humanitarian actor (not UN)",
+    "title": "ICRC work in Ukraine, missing persons and detention",
+    "url": "https://www.icrc.org/en/where-we-work/ukraine"
+  },
+  {
+    "id": "ICRC-IHL",
+    "date": "accessed 2026-10-14",
+    "type": "International humanitarian law",
+    "title": "ICRC general IHL rules and civilian protection",
+    "url": "https://www.icrc.org/en/law-and-policy/international-humanitarian-law"
+  },
+  {
+    "id": "UNHCR-UKR",
+    "date": "accessed 2026-10-14",
+    "type": "UN refugee agency",
+    "title": "UNHCR Ukraine operational response",
+    "url": "https://www.unhcr.org/emergencies/ukraine-emergency"
+  },
+  {
+    "id": "UN-WFP",
+    "date": "accessed 2026-10-14",
+    "type": "UN humanitarian agency",
+    "title": "World Food Programme Ukraine",
+    "url": "https://www.wfp.org/emergencies/ukraine-emergency"
+  },
+  {
+    "id": "UN-UNICEF",
+    "date": "accessed 2026-10-14",
+    "type": "UN humanitarian agency",
+    "title": "UNICEF Ukraine situation and children",
+    "url": "https://www.unicef.org/emergencies/war-ukraine-pose-immediate-threat-children"
+  },
+  {
+    "id": "UNDP-UKR",
+    "date": "accessed 2026-10-14",
+    "type": "UN development programme",
+    "title": "UNDP recovery and resilience in Ukraine",
+    "url": "https://www.undp.org/ukraine"
+  },
+  {
+    "id": "UN-UNMAS",
+    "date": "accessed 2026-10-14",
+    "type": "UN mine action",
+    "title": "UN Mine Action Service",
+    "url": "https://www.unmas.org/en"
+  },
+  {
+    "id": "UN-ES11-1",
+    "date": "2022-03-02",
+    "type": "UN General Assembly",
+    "title": "General Assembly Resolution ES-11/1: Aggression against Ukraine",
+    "url": "https://digitallibrary.un.org/record/3965290"
+  },
+  {
+    "id": "REUTERS-OCT14",
+    "date": "2026-10-14",
+    "type": "Independent news, attributed",
+    "title": "Reuters: Russian strikes kill civilians and damage Ukrainian energy facilities",
+    "url": "https://www.reuters.com/world/russian-strikes-kill-one-hit-energy-facilities-kyiv-mayor-says-2026-10-14/"
+  },
+  {
+    "id": "REUTERS-TRUCE",
+    "date": "2026-10-12",
+    "type": "Independent news, conflicting party statements",
+    "title": "Reuters: Energy ceasefire announcement and Russian strikes disputed",
+    "url": "https://www.reuters.com/business/energy/ukraine-accuses-russia-violating-trumps-energy-ceasefire-eu-imposes-new-2026-10-12/"
+  }
+]
