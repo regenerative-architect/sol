@@ -1,0 +1,110 @@
+{
+  "as_of": "2026-10-14",
+  "sources": [
+    {
+      "id": "FBI-CI",
+      "date": "accessed 2026-10-14",
+      "type": "Official scope",
+      "title": "FBI counterintelligence and espionage mission",
+      "url": "https://www.fbi.gov/investigate/counterintelligence"
+    },
+    {
+      "id": "FBI-TF",
+      "date": "accessed 2026-10-14",
+      "type": "Official scope",
+      "title": "FBI National Counterintelligence Task Force",
+      "url": "https://www.fbi.gov/investigate/counterintelligence/national-counterintelligence-task-force"
+    },
+    {
+      "id": "FBI-CONTACT",
+      "date": "accessed 2026-10-14",
+      "type": "Official intake",
+      "title": "FBI public contact and tips",
+      "url": "https://www.fbi.gov/contact-us"
+    },
+    {
+      "id": "DOJ-GOLTSEV",
+      "date": "2025-01-08",
+      "type": "Judicial finding",
+      "title": "Nikolay Goltsev sentenced",
+      "url": "https://www.justice.gov/usao-edny/pr/canadian-national-sentenced-40-months-prison-multi-million-dollar-export-control"
+    },
+    {
+      "id": "DOJ-SHEV",
+      "date": "2026-07-23",
+      "type": "Guilty plea",
+      "title": "Andrey Shevlyakov pleaded guilty",
+      "url": "https://www.justice.gov/usao-edny/pr/estonian-national-pleads-guilty-exporting-electronics-benefit-russian-military"
+    },
+    {
+      "id": "DOJ-ZHARN",
+      "date": "2026-01-22",
+      "type": "Judicial finding",
+      "title": "Sergei Zharnovnikov sentenced",
+      "url": "https://www.justice.gov/usao-edny/pr/international-arms-dealer-sentenced-39-months-imprisonment-conspiring-export-american"
+    },
+    {
+      "id": "DOJ-YERM",
+      "date": "2024",
+      "type": "Guilty plea",
+      "title": "Vadim Yermolenko guilty plea",
+      "url": "https://www.justice.gov/usao-edny/pr/us-and-russian-national-pleads-guilty-helping-russias-defense-sector-evade-us-export"
+    },
+    {
+      "id": "BIS-CHPL",
+      "date": "2024-02-23",
+      "type": "Official compliance",
+      "title": "BIS Common High Priority Items List",
+      "url": "https://media.bis.gov/licensing/country-guidance/common-high-priority-items-list-chpl"
+    },
+    {
+      "id": "BIS-RED",
+      "date": "accessed 2026-10-14",
+      "type": "Official compliance",
+      "title": "BIS identify red flags",
+      "url": "https://www.bis.gov/enforcement/identify-red-flags"
+    },
+    {
+      "id": "BIS-ENFORCE",
+      "date": "accessed 2026-10-14",
+      "type": "Official compliance",
+      "title": "BIS enforcement policies",
+      "url": "https://www.bis.gov/enforcement/enforcement-policy-memos"
+    },
+    {
+      "id": "OFAC",
+      "date": "accessed 2026-10-14",
+      "type": "Official compliance",
+      "title": "OFAC sanctions list search",
+      "url": "https://ofac.treasury.gov/sanctions-list-search-tool"
+    },
+    {
+      "id": "ICRC",
+      "date": "2026-09",
+      "type": "Humanitarian",
+      "title": "ICRC Central Tracing Agency",
+      "url": "https://www.icrc.org/en/document/central-tracing-agency-missing-persons-ukraine"
+    },
+    {
+      "id": "UN",
+      "date": "2022-03-02",
+      "type": "International law",
+      "title": "UN General Assembly ES-11/1",
+      "url": "https://digitallibrary.un.org/record/3965290"
+    },
+    {
+      "id": "USSS",
+      "date": "accessed 2026-10-14",
+      "type": "Partner scope",
+      "title": "USSS Field offices",
+      "url": "https://www.secretservice.gov/contact/field-offices/"
+    },
+    {
+      "id": "CISA",
+      "date": "accessed 2026-10-14",
+      "type": "Defensive cyber",
+      "title": "CISA incident reporting",
+      "url": "https://www.cisa.gov/report"
+    }
+  ]
+}

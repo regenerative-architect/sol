@@ -1,0 +1,18 @@
+{
+  "name": "Financial Integrity Research OS \u2014 Public-interest Prototype",
+  "short_name": "Integrity OS",
+  "description": "Local-first public-source evidence and interagency-handoff research prototype",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#112b37",
+  "theme_color": "#112b37",
+  "icons": [
+    {
+      "src": "assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

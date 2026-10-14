@@ -1,0 +1,92 @@
+[
+  {
+    "time": "0–72 hours",
+    "owner": "UN country team + civil society (proposal)",
+    "ask": "Publish source-frozen protection brief and public correction log",
+    "mechanism": "Reduce false claims, identify urgent needs",
+    "gate": "Existing UN reporting and editorial review",
+    "cost": "Staff time; low additional tooling",
+    "measure": "Dated source ledger, tracked corrections",
+    "stop": "Pause if sources cannot be verified"
+  },
+  {
+    "time": "0–72 hours",
+    "owner": "OCHA coordination / partners (proposal)",
+    "ask": "Map public winter aid funding gaps and service access without personal data",
+    "mechanism": "Prioritize urgent civilian insulation, power, WASH and health",
+    "gate": "Public aggregate data and partner consent",
+    "cost": "Low–moderate; funding requirements separate",
+    "measure": "Verified aggregate gap by sector and region",
+    "stop": "Stop publishing information that could expose aid movements"
+  },
+  {
+    "time": "2–6 weeks",
+    "owner": "Neutral humanitarian intermediaries, parties by consent",
+    "ask": "Design protected medical evacuation and humanitarian passage proposals",
+    "mechanism": "Remove time-sensitive access bottlenecks",
+    "gate": "Host and affected-party consent; safe routes handled privately",
+    "cost": "Moderate–high; implementation variable",
+    "measure": "Completed authorized movements and independent access reviews",
+    "stop": "Suspend when credible threat to civilians or aid staff"
+  },
+  {
+    "time": "2–6 weeks",
+    "owner": "ICRC / competent detaining authorities (proposal)",
+    "ask": "Increase family-contact, missing-person and detainee protection channels",
+    "mechanism": "Protect people independently of negotiations",
+    "gate": "ICRC independence; agreement and confidentiality",
+    "cost": "Moderate, uncertain",
+    "measure": "Confirmed family notifications and case resolution in protected aggregates",
+    "stop": "Stop if data shared with unauthorized recipients"
+  },
+  {
+    "time": "2–6 months",
+    "owner": "Parties + mutually agreed technical observers (proposal)",
+    "ask": "Pilot time-limited energy and water infrastructure protection arrangements",
+    "mechanism": "Test reciprocal restraint with civil risk reduction",
+    "gate": "Signed terms, incident chain, observer safety, neutral adjudicator",
+    "cost": "Medium–high; site-specific unknown",
+    "measure": "Validated reduction in incidents in agreed scope",
+    "stop": "Suspend benefits, not humanitarian relief, on independently upheld breach"
+  },
+  {
+    "time": "2–6 months",
+    "owner": "Member States + UN mediator by consent (proposal)",
+    "ask": "Set up military-civilian incident deconfliction and adjudication rules",
+    "mechanism": "Control escalation from ambiguous accidents",
+    "gate": "Hotlines, secure submissions, agreed evidence standard",
+    "cost": "Moderate–high, mandate dependent",
+    "measure": "Adjudication timeliness and corrected claims",
+    "stop": "If impartial verification impossible, report unknown not compliance"
+  },
+  {
+    "time": "2–6 months",
+    "owner": "UN DPO/DPPA + parties + Security Council as appropriate (proposal)",
+    "ask": "Scope legally authorized monitoring architecture; do not deploy without mandate",
+    "mechanism": "Enable a credible general ceasefire if parties agree",
+    "gate": "Consent, UNSC action where required, budget, operational safety",
+    "cost": "High / uncertain",
+    "measure": "Signed mandate and independent incident methodology",
+    "stop": "Do not deploy if consent or safety requirements fail"
+  },
+  {
+    "time": "6–24 months",
+    "owner": "Ukraine, UNDP, local authorities, donors (proposal)",
+    "ask": "Rebuild energy, housing, health and cleared land with transparent safeguards",
+    "mechanism": "Reduce displacement pressure and renewed grievances",
+    "gate": "Procurement controls, local consent, mine-action certification",
+    "cost": "High, multi-year and context dependent",
+    "measure": "Service restoration, audited outcomes and independent complaints",
+    "stop": "Pause projects if forced return or discrimination risk arises"
+  },
+  {
+    "time": "2–10 years",
+    "owner": "Member States, Ukrainian civil society and rights bodies (proposal)",
+    "ask": "Embed sovereignty-respecting security, justice and reparations mechanisms",
+    "mechanism": "Reduce incentives for renewed coercion and build durable peace",
+    "gate": "International law, domestic consent, stable finance, independent review",
+    "cost": "Very high, politically uncertain",
+    "measure": "Repeated civilian-safety, justice and institutional trust assessments",
+    "stop": "No compulsory territorial/legal concessions by this prototype"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "schema": "pra.reciprocal_public_handoff",
+  "version": 1,
+  "sender_node": "us_military_concept",
+  "recipient_node": "fbi_proposed",
+  "handling": "PUBLIC_ONLY",
+  "submitted": false,
+  "authenticity": "UNSIGNED_LOCAL_DRAFT",
+  "requested_action": "independent_review_only",
+  "lead": {
+    "id": "example",
+    "title": "Public civilian protection summary",
+    "category": "civilian_protection",
+    "source_url": "https://ukraine.un.org/en/323454-protection-civilians-armed-conflict-%E2%80%94-august-2026",
+    "evidence_level": "public_report",
+    "summary": "UN OHCHR published verified minimum civilian casualty counts for August 2026."
+  },
+  "limitations": [
+    "not official",
+    "not transmitted",
+    "independently verify before use"
+  ]
+}

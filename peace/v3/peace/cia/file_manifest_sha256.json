@@ -1,0 +1,163 @@
+{
+  "project": "CIA Foreign Analysis & Peace Assurance OS (unofficial)",
+  "date": "2026-10-14",
+  "algorithm": "SHA-256",
+  "purpose": "byte-integrity only; unsigned, does not establish authorship",
+  "files": [
+    {
+      "path": "ANALYTIC_STANDARDS.md",
+      "size": 1517,
+      "sha256": "784ac8ceaa30fbd8ec9864eee201218c65b95b0b0c8f5ce2399c47f4ca6f1c8f"
+    },
+    {
+      "path": "LICENSE",
+      "size": 1102,
+      "sha256": "866c4a7e35de63ed11765281d7c3f16ec3bf443b85ffd4077b7f3dfdd6c9439c"
+    },
+    {
+      "path": "README.md",
+      "size": 4038,
+      "sha256": "235ae9ec5d0f86fb2855e4a7c138c9ff377a48b65abf05241aee1a74f2f81615"
+    },
+    {
+      "path": "RUNBOOK.md",
+      "size": 2662,
+      "sha256": "a9ca21309ebc9383bed1d597503f6acf52b82c233a7fb2d3559a440db705b719"
+    },
+    {
+      "path": "SITREP.md",
+      "size": 3456,
+      "sha256": "15601a7c9081855f85ba3be072d973d5ee930a2e2995a0e3abac957322fc1ab9"
+    },
+    {
+      "path": "TESTING.md",
+      "size": 2687,
+      "sha256": "f68cbd42473c0a250a287075e58ca99bdfaf538cd2c280c8d9e259d02979ad6a"
+    },
+    {
+      "path": "assets/app.js",
+      "size": 82690,
+      "sha256": "394abdf3f8372e23797aba1a8b8ad1eda830d4db110ca37f3bfcb27961dbf1bf"
+    },
+    {
+      "path": "assets/icon.svg",
+      "size": 404,
+      "sha256": "9d3cf64e4ad8443e3ad8565e0f17f3f77bc9468c638701961c7e724c85f38403"
+    },
+    {
+      "path": "assets/styles.css",
+      "size": 17621,
+      "sha256": "94ea1b94d48b1593aa42ec5b95dc9717769e5ad5a1415a81bf5f5601b4a4784a"
+    },
+    {
+      "path": "data/actions.json",
+      "size": 4890,
+      "sha256": "663c5dfa6ef5a95a864ae00c28910ad63535314f296868adc601b6dd06dcecd2"
+    },
+    {
+      "path": "data/handoff_schema_v1.json",
+      "size": 822,
+      "sha256": "7e5cef007866b813415232c75c70599bd8fa3c10d9a98055d0ff965d9fe8deb1"
+    },
+    {
+      "path": "data/scope_matrix.json",
+      "size": 2231,
+      "sha256": "046b1ea51c1112ba38afbbb4835ecc6a9f0787d64791dc3a002a5a22c5e5f137"
+    },
+    {
+      "path": "data/sources.json",
+      "size": 4536,
+      "sha256": "aa1eb45a15cc61922c971974c67f4efe2d709db15e0e8a6f242111f16d324baa"
+    },
+    {
+      "path": "index.html",
+      "size": 3326,
+      "sha256": "bb5d50bec39d1f89decf656cfbf0016f4fdc668669722be0a98d56dfcd74df78"
+    },
+    {
+      "path": "modules/casebook/index.html",
+      "size": 3450,
+      "sha256": "061199c542fa2efbe1576a2eae8170d04c9faf86b061cd54d80fb49f2a830ad9"
+    },
+    {
+      "path": "modules/ceasefire/index.html",
+      "size": 3454,
+      "sha256": "b1a35413b5ecca707eb8d37833905e2a83f708706c621a2616efaa2c26fa92f7"
+    },
+    {
+      "path": "modules/compliance/index.html",
+      "size": 3454,
+      "sha256": "6863d21f5ba926ea8a730b5403e98a50954dc2f01f254ca5de923a763bda846e"
+    },
+    {
+      "path": "modules/cyber/index.html",
+      "size": 3435,
+      "sha256": "4ef233b80385d81500aaeb7574ca974489f399a0501f12183305275b5c4ce2bb"
+    },
+    {
+      "path": "modules/doctrine/index.html",
+      "size": 3457,
+      "sha256": "9915d75d448e93f95545ac7778e66cb359c69cdbf379390b19371d2fc735ca9a"
+    },
+    {
+      "path": "modules/evidence/index.html",
+      "size": 3448,
+      "sha256": "962491ec309d49fd1c02e1c05b158ba387bca9e2de688e55034a03b07339063b"
+    },
+    {
+      "path": "modules/framework/index.html",
+      "size": 3438,
+      "sha256": "8a7f4151f03beda0ac9e68b0b74cf1fe31c9b374f948ac7e62984afafcf70e02"
+    },
+    {
+      "path": "modules/governance/index.html",
+      "size": 3452,
+      "sha256": "6067b3261e0d9a9cc3158290ca6686db6f82f43db25d7b5d54a3c750924477d7"
+    },
+    {
+      "path": "modules/humanitarian/index.html",
+      "size": 3469,
+      "sha256": "cc49c70c172c716bfd1ab25d200688bb936decfbd848a65ba7e82acf6d37a1ae"
+    },
+    {
+      "path": "modules/metrics/index.html",
+      "size": 3459,
+      "sha256": "1fba5d528a75ed04e56be4d8a8b640cc86b465e971e460a09aec64d0f268a1b8"
+    },
+    {
+      "path": "modules/nodes/index.html",
+      "size": 3450,
+      "sha256": "7ed69bd2941c027e9888618e15005ada499fa408cbe2044193ea1b31d55b31bf"
+    },
+    {
+      "path": "modules/premortem/index.html",
+      "size": 3443,
+      "sha256": "4ae20117f7ec4847b87cf2e9ec82ee78025ec479581624e2bab34b3ce6afd574"
+    },
+    {
+      "path": "modules/register/index.html",
+      "size": 3429,
+      "sha256": "d1db11073c83f43a3581bbb8d7e4960f35ae52f296284f5740398594545a5540"
+    },
+    {
+      "path": "modules/sitrep/index.html",
+      "size": 3436,
+      "sha256": "5804ec9aa78019a40b50b09c56f32fcb85b077be637252aa2eadb1d58e0b5902"
+    },
+    {
+      "path": "service_worker.js",
+      "size": 1668,
+      "sha256": "15027e4c3aaef34df851756687667ed32926c86257a78b368c013dfde65e44c5"
+    },
+    {
+      "path": "site.webmanifest",
+      "size": 487,
+      "sha256": "ad3217e55174846e1069d8a742faa39720f1e96d08ac1d9b6bb15c3e4ca64767"
+    },
+    {
+      "path": "tests/verify_structure.py",
+      "size": 819,
+      "sha256": "c969683e08c09e8061903c0f7052115c2ccb99d27223b7c358672872d1a8d1f8"
+    }
+  ]
+}
