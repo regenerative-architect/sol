@@ -1,0 +1,24 @@
+{
+  "schema": "pra.reciprocal_public_handoff",
+  "version": 1,
+  "sender_node": "cia_public_concept",
+  "recipient_node": "fbi",
+  "handling": "PUBLIC_ONLY",
+  "submitted": false,
+  "authenticity": "UNSIGNED_LOCAL_DRAFT",
+  "requested_action": "independent_review_only",
+  "lead": {
+    "id": "sample_ohchr_aug_2026",
+    "title": "OHCHR August 2026 civilian harm minimums",
+    "category": "civilian_protection",
+    "source_url": "https://ukraine.ohchr.org/en/Protection-of-Civilians-in-Armed-Conflict-August-2026",
+    "evidence_level": "UN_VERIFIED_MINIMUM",
+    "summary": "OHCHR report 16 September 2026: at least 372 killed and 2349 injured in Ukraine during August 2026"
+  },
+  "limitations": [
+    "unofficial",
+    "not transmitted",
+    "no agency approval",
+    "independent source verification required"
+  ]
+}
