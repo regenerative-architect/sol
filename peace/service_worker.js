@@ -1,5 +1,5 @@
 /* Versioned shell cache; NO caching of off-origin sites or private state. HTTPS/localhost only. */
-const CACHE='sol-peace-master-shell-v1';
+const CACHE='sol-peace-master-shell-v2';
 const SHELL=['./','./index.html','./icon.svg','./site.webmanifest'];
 self.addEventListener('install',e=>{e.waitUntil(caches.open(CACHE).then(c=>c.addAll(SHELL)));self.skipWaiting()});
 self.addEventListener('activate',e=>e.waitUntil((async()=>{const keys=await caches.keys();await Promise.all(keys.filter(k=>k.startsWith('sol-peace-master-')&&k!==CACHE).map(k=>caches.delete(k)));await self.clients.claim()})()));

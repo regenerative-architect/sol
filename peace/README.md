@@ -1,3 +1,5 @@
+> **Edition 1.1 Guided Constellation:** A continuous five-phase flow, accessible pro-tip clues, inline quest/gate forms, progressive fade HUD, optional motion control and a touch-friendly mini project creator were added. The previous routes, five research nodes, schemas and explicit Trystero handshake remain supported. See [GUIDED_PLAYBOOK.md](GUIDED_PLAYBOOK.md).
+
 # SOL Peace Commons — Master Coordination OS (Edition 06)
 
 **Build date:** 2026-10-14 · **Version:** 1.0.0 · **Author:** Foster + Navi / Planetary Restoration Archive · **Status:** independent public-interest prototype. **Not operated by or affiliated with the U.S. Secret Service, FBI, CIA, U.S. military, United Nations or their staff.**

@@ -1,7 +1,9 @@
 {
-  "schema": "pra.file_sha256_manifest/v1",
-  "generated_utc": "2026-10-14",
-  "purpose": "Byte integrity of distributable build; not a digital signature or proof of authorship",
+  "bundle": "sol_peace_master_guided",
+  "edition": "1.1.0",
+  "generated_utc": "2026-10-14T20:40:41.440093+00:00",
+  "algorithm": "sha256",
+  "meaning": "Integrity only, not provenance or authorship",
   "files": [
     {
       "path": "ATTRIBUTIONS_AND_LICENSES.md",
@@ -10,8 +12,13 @@
     },
     {
       "path": "DEPLOYMENT.md",
-      "bytes": 2597,
-      "sha256": "645ec5c5160ef4e4d1d846df9098878ecf63cf3c796028314b0f33356e8d1f79"
+      "bytes": 4505,
+      "sha256": "1c0e7b164c765c05fc33980809bb81753fdb27e69ce9bac6c63113874b6bdb87"
+    },
+    {
+      "path": "GUIDED_PLAYBOOK.md",
+      "bytes": 2753,
+      "sha256": "9f41a501f5a17e9a4bd304bd2286826199615c01b3453408aa643cd3b9a013c3"
     },
     {
       "path": "LICENSE",
@@ -20,13 +27,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 8527,
-      "sha256": "fd139b42c398acea22c0b2f3c645e9598c843f3f3fd3038ca0b053c0908b636f"
+      "bytes": 8895,
+      "sha256": "fa4229e11fa01f1f08191106612bf5573dacadb4e63ed7b12bccf85ab5f74d70"
     },
     {
       "path": "TESTING.md",
-      "bytes": 3823,
-      "sha256": "05066c6c7ca1a6da8e2b50ce07a7ad54bb6093a6ee6a135b2a664c2f230e83b2"
+      "bytes": 7412,
+      "sha256": "551026006b4a8900c4885aba2ba045064ab2d40584730a9b26df53fc6a4e4cda"
     },
     {
       "path": "data/public_handoff_example.json",
@@ -35,8 +42,8 @@
     },
     {
       "path": "desktop_preview.png",
-      "bytes": 402190,
-      "sha256": "1cc86745f645f614889f1b7f75b8d07710ce1b47687fd4291e098a88e833b37c"
+      "bytes": 701610,
+      "sha256": "8223bfa4f6e9d92cf595d07ebed0dce22199a03943f334d750c525428b2d6445"
     },
     {
       "path": "icon.svg",
@@ -45,33 +52,38 @@
     },
     {
       "path": "index.html",
-      "bytes": 81266,
-      "sha256": "105febf42eb6a9f88c0f4ef9a63f6662b0c19579cf785c39aa4cb28a73571fd3"
+      "bytes": 100831,
+      "sha256": "ff0aa4a71c68ab15ff110e40d3dcfdd496eaf95a7051c5da4897f3ba8b09c6d5"
     },
     {
       "path": "mobile_preview.png",
-      "bytes": 360271,
-      "sha256": "0e7589ebd984134fb5c839b71e7b88b0bc1e3009b480dac7c4169706213b84e2"
+      "bytes": 380830,
+      "sha256": "c68c5742450d13f9562c9a56af6b142fff7158ba5c97e8abd5ab204453830604"
     },
     {
       "path": "service_worker.js",
       "bytes": 1062,
-      "sha256": "19c45258d0b0515885c5cca6029cc6691f8307b365450dbf0e4b660bb6fbbd63"
+      "sha256": "2d014af7e24efd3d92aad8005a9558a44894395850d9371a627e906f6edaa28c"
     },
     {
       "path": "site.webmanifest",
-      "bytes": 379,
-      "sha256": "c6cc46d83e4476225cfcc7f4e0f791bd1f9cfee0d7012124ec5031e6b6dfef44"
+      "bytes": 525,
+      "sha256": "1cdf96103fd097676fa2418fac8ff68b3219c031819179226dd09059afca2764"
     },
     {
       "path": "tests/app_syntax.mjs",
-      "bytes": 67026,
-      "sha256": "185f0b23b78c18892902b7a3b31a673dee09ecd2fcbef5d823497f38079e1985"
+      "bytes": 78062,
+      "sha256": "275e9ac01fe0abde31342ba053e353ed1307caef12ded4187c92907af4bb540f"
     },
     {
       "path": "tests/compatibility_browser.py",
       "bytes": 2752,
       "sha256": "f1fce77289219047e561cdf350f90c5467a7b7c78a4f4488f45476e5dcdd0aa9"
+    },
+    {
+      "path": "tests/guided_flow_browser.py",
+      "bytes": 5228,
+      "sha256": "5d986e2670ff53d589ab7fe3eb207ae46d88979853a65d2198dae2547233df1f"
     },
     {
       "path": "tests/render_previews.py",

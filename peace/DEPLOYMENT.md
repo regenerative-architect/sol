@@ -1,4 +1,4 @@
-# Deployment and offline matrix
+# Deployment and offline matrix — Guided Constellation v1.1 — Guided Constellation v1.1
 
 1. Place all files in `/sol/peace/` in the GitHub Pages source repository. Preserve the sibling `usmc/`, `usss/`, `cia/`, `fbi/` and `un/` directories. Your desired master route is `https://regenerative-architect.github.io/sol/peace/`.
 2. Commit/publish the files; do **not** publish local JSON backups containing user notes. The demo handoff contains only illustrative public information.
@@ -25,3 +25,21 @@ The master exports `pra.sol_peace_master` version 1 state. Keep a JSON backup be
 ## Zero-harm / anti-inversion
 
 Design efforts aim to reduce civilian risk, not increase coercive reach. The app has no target mapping, no covert influence, no surveillance, no private case-management, no official institutional access and no automated dispatch. Public research must remain contestable and reversible.
+
+## Upgrading an existing master
+
+1. **Export the existing master local backup first.**
+2. Replace the master root `index.html`, `service_worker.js`, `site.webmanifest`, documentation and public assets. Leave the five institutional edition directories untouched.
+3. The service-worker cache is incremented to `sol-peace-master-shell-v2`, allowing the new shell to replace the prior cache on a secure hosted origin. Service-worker update propagation should be verified on each device.
+4. Open the master; the existing `pra.sol_peace_master` v1 IndexedDB record is retained. New journey and optional motion preferences use localStorage only.
+5. Use the HUD `Guided flow` and the five steps to test onboarding, quest proof, inline gate reviews, project creation and JSON export.
+6. Test hosted storage persistence, real two-device peer negotiation and shell offline caching before distributing as a production-capable service.
+
+## Upgrading an existing master
+
+1. **Export the existing master local backup first.**
+2. Replace the master root `index.html`, `service_worker.js`, `site.webmanifest`, documentation and public assets. Leave the five institutional edition directories untouched.
+3. The service-worker cache is incremented to `sol-peace-master-shell-v2`, allowing the new shell to replace the prior cache on a secure hosted origin. Service-worker update propagation should be verified on each device.
+4. Open the master; the existing `pra.sol_peace_master` v1 IndexedDB record is retained. New journey and optional motion preferences use localStorage only.
+5. Use the HUD `Guided flow` and the five steps to test onboarding, quest proof, inline gate reviews, project creation and JSON export.
+6. Test hosted storage persistence, real two-device peer negotiation and shell offline caching before distributing as a production-capable service.
