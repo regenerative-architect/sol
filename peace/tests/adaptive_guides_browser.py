@@ -1,0 +1,58 @@
+from pathlib import Path
+from playwright.sync_api import sync_playwright
+import json
+ROOT=Path(__file__).resolve().parents[1]
+HTML=(ROOT/'index.html').read_text()
+passes=[]
+def ck(name,condition):
+    assert condition,name
+    passes.append(name)
+    print('PASS',name,flush=True)
+with sync_playwright() as p:
+ b=p.chromium.launch(executable_path='/usr/bin/chromium',headless=True,args=['--no-sandbox','--disable-dev-shm-usage'])
+ for mobile in [False,True]:
+  ctx=b.new_context(viewport={'width':390 if mobile else 1440,'height':844 if mobile else 980},is_mobile=mobile,accept_downloads=True)
+  page=ctx.new_page();errors=[];page.on('pageerror',lambda e: errors.append(str(e)))
+  page.set_content(HTML,wait_until='domcontentloaded');page.wait_for_function('!!window.SOL_PRA_TEST')
+  tag='mobile' if mobile else 'desktop'
+  ck(tag+' intro preserved',page.locator('.flow-opening').count()==1)
+  ck(tag+' inline guide trigger present',page.locator('[data-act="guideToggle"]').count()==1)
+  page.locator('[data-act="guideToggle"]').click()
+  ck(tag+' inline guide opened',page.locator('#guideDock').is_visible())
+  ck(tag+' initial 10 lessons',page.locator('#guideDock .guide-lesson').count()==10)
+  page.locator('#guideDock [data-act="guideClass"]').click()
+  ck(tag+' current class guide uses valid node',page.locator('#guideDock .guide-lesson').count()==10)
+  page.locator('#guideDock [data-act="guideNode"][data-id="fbi"]').click()
+  ck(tag+' FBI guide active', 'Lawful case evidence' in page.locator('#guideDock').inner_text())
+  page.locator('#guideDock #guideSearch').fill('privacy')
+  ck(tag+' search filters lessons',0<page.locator('#guideDock .guide-lesson').count()<10)
+  page.locator('#guideDock #guideSearch').fill('')
+  page.locator('#guideDock [data-act="guideDepth"]').click()
+  ck(tag+' advanced text revealed',page.locator('#guideDock .guide-detail').count()==1)
+  page.locator('#guideDock [data-act="guideNext"]').click()
+  ck(tag+' lesson progression',page.locator('#guideDock .guide-main .eyebrow').inner_text().lower().endswith('of 10'))
+  page.locator('#guideDock [data-act="guideTab"][data-id="paths"]').click()
+  ck(tag+' pathways displayed',page.locator('#guideDock .guide-path-step').count()==6)
+  ck(tag+' scenario templates complete',page.locator('#guideDock [data-act="guideScenario"]').count()==10)
+  page.locator('#guideDock [data-act="guideScenario"][data-id="diversion"]').click()
+  ck(tag+' scenario dynamically changes',page.locator('#guideDock .guide-scenario h3').inner_text()=='Document restricted component diversion')
+  page.locator('#guideDock [data-act="guideRecommended"]').click()
+  ck(tag+' recommended blend selected',page.locator('#guideDock .guide-role.active').count()==3)
+  page.locator('#guideDock [data-act="guideAll"]').click()
+  ck(tag+' all five selected',page.locator('#guideDock .guide-role.active').count()==5)
+  with page.expect_download() as dl:page.locator('#guideDock [data-act="guideExport"]').click()
+  exported=json.loads(Path(dl.value.path()).read_text())
+  ck(tag+' unsigned public draft only',exported['handling']=='PUBLIC_ONLY' and exported['submitted'] is False and exported['institutional_authority'] is False)
+  ck(tag+' five lenses saved in exported draft',len(exported['research_lenses'])==5)
+  ck(tag+' mobile width has no horizontal overflow' if mobile else tag+' desktop width has no overflow',page.evaluate('document.documentElement.scrollWidth<=innerWidth'))
+  page.locator('#guideDock [data-act="guideToggle"]').click()
+  ck(tag+' guides close without route navigation',not page.locator('#guideDock').is_visible() and page.locator('.flow-opening').count()==1)
+  page.evaluate("location.hash='#/guides'")
+  page.wait_for_timeout(100)
+  ck(tag+' dedicated guide route works',page.locator('#view .guide-frame').count()==1)
+  ck(tag+' no JS exceptions',not errors)
+  if mobile:page.screenshot(path=str(ROOT/'pathways_mobile_preview.png'),full_page=True)
+  else:page.screenshot(path=str(ROOT/'pathways_desktop_preview.png'),full_page=True)
+  ctx.close()
+ b.close()
+print('TOTAL',len(passes))

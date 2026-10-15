@@ -24,6 +24,6 @@ js=re.search(r'<script type="module">(.*?)</script>',(ROOT/'index.html').read_te
 assert js.count('const ARCHIVE=')==1
 assert 'function renderAtlas()' in js and 'function renderCampaign()' in js
 assert "HANDOFF='pra.reciprocal_public_handoff'" in js
-sw=(ROOT/'service_worker.js').read_text();assert "sol-peace-master-shell-v6" in sw
+sw=(ROOT/'service_worker.js').read_text();assert "sol-peace-master-shell-v8" in sw
 for rel in re.findall(r"'\./((?:usmc|usss|cia|fbi|un)/[^']+)'",sw): assert (ROOT/rel).is_file(),rel
 print('PASS embedded source archive, 63 original routes, SW static assets and legacy handoff format')

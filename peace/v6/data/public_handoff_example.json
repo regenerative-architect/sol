@@ -1,0 +1,24 @@
+{
+  "schema": "pra.reciprocal_public_handoff",
+  "version": 1,
+  "sender_node": "sol_master_public_concept",
+  "recipient_node": "un_proposed",
+  "created_at": "2026-10-14T00:00:00Z",
+  "handling": "PUBLIC_ONLY",
+  "submitted": false,
+  "authenticity": "UNSIGNED_LOCAL_DRAFT",
+  "requested_action": "independent_review_only",
+  "lead": {
+    "id": "illustrative-public-gates",
+    "title": "Example public civilian protection research proposal",
+    "category": "cross_domain_public_proposal",
+    "source_url": "https://www.un.org/en/",
+    "evidence_level": "unverified_public_proposal",
+    "summary": "Illustrative research item only. No UN action, correspondence, or submission has occurred.",
+    "collaborating_nodes": ["un", "cia"],
+    "review_gates": [],
+    "limitations": "Unverified illustrative sample; no evidence of institutional involvement."
+  },
+  "limitations": ["No official recipient", "Public facts require independent validation", "Not suitable for confidential or military operational data"],
+  "consent_scope": "manual_user_selected_export"
+}

@@ -1,0 +1,20 @@
+{
+  "$comment": "Illustrative public-only unsigned record. Compatibility with prior versions is logical/schema compatibility, not authorization to transmit.",
+  "schema": "pra.reciprocal_public_handoff",
+  "version": 1,
+  "sender_node": "un_public_concept",
+  "recipient_node": "fbi_proposed",
+  "handling": "PUBLIC_ONLY",
+  "submitted": false,
+  "authenticity": "UNSIGNED_LOCAL_DRAFT",
+  "requested_action": "independent_public_source_review_only",
+  "lead": {
+    "id": "example-public-note",
+    "title": "Verified UN civilian protection report",
+    "category": "civilian_protection",
+    "source_url": "https://ukraine.ohchr.org/en/Protection-of-Civilians-in-Armed-Conflict-August-2026",
+    "evidence_level": "official",
+    "summary": "UN OHCHR report: Aug 2026 at least 372 killed, 2349 injured.",
+    "limitations": "No nonpublic information; dated snapshot. Not a live case or official submission."
+  }
+}

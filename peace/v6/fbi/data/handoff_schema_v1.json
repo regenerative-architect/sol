@@ -1,0 +1,24 @@
+{
+  "schema": "pra.reciprocal_public_handoff",
+  "version": 1,
+  "sender_node": "fbi_concept",
+  "recipient_node": "usss_proposed",
+  "handling": "PUBLIC_ONLY",
+  "submitted": false,
+  "authenticity": "UNSIGNED_LOCAL_DRAFT",
+  "requested_action": "independent_review_only",
+  "created_at": "2026-10-14T00:00:00Z",
+  "lead": {
+    "id": "example-public-only",
+    "title": "Public example; no official case",
+    "category": "export_controls",
+    "source_url": "https://www.justice.gov/usao-edny/pr/canadian-national-sentenced-40-months-prison-multi-million-dollar-export-control",
+    "evidence_level": "public_report",
+    "summary": "Source describes adjudicated historical export-control violations; no new findings."
+  },
+  "limitations": [
+    "Not an agency connection",
+    "Not an official case submission",
+    "Public-only data, independent verification needed"
+  ]
+}

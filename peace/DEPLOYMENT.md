@@ -16,3 +16,17 @@ This package is a public-interest research prototype, not official software or a
 ## Upgrade to v2.3
 
 Retain the existing directory structure and sibling edition pages. Replace the static master assets from this ZIP, preserving `usmc/`, `usss/`, `cia/`, `fbi/` and `un/` folders. The local research schema is unchanged (`pra.sol_peace_master`, version 1). Export an old JSON backup before deployment and restore only after checking it. The service worker uses `sol-peace-master-shell-v6` to replace the prior v5 shell. A first online visit is needed for any newly introduced asset to become available offline. Trystero requires online signaling and is not cached by the service worker.
+
+
+## 2.4 guide upgrade
+
+Replace the master `index.html` and `service_worker.js` and add `data/pathway_guides.json` and `data/pathway_catalog.json`. Keep the existing five sibling editions. If using the full ZIP, deploy the contents of its `peace/` directory to `/sol/peace/`. Export previous progress first. Guides use separate localStorage preferences and preserve the master IndexedDB v1 format. Updated static cache namespace is `sol-peace-master-shell-v7`; old v6 caches are deleted on service-worker activation. `file://` has no service worker or live multiplayer guarantee.
+
+
+## 2.4 guide upgrade
+
+Replace the master `index.html` and `service_worker.js` and add `data/pathway_guides.json` and `data/pathway_catalog.json`. Keep the existing five sibling editions. If using the full ZIP, deploy the contents of its `peace/` directory to `/sol/peace/`. Export previous progress first. Guides use separate localStorage preferences and preserve the master IndexedDB v1 format. Updated static cache namespace is `sol-peace-master-shell-v7`; old v6 caches are deleted on service-worker activation. `file://` has no service worker or live multiplayer guarantee.
+
+## 2.5 Earth Intelligence minimized-icon upgrade
+
+Back up local progress, replace `index.html` and `service_worker.js` from this bundle, and retain `data/` and all five research subdirectories. The EIE control shrinks to a globe icon after 1.7 seconds; select the icon to expand the unchanged research panel. The hosted cache changes to `sol-peace-master-shell-v8`; reload after service-worker activation. All other data formats are unchanged.

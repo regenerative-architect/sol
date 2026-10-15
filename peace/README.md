@@ -33,3 +33,23 @@ Read [`EIE_HUD_GUIDE.md`](EIE_HUD_GUIDE.md), [`PEER_RUNBOOK.md`](PEER_RUNBOOK.md
 Begin in `index.html` with **Begin with a finding**. The optional Earth Intelligence HUD now contains an inline six-question **Foundational Compass** with a sequential Next action, a practical acceptance test for each question, and a source-research shortcut. An unrelated question returns an explicit evidence gap rather than unrelated citations. Public Trystero discovery remains the online default with visible disconnect and no automatic content sharing.
 
 See `FOUNDATIONAL_PROMPTS.md`, `CHANGELOG_v2_3.md` and `TESTING_v2_3.md` for completed corrections, unresolved questions, measurable verification steps and safety constraints. Export a local JSON backup before replacing older versions.
+
+
+## New in 2.4 — Progressive institutional guides
+
+Open **Guides** in the HUD for 50 plain-language and advanced lessons covering USSS, FBI, CIA, U.S. Military and UN research perspectives. The **Combined pathways** tab supports 31 research-lens combinations across ten project scenarios, with visible legal boundaries and public-only export. See `PATHWAYS_README.md`, `MULTIDOMAIN_GUIDEBOOK.md`, and `data/pathway_catalog.json`. Opening a guide does not transmit information or confer institutional authorization.
+
+
+## New in 2.4 — Progressive institutional guides
+
+Open **Guides** in the HUD for 50 plain-language and advanced lessons covering USSS, FBI, CIA, U.S. Military and UN research perspectives. The **Combined pathways** tab supports 31 research-lens combinations across ten project scenarios, with visible legal boundaries and public-only export. See `PATHWAYS_README.md`, `MULTIDOMAIN_GUIDEBOOK.md`, and `data/pathway_catalog.json`. Opening a guide does not transmit information or confer institutional authorization.
+
+
+## EIE HUD 2.5 — compact launcher
+
+After the initial loading display, **Earth Intelligence** shrinks into an accessible 44px globe icon in the master HUD. Open it to use the unchanged offline research tools. The globe remains at the top even when collapsed, while the Trystero connection status/control is separate. For `prefers-reduced-motion`, the globe minimizes immediately. No private research data is shared automatically. See `CHANGELOG_v2_5.md` and `TESTING_v2_5.md`.
+
+
+## EIE HUD 2.5 — compact launcher
+
+After the initial loading display, **Earth Intelligence** shrinks into an accessible 44px globe icon in the master HUD. Open it to use the unchanged offline research tools. The globe remains at the top even when collapsed, while the Trystero connection status/control is separate. For `prefers-reduced-motion`, the globe minimizes immediately. No private research data is shared automatically. See `CHANGELOG_v2_5.md` and `TESTING_v2_5.md`.
