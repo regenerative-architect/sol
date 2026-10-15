@@ -1,0 +1,21 @@
+{
+  "schema": "pra.reciprocal_public_handoff",
+  "version": 1,
+  "sender_node": "usss_concept",
+  "recipient_node": "fbi_proposed",
+  "handling": "PUBLIC_ONLY",
+  "created_at": "2026-10-14T00:00:00Z",
+  "lead": {
+    "id": "sample-non-sensitive",
+    "title": "Example public record",
+    "category": "export_controls",
+    "source_url": "https://www.justice.gov/usao-edny/pr/estonian-national-pleads-guilty-exporting-electronics-benefit-russian-military",
+    "evidence_level": "official_public_record",
+    "status": "reference_only"
+  },
+  "caveats": [
+    "Unofficial prototype",
+    "No connection or authority to transfer cases",
+    "Independent verification required"
+  ]
+}
