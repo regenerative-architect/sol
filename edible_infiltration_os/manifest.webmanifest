@@ -1,0 +1,17 @@
+{
+  "name": "Global Fruit-Grafting & Edible Cities Archive OS",
+  "short_name": "Edible Cities",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f4ed",
+  "theme_color": "#173f36",
+  "icons": [
+    {
+      "src": "assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

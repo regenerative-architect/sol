@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "data_types": [
+    "rootstocks",
+    "scions",
+    "pairs",
+    "cities",
+    "skills"
+  ],
+  "user_export_version": 1
+}
