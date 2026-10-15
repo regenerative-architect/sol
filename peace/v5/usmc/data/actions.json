@@ -1,0 +1,82 @@
+[
+  {
+    "time": "0–72 hours",
+    "owner": "Civilian-harm research team / voluntary NGO partners",
+    "ask": "Publish a dated, sourced civilian-impact brief and correct evident data errors.",
+    "mechanism": "Shared factual baseline for diplomacy and humanitarian prioritization.",
+    "gate": "Public-source only; protect survivor privacy and verification standards.",
+    "measure": "Cited corrections and independently confirmed protection gaps.",
+    "stop": "Remove claims when primary evidence fails; do not publish sensitive locations.",
+    "cost": "Low for desk research; uncertain staffing."
+  },
+  {
+    "time": "0–72 hours",
+    "owner": "DoD public liaison / legal-policy staff, subject to authorization",
+    "ask": "Audit existing public civilian-harm procedures and create an accountable referral map.",
+    "mechanism": "Direct problems to proper government or humanitarian mechanisms.",
+    "gate": "DoD policy approval; do not pretend official intake.",
+    "measure": "Mandates documented and channels verified.",
+    "stop": "Stop if a proposed referral compromises neutrality or exposes personal data.",
+    "cost": "Low to moderate administrative."
+  },
+  {
+    "time": "2–6 weeks",
+    "owner": "U.S. departments and licensed contractors",
+    "ask": "Review existing end-use and supplier integrity controls for authorized defense assistance.",
+    "mechanism": "Discourage unlawful diversion without obstructing legitimate defense.",
+    "gate": "Acquisition counsel, legal scope, exporter protections.",
+    "measure": "Documented audit completion and verified discrepancies resolved.",
+    "stop": "Suspend speculative referrals; preserve due process.",
+    "cost": "Moderate, organization-dependent."
+  },
+  {
+    "time": "2–6 weeks",
+    "owner": "Civil defense / authorized infrastructure partners",
+    "ask": "Coordinate non-sensitive energy, water and medical restoration gaps with Ukrainian consent.",
+    "mechanism": "Reduce harm and the pressure created by infrastructure attacks.",
+    "gate": "Host consent, humanitarian independence and deconfliction requirements.",
+    "measure": "Restored service days, verified civilian access, outage duration.",
+    "stop": "Pause when shared data could reveal critical vulnerabilities.",
+    "cost": "Variable; potentially substantial materials."
+  },
+  {
+    "time": "2–6 months",
+    "owner": "Diplomats with UN/OSCE consultation; states must consent",
+    "ask": "Design a pilot reciprocal energy and civilian-infrastructure non-attack arrangement.",
+    "mechanism": "A bounded, measurable confidence-building step.",
+    "gate": "Explicit parties’ acceptance; no implied military enforcement mandate.",
+    "measure": "Independent incident reviews and service interruptions.",
+    "stop": "No unilateral sanctions relief before verified response.",
+    "cost": "Moderate monitoring, high diplomatic coordination."
+  },
+  {
+    "time": "2–6 months",
+    "owner": "Independent monitoring body authorized by parties",
+    "ask": "Establish protected incident-intake and adjudication rules for a limited truce.",
+    "mechanism": "Separate deliberate violations, misidentification, accidents and disputed allegations.",
+    "gate": "Access, mandate, security, confidentiality, data standards.",
+    "measure": "Time to acknowledge and adjudicate incidents; reversals and corrections.",
+    "stop": "Withhold disputed findings pending verification.",
+    "cost": "Staffing and infrastructure dependent."
+  },
+  {
+    "time": "6–24 months",
+    "owner": "Governments / authorized guarantors / humanitarian stakeholders",
+    "ask": "Develop monitored general ceasefire with security safeguards and reciprocal conditionality.",
+    "mechanism": "Make renewed aggression less attractive and breaches observable.",
+    "gate": "Mutual consent, legal review, ceasefire scope and enforcement accountability.",
+    "measure": "Verified compliance, humanitarian access, POW and missing-person progress.",
+    "stop": "Escalate violations through agreed lawful dispute process; preserve civilian access.",
+    "cost": "High, negotiation-dependent."
+  },
+  {
+    "time": "2–10 years",
+    "owner": "Ukraine, affected communities, donor governments, auditors",
+    "ask": "Support civilian-led repair, demining, accountable reconstruction and non-recurrence institutions.",
+    "mechanism": "Lower long-run instability, empower return and support durable security.",
+    "gate": "Sovereignty, public procurement audit, affected-population voice.",
+    "measure": "Safe return, verified cleared land, school/water uptime, grievance remedy.",
+    "stop": "Halt projects with unresolved displacement, corruption or environmental harm.",
+    "cost": "Very high, multiyear and context-specific."
+  }
+]

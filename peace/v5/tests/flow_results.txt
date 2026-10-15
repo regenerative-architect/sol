@@ -1,0 +1,30 @@
+PASS New introduction is the home route
+PASS All original routes retained
+PASS No mandatory selection on welcome
+PASS Full research data embedded
+PASS Advanced navigation collapsed on desktop
+PASS Research menu opens only on demand
+PASS Escape closes menu
+PASS Seamless switch to source view
+PASS Step indicator becomes visible
+PASS Research perspective changes inline
+PASS Change perspective preserves route
+PASS Reflection available without modal
+PASS Learning saved and moves to build view
+PASS Self-reported learning XP awarded
+PASS Project save flows into optional continuation
+PASS Project draft is kept private
+PASS Backup format remains backward-compatible
+PASS Revisit source without resetting work
+PASS Advanced Atlas still works
+PASS Return to flow works
+PASS No JavaScript errors desktop
+PASS Mobile introduction loads
+PASS Mobile first transition works
+PASS Mobile reflection can be skipped
+PASS Mobile action proposal available
+PASS Mobile full path reachable without sidebar
+PASS Mobile drawer works
+PASS Mobile drawer closes on Escape
+PASS No JavaScript errors mobile
+TOTAL 29 checks

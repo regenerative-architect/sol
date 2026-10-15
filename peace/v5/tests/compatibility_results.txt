@@ -1,0 +1,10 @@
+PASS 9
+- pra_financial_integrity_os accepts public backup
+- fbi_integrity_research_os accepts public backup
+- us_military_peace_research_os accepts public backup
+- cia_peace_analysis_research_os accepts public backup
+- un_peace_assurance_research_os accepts public backup
+- Unsafe URL rejected
+- HTTPS-only source policy
+- Unearned skill points rejected on import
+- User-entered HTML escaped

@@ -1,0 +1,8 @@
+# Attributions and licenses
+
+- **Foster + Navi / Planetary Restoration Archive:** original SOL Peace Commons master, EIE HUD research integration, interface, progress model and public learning workflows. Original authored software is MIT-licensed; refer to `LICENSE`. The preserved institutional editions have their own license files and remain separate, unofficial prototypes.
+- **Trystero** by Dan Motzenbecker and contributors, MIT license: https://github.com/dmotz/trystero . This package dynamically imports a pinned `0.25.3` release and Nostr signaling strategy on hosted online load when automatic joining is enabled. It is **not vendored**. Alternative MQTT strategy is optional. Runtime availability and network privacy depend on outside providers and peers.
+- **WebRTC, IndexedDB, WebCrypto, Service Workers, CSS/HTML/JavaScript:** browser and web platform technologies. Reference: https://developer.mozilla.org/ . No fonts are bundled.
+- **UN/OHCHR, DOJ, BIS, Treasury/OFAC, CIA, FBI and other institutional publications:** the linked public-source research is independently authored and not relicensed under the master MIT code. Logos/names do not signal endorsement or affiliation. Historical source snapshots are dated through October 14, 2026.
+
+**Zero-Harm / Anti-Inversion:** All displayed institutional functions are educational, public-interest abstractions. The app does not grant intelligence, military, law-enforcement, UN or diplomatic authority. EIE has no autonomous tool gateway. It does not target people, intercept communications, surveil, intrude into systems, impersonate institutions, or send covert messages. Peer identities and statements are unverified. Sharing private notes is not automated.
