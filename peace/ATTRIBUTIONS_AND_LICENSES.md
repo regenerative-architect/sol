@@ -1,11 +1,8 @@
-# Attributions & Licenses
+# Attributions and licenses
 
-**Foster + Navi / Planetary Restoration Archive:** project concept, five-domain peaceful-collaboration architecture, narrative and original implementation licensed under the MIT License (`LICENSE`).
+- **Foster + Navi / Planetary Restoration Archive:** original SOL Peace Commons master, EIE HUD research integration, interface, progress model and public learning workflows. Original authored software is MIT-licensed; refer to `LICENSE`. The preserved institutional editions have their own license files and remain separate, unofficial prototypes.
+- **Trystero** by Dan Motzenbecker and contributors, MIT license: https://github.com/dmotz/trystero . This package dynamically imports a pinned `0.25.3` release and Nostr signaling strategy on hosted online load when automatic joining is enabled. It is **not vendored**. Alternative MQTT strategy is optional. Runtime availability and network privacy depend on outside providers and peers.
+- **WebRTC, IndexedDB, WebCrypto, Service Workers, CSS/HTML/JavaScript:** browser and web platform technologies. Reference: https://developer.mozilla.org/ . No fonts are bundled.
+- **UN/OHCHR, DOJ, BIS, Treasury/OFAC, CIA, FBI and other institutional publications:** the linked public-source research is independently authored and not relicensed under the master MIT code. Logos/names do not signal endorsement or affiliation. Historical source snapshots are dated through October 14, 2026.
 
-- [Trystero](https://github.com/dmotz/trystero), by Dan Motzenbecker and contributors, MIT License. The app may dynamically import the independently hosted `trystero@0.25.3` package and `@trystero-p2p/mqtt@0.25.3` through a public CDN if explicitly requested. It does not embed third-party source. Consult upstream documentation and license when updating.
-- [Trystero official API documentation](https://trystero.dev/docs/getting-started/) — reference for the 0.25 action-object interface and room APIs; content belongs to its authors.
-- [IndexedDB](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API), [Service Worker](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API), [Web Crypto](https://developer.mozilla.org/en-US/docs/Web/API/Web_Crypto_API) — W3C / web-platform technologies, documentation copyright by respective organizations and contributors.
-- [WCAG 2.2](https://www.w3.org/TR/WCAG22/) — accessibility normative reference (W3C), not copied into this product.
-- The five GitHub Pages sites at `regenerative-architect.github.io/sol/peace/{usmc,usss,cia,fbi,un}/` are **links to separately deployed editions**, not included or mirrored. Their contents and third-party links retain existing ownership and licenses.
-
-The original icon is original SVG. No proprietary logos, government insignia or UN marks are embedded. No official sponsorship, approval or operational authority is implied.
+**Zero-Harm / Anti-Inversion:** All displayed institutional functions are educational, public-interest abstractions. The app does not grant intelligence, military, law-enforcement, UN or diplomatic authority. EIE has no autonomous tool gateway. It does not target people, intercept communications, surveil, intrude into systems, impersonate institutions, or send covert messages. Peer identities and statements are unverified. Sharing private notes is not automated.

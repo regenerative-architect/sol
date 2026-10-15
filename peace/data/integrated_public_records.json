@@ -1,0 +1,1872 @@
+{
+  "schema": "pra.sol_integrated_public_registry",
+  "version": 1,
+  "as_of": "2026-10-14",
+  "official_affiliation": false,
+  "records": {
+    "usmc": {
+      "routes": [
+        {
+          "id": "home",
+          "path": "",
+          "title": "Overview",
+          "hint": "Mission dashboard and policy boundaries",
+          "group": "Foundation",
+          "sym": "◈"
+        },
+        {
+          "id": "sitrep",
+          "path": "modules/sitrep/",
+          "title": "SITREP · 2026-10-14",
+          "hint": "Dated facts, uncertainty and civilian risk",
+          "group": "Assess",
+          "sym": "◎"
+        },
+        {
+          "id": "doctrine",
+          "path": "modules/doctrine/",
+          "title": "Mission & legal scope",
+          "hint": "DoD authorities, U.S. and international law",
+          "group": "Assess",
+          "sym": "§"
+        },
+        {
+          "id": "casebook",
+          "path": "modules/casebook/",
+          "title": "Public evidence casebook",
+          "hint": "Documented sources and alternative readings",
+          "group": "Assess",
+          "sym": "▤"
+        },
+        {
+          "id": "register",
+          "path": "modules/register/",
+          "title": "Local research ledger",
+          "hint": "Public-source notes stored on device",
+          "group": "Assess",
+          "sym": "▦"
+        },
+        {
+          "id": "evidence",
+          "path": "modules/evidence/",
+          "title": "Evidence & provenance",
+          "hint": "Chain of claims and SHA-256 integrity",
+          "group": "Verify",
+          "sym": "◇"
+        },
+        {
+          "id": "compliance",
+          "path": "modules/compliance/",
+          "title": "Sustainment assurance",
+          "hint": "Lawful acquisition and end-use oversight",
+          "group": "Verify",
+          "sym": "⬡"
+        },
+        {
+          "id": "framework",
+          "path": "modules/framework/",
+          "title": "Intervention register",
+          "hint": "Phased nonviolent support actions",
+          "group": "Plan",
+          "sym": "⌁"
+        },
+        {
+          "id": "cyber",
+          "path": "modules/cyber/",
+          "title": "Defensive cyber",
+          "hint": "Resilience and integrity without intrusion",
+          "group": "Plan",
+          "sym": "⛨"
+        },
+        {
+          "id": "humanitarian",
+          "path": "modules/humanitarian/",
+          "title": "Civilian protection",
+          "hint": "Humanitarian access, POWs, reconstruction",
+          "group": "Plan",
+          "sym": "✳"
+        },
+        {
+          "id": "ceasefire",
+          "path": "modules/ceasefire/",
+          "title": "Ceasefire verification",
+          "hint": "Incident rules and reciprocal incentives",
+          "group": "Plan",
+          "sym": "◉"
+        },
+        {
+          "id": "metrics",
+          "path": "modules/metrics/",
+          "title": "Metrics & monitoring",
+          "hint": "Outcomes, indicators and data caveats",
+          "group": "Evaluate",
+          "sym": "▥"
+        },
+        {
+          "id": "premortem",
+          "path": "modules/premortem/",
+          "title": "24-month premortem",
+          "hint": "Spoilers, failure pathways and mitigations",
+          "group": "Evaluate",
+          "sym": "△"
+        },
+        {
+          "id": "nodes",
+          "path": "modules/nodes/",
+          "title": "Reciprocal nodes",
+          "hint": "Public-only drafts for USSS/FBI/CIA/UN",
+          "group": "Coordinate",
+          "sym": "⟡"
+        },
+        {
+          "id": "governance",
+          "path": "modules/governance/",
+          "title": "Governance & backups",
+          "hint": "Privacy, correction, portability and sources",
+          "group": "Coordinate",
+          "sym": "▣"
+        }
+      ],
+      "sources": [
+        {
+          "id": "UN-OCT",
+          "date": "2026-10-08",
+          "type": "UN primary",
+          "title": "OHCHR: Civilian attacks, energy disruption and all-party IHL protections",
+          "url": "https://ukraine.un.org/en/324088-comment-un-human-rights-chief-volker-t%C3%BCrk-deadly-strikes-ukraine"
+        },
+        {
+          "id": "UN-AUG",
+          "date": "2026-09-17",
+          "type": "UN verified data",
+          "title": "OHCHR: Protection of civilians in August 2026",
+          "url": "https://ukraine.un.org/en/323454-protection-civilians-armed-conflict-%E2%80%94-august-2026"
+        },
+        {
+          "id": "UN-SEP",
+          "date": "2026-09-24",
+          "type": "UN diplomacy",
+          "title": "UN General Assembly discussions of civilian protection and peace",
+          "url": "https://ukraine.un.org/en/323265-un-general-assembly-calls-protection-civilians-and-just-peace-ukraine"
+        },
+        {
+          "id": "UN-ENERGY",
+          "date": "2026-06-29",
+          "type": "UN primary",
+          "title": "OHCHR: Systematic attacks against Ukraine energy infrastructure",
+          "url": "https://ukraine.un.org/en/318327-attacks-against-ukraine%E2%80%99s-energy-infrastructure-and-update-human-rights-situation-ukraine-1"
+        },
+        {
+          "id": "UN-COM",
+          "date": "2026-09-21",
+          "type": "UN commission",
+          "title": "UN Commission: Energy infrastructure and civilian conditions",
+          "url": "https://ukraine.un.org/en/323052-un-commission-concerned-about-human-impact-russia%E2%80%99s-systematic-targeting-energy"
+        },
+        {
+          "id": "DOD-CHMR",
+          "date": "2022-08-25",
+          "type": "US official policy",
+          "title": "DoD Civilian Harm Mitigation and Response Action Plan",
+          "url": "https://www.defense.gov/News/Releases/Release/Article/3140007/civilian-harm-mitigation-and-response-action-plan-fact-sheet/"
+        },
+        {
+          "id": "DOD-CHMR-I",
+          "date": "2023-12-21",
+          "type": "US official policy",
+          "title": "DoD Instruction 3000.17 explained",
+          "url": "https://www.defense.gov/News/News-Stories/Article/Article/3624268/dod-issues-civilian-harm-mitigation-response-instruction/"
+        },
+        {
+          "id": "DOD-CHMR-REG",
+          "date": "accessed 2026-10-14",
+          "type": "US official documents",
+          "title": "DoD Policy civilian harm mitigation and annual reports",
+          "url": "https://policy.defense.gov/Offices/Civilian-Harm-Mitigation-and-Response/"
+        },
+        {
+          "id": "BIS-CHPL",
+          "date": "accessed 2026-10-14",
+          "type": "Export law guidance",
+          "title": "BIS Common High Priority Items List",
+          "url": "https://media.bis.gov/licensing/country-guidance/common-high-priority-items-list-chpl"
+        },
+        {
+          "id": "STATE-EUM",
+          "date": "archived 2025",
+          "type": "US official guidance",
+          "title": "State Department Blue Lantern end-use monitoring",
+          "url": "https://2021-2025.state.gov/end-use-monitoring-of-u-s-origin-defense-articles/"
+        },
+        {
+          "id": "UN-CHARTER",
+          "date": "1945",
+          "type": "Primary law",
+          "title": "Charter of the United Nations",
+          "url": "https://www.un.org/en/about-us/un-charter/full-text"
+        },
+        {
+          "id": "ICRC-IHL",
+          "date": "accessed 2026-10-14",
+          "type": "Humanitarian law",
+          "title": "ICRC overview of international humanitarian law",
+          "url": "https://www.icrc.org/en/law-and-policy/international-humanitarian-law"
+        },
+        {
+          "id": "CISA",
+          "date": "accessed 2026-10-14",
+          "type": "US official cyber",
+          "title": "CISA Report a Cyber Issue",
+          "url": "https://www.cisa.gov/report"
+        },
+        {
+          "id": "DOD-LAW",
+          "date": "accessed 2026-10-14",
+          "type": "US official law",
+          "title": "DoD Law of War Manual resources",
+          "url": "https://ogc.osd.mil/Law-of-War/"
+        },
+        {
+          "id": "DOJ-GOLTSEV",
+          "date": "2025-01-08",
+          "type": "Judicial outcome",
+          "title": "DOJ: Goltsev export-control conspiracy sentencing",
+          "url": "https://www.justice.gov/usao-edny/pr/canadian-national-sentenced-40-months-prison-multi-million-dollar-export-control"
+        },
+        {
+          "id": "DOJ-SHEV",
+          "date": "2026-07-23",
+          "type": "Guilty plea",
+          "title": "DOJ: Andrey Shevlyakov procurement conspiracy guilty plea",
+          "url": "https://www.justice.gov/usao-edny/pr/estonian-national-pleads-guilty-exporting-electronics-benefit-russian-military"
+        }
+      ],
+      "cases": [
+        {
+          "name": "UN: August 2026 civilian casualties",
+          "date": "2026-09-17",
+          "classification": "UN VERIFIED RECORD",
+          "disposition": "At least 372 killed and 2,349 injured in August 2026 per OHCHR snapshot",
+          "source": "UN-AUG",
+          "fact": "OHCHR documented civilian harm across Ukraine and warned that published figures represent verified minimums.",
+          "limits": "Monthly totals can be revised; do not compare incompatible report vintages or infer a live count."
+        },
+        {
+          "name": "UN: October civilian-protection concern",
+          "date": "2026-10-08",
+          "classification": "UN OFFICIAL REPORT",
+          "disposition": "UN human rights chief condemned deadly attacks and highlighted outages and risks to civilians.",
+          "source": "UN-OCT",
+          "fact": "Documented public concern for civilians throughout Ukraine, including deaths from Russian strikes and allegations of civilian harm in Russian-controlled areas or Russia.",
+          "limits": "Some incident numbers are attributed to local authorities pending independent verification."
+        },
+        {
+          "name": "DoD: civilian-harm policy",
+          "date": "2023-12-21",
+          "classification": "POLICY DOCUMENT",
+          "disposition": "DoDI 3000.17 framework for civilian-harm mitigation and response.",
+          "source": "DOD-CHMR-I",
+          "fact": "U.S. DoD described institutional requirements to mitigate and assess civilian harm during U.S. military operations.",
+          "limits": "Does not grant this application official DoD authority or apply to all foreign military actions unchanged."
+        },
+        {
+          "name": "DOJ: unlawful electronics procurement case",
+          "date": "2026-07-23",
+          "classification": "GUILTY PLEA",
+          "disposition": "Andrey Shevlyakov pleaded guilty to export violations.",
+          "source": "DOJ-SHEV",
+          "fact": "Specific illicit supply-chain case illustrates why distributor knowledge, manufacturer origin and criminal law must be separated.",
+          "limits": "A conviction for a scheme is not proof every branded component maker knowingly supported illicit transfers."
+        }
+      ],
+      "actions": [
+        {
+          "time": "0–72 hours",
+          "owner": "Civilian-harm research team / voluntary NGO partners",
+          "ask": "Publish a dated, sourced civilian-impact brief and correct evident data errors.",
+          "mechanism": "Shared factual baseline for diplomacy and humanitarian prioritization.",
+          "gate": "Public-source only; protect survivor privacy and verification standards.",
+          "measure": "Cited corrections and independently confirmed protection gaps.",
+          "stop": "Remove claims when primary evidence fails; do not publish sensitive locations.",
+          "cost": "Low for desk research; uncertain staffing."
+        },
+        {
+          "time": "0–72 hours",
+          "owner": "DoD public liaison / legal-policy staff, subject to authorization",
+          "ask": "Audit existing public civilian-harm procedures and create an accountable referral map.",
+          "mechanism": "Direct problems to proper government or humanitarian mechanisms.",
+          "gate": "DoD policy approval; do not pretend official intake.",
+          "measure": "Mandates documented and channels verified.",
+          "stop": "Stop if a proposed referral compromises neutrality or exposes personal data.",
+          "cost": "Low to moderate administrative."
+        },
+        {
+          "time": "2–6 weeks",
+          "owner": "U.S. departments and licensed contractors",
+          "ask": "Review existing end-use and supplier integrity controls for authorized defense assistance.",
+          "mechanism": "Discourage unlawful diversion without obstructing legitimate defense.",
+          "gate": "Acquisition counsel, legal scope, exporter protections.",
+          "measure": "Documented audit completion and verified discrepancies resolved.",
+          "stop": "Suspend speculative referrals; preserve due process.",
+          "cost": "Moderate, organization-dependent."
+        },
+        {
+          "time": "2–6 weeks",
+          "owner": "Civil defense / authorized infrastructure partners",
+          "ask": "Coordinate non-sensitive energy, water and medical restoration gaps with Ukrainian consent.",
+          "mechanism": "Reduce harm and the pressure created by infrastructure attacks.",
+          "gate": "Host consent, humanitarian independence and deconfliction requirements.",
+          "measure": "Restored service days, verified civilian access, outage duration.",
+          "stop": "Pause when shared data could reveal critical vulnerabilities.",
+          "cost": "Variable; potentially substantial materials."
+        },
+        {
+          "time": "2–6 months",
+          "owner": "Diplomats with UN/OSCE consultation; states must consent",
+          "ask": "Design a pilot reciprocal energy and civilian-infrastructure non-attack arrangement.",
+          "mechanism": "A bounded, measurable confidence-building step.",
+          "gate": "Explicit parties’ acceptance; no implied military enforcement mandate.",
+          "measure": "Independent incident reviews and service interruptions.",
+          "stop": "No unilateral sanctions relief before verified response.",
+          "cost": "Moderate monitoring, high diplomatic coordination."
+        },
+        {
+          "time": "2–6 months",
+          "owner": "Independent monitoring body authorized by parties",
+          "ask": "Establish protected incident-intake and adjudication rules for a limited truce.",
+          "mechanism": "Separate deliberate violations, misidentification, accidents and disputed allegations.",
+          "gate": "Access, mandate, security, confidentiality, data standards.",
+          "measure": "Time to acknowledge and adjudicate incidents; reversals and corrections.",
+          "stop": "Withhold disputed findings pending verification.",
+          "cost": "Staffing and infrastructure dependent."
+        },
+        {
+          "time": "6–24 months",
+          "owner": "Governments / authorized guarantors / humanitarian stakeholders",
+          "ask": "Develop monitored general ceasefire with security safeguards and reciprocal conditionality.",
+          "mechanism": "Make renewed aggression less attractive and breaches observable.",
+          "gate": "Mutual consent, legal review, ceasefire scope and enforcement accountability.",
+          "measure": "Verified compliance, humanitarian access, POW and missing-person progress.",
+          "stop": "Escalate violations through agreed lawful dispute process; preserve civilian access.",
+          "cost": "High, negotiation-dependent."
+        },
+        {
+          "time": "2–10 years",
+          "owner": "Ukraine, affected communities, donor governments, auditors",
+          "ask": "Support civilian-led repair, demining, accountable reconstruction and non-recurrence institutions.",
+          "mechanism": "Lower long-run instability, empower return and support durable security.",
+          "gate": "Sovereignty, public procurement audit, affected-population voice.",
+          "measure": "Safe return, verified cleared land, school/water uptime, grievance remedy.",
+          "stop": "Halt projects with unresolved displacement, corruption or environmental harm.",
+          "cost": "Very high, multiyear and context-specific."
+        }
+      ],
+      "checks": [
+        {
+          "id": "mandate",
+          "title": "Jurisdiction and mandate identified",
+          "description": "Confirm legal owner, civilian oversight and no assumed DoD domestic police function."
+        },
+        {
+          "id": "law",
+          "title": "International and domestic law reviewed",
+          "description": "UN Charter, IHL, human rights, procurement laws and applicable sanctions."
+        },
+        {
+          "id": "consent",
+          "title": "Host-nation and humanitarian consent respected",
+          "description": "Confirm consent and do not treat neutral humanitarian organizations as intelligence sources."
+        },
+        {
+          "id": "sources",
+          "title": "Evidence class and date recorded",
+          "description": "Separate verified fact, official claim, legal finding, inference, and unknown."
+        },
+        {
+          "id": "harm",
+          "title": "Civilian-harm second-order effects assessed",
+          "description": "Review disruption of water, food, electricity, medical services and displacement."
+        },
+        {
+          "id": "ceasefire",
+          "title": "Verification and adjudication independent",
+          "description": "Define evidence, violations, accidents, observers and adjudicators with consent."
+        },
+        {
+          "id": "sanctions",
+          "title": "Supply-chain and sanctions proportionality reviewed",
+          "description": "Protect lawful self-defense, humanitarian exceptions and innocent manufacturers."
+        },
+        {
+          "id": "cyber",
+          "title": "Defensive cyber only",
+          "description": "No access to networks, covert monitoring or intrusion; no unit positions or operational indicators."
+        },
+        {
+          "id": "security",
+          "title": "No protected data exposed",
+          "description": "Exclude classified data, restricted plans, active operations, intelligence sources and personal identifiers."
+        },
+        {
+          "id": "fallback",
+          "title": "Stop rule and fallback set",
+          "description": "Define a reversible contingency if facts fail, consent ends or civilian harm rises."
+        }
+      ]
+    },
+    "usss": {
+      "routes": [
+        {
+          "id": "home",
+          "path": "",
+          "title": "Overview",
+          "subtitle": "Mission & navigation",
+          "symbol": "◈",
+          "group": "Navigate"
+        },
+        {
+          "id": "sitrep",
+          "path": "modules/sitrep/",
+          "title": "Situation report",
+          "subtitle": "Verified public evidence",
+          "symbol": "◎",
+          "group": "Assess"
+        },
+        {
+          "id": "review",
+          "path": "modules/review/",
+          "title": "Lead review",
+          "subtitle": "Local, non-sensitive records",
+          "symbol": "▤",
+          "group": "Assess"
+        },
+        {
+          "id": "evidence",
+          "path": "modules/evidence/",
+          "title": "Evidence lab",
+          "subtitle": "Provenance & integrity",
+          "symbol": "◇",
+          "group": "Assess"
+        },
+        {
+          "id": "framework",
+          "path": "modules/framework/",
+          "title": "Disruption framework",
+          "subtitle": "Lawful action sequence",
+          "symbol": "⌁",
+          "group": "Act"
+        },
+        {
+          "id": "nodes",
+          "path": "modules/nodes/",
+          "title": "Reciprocal nodes",
+          "subtitle": "Proposed interoperability",
+          "symbol": "⟡",
+          "group": "Coordinate"
+        },
+        {
+          "id": "governance",
+          "path": "modules/governance/",
+          "title": "Governance & data",
+          "subtitle": "Privacy, backup and review",
+          "symbol": "▣",
+          "group": "Coordinate"
+        }
+      ],
+      "sources": [
+        {
+          "id": "USSS",
+          "title": "U.S. Secret Service — Cyber Fraud Task Forces",
+          "kind": "Official USSS mission",
+          "date": "Undated",
+          "url": "https://www.secretservice.gov/contact/field-offices/"
+        },
+        {
+          "id": "BIS",
+          "title": "U.S. Bureau of Industry and Security — identify export-control red flags",
+          "kind": "Official regulatory guidance",
+          "date": "Available Oct 2026",
+          "url": "https://www.bis.gov/enforcement/identify-red-flags"
+        },
+        {
+          "id": "DOJ-2024-A",
+          "title": "DOJ: Goltsev and Nasriddinov plead guilty to export-control conspiracy",
+          "kind": "Official criminal proceeding",
+          "date": "2024-07-09",
+          "url": "https://www.justice.gov/usao-edny/pr/brooklyn-resident-and-canadian-national-plead-guilty-multi-million-dollar-export-control-0"
+        },
+        {
+          "id": "DOJ-2026-A",
+          "title": "DOJ: Andrey Shevlyakov pleads guilty to export violations",
+          "kind": "Official criminal proceeding",
+          "date": "2026-07-23",
+          "url": "https://www.justice.gov/usao-edny/pr/estonian-national-pleads-guilty-exporting-electronics-benefit-russian-military"
+        },
+        {
+          "id": "DOJ-2024-B",
+          "title": "DOJ: Vadim Yermolenko pleads guilty to procurement conspiracy",
+          "kind": "Official criminal proceeding",
+          "date": "2024-11-01",
+          "url": "https://www.justice.gov/usao-edny/pr/us-and-russian-national-pleads-guilty-helping-russias-defense-sector-evade-us-export"
+        },
+        {
+          "id": "DOJ-2024-C",
+          "title": "DOJ: Ilya Kahn pleads guilty to export violations",
+          "kind": "Official criminal proceeding",
+          "date": "2024-11-07",
+          "url": "https://www.justice.gov/usao-edny/pr/businessman-pleads-guilty-export-tax-charges-connection-shipments-other-sensitive"
+        },
+        {
+          "id": "DOJ-2025",
+          "title": "DOJ: Goltsev sentenced to 40 months",
+          "kind": "Official sentencing statement",
+          "date": "2025-01-08",
+          "url": "https://www.justice.gov/usao-edny/pr/canadian-national-sentenced-40-months-prison-multi-million-dollar-export-control"
+        }
+      ],
+      "interventions": [
+        {
+          "id": "i1",
+          "name": "Preserve public-source evidence and manufacturer identifiers",
+          "time": "Days–weeks",
+          "ease": "Low procedural burden",
+          "authority": "Companies, independent researchers, agencies within existing mandates",
+          "mechanism": "Improve verifiable chain-of-custody and prevent premature attribution.",
+          "constraint": "Retain lawful access and source rights; no blanket collection of personal information.",
+          "metric": "Records with independently corroborated model, dates and provenance."
+        },
+        {
+          "id": "i2",
+          "name": "Refresh high-priority export-compliance training and diversion checks",
+          "time": "Weeks",
+          "ease": "Low–moderate burden",
+          "authority": "Exporters, distributors, compliance departments; BIS guidance",
+          "mechanism": "Detect suspicious orders before shipment, preserve documentation and route to legal teams.",
+          "constraint": "No automated denial based solely on nationality, geography or association.",
+          "metric": "Reviewed exceptions with documented outcomes and false-positive counts."
+        },
+        {
+          "id": "i3",
+          "name": "Escalate substantiated financial-fraud signals",
+          "time": "Weeks–months",
+          "ease": "Moderate burden",
+          "authority": "Authorized financial institutions, USSS where a relevant crime nexus exists, FinCEN and prosecutors",
+          "mechanism": "Address concealment, illicit payments and fraud with existing legal authorities.",
+          "constraint": "SAR confidentiality, data minimization, due process; no access to banking records through this OS.",
+          "metric": "Quality of lawful referrals and proportion with documented disposition."
+        },
+        {
+          "id": "i4",
+          "name": "Coordinate legally authorized export-control investigations",
+          "time": "Months",
+          "ease": "Moderate–high coordination",
+          "authority": "Commerce BIS, HSI, FBI and DOJ as appropriate",
+          "mechanism": "Connect evidence of illicit exports, actual destination and knowledge.",
+          "constraint": "Proper jurisdiction, evidence admissibility and international cooperation.",
+          "metric": "Verified disruptions and corrective compliance, not counts of unproven suspects."
+        },
+        {
+          "id": "i5",
+          "name": "Publish narrow supply-chain corrective actions",
+          "time": "Months",
+          "ease": "Moderate burden",
+          "authority": "Manufacturers, distributors and export regulators",
+          "mechanism": "Reduce repeated diversion by improving authorized distribution and traceability.",
+          "constraint": "Avoid publication of sensitive enforcement details and civilian supply disruption.",
+          "metric": "Repeat diversion incidents and measured false positives."
+        },
+        {
+          "id": "i6",
+          "name": "Support independently monitored diplomatic de-escalation",
+          "time": "Negotiated / indeterminate",
+          "ease": "High political burden",
+          "authority": "Governments, relevant international organizations and the parties themselves",
+          "mechanism": "Tie cooperation and measures to verified reductions in civilian harm and hostilities.",
+          "constraint": "Ukraine’s sovereignty, consent, civilian protection and verifiable terms.",
+          "metric": "Verified reduction in attacks, access to humanitarian assistance and compliance with agreements."
+        }
+      ],
+      "checks": [
+        {
+          "id": "scope",
+          "title": "Confirm jurisdiction and lawful purpose",
+          "detail": "Secret Service financial or cyber-enabled crime nexus established, or lead referred to appropriate authority."
+        },
+        {
+          "id": "source",
+          "title": "Record at least one verifiable source",
+          "detail": "Source URL, date, document origin and reported facts preserved; uncertainty labelled."
+        },
+        {
+          "id": "manufacturer",
+          "title": "Separate product maker from exporter",
+          "detail": "Distinguish brand, fabricator, seller, exporter, importer and eventual recipient."
+        },
+        {
+          "id": "intent",
+          "title": "Test intent without assuming guilt",
+          "detail": "Legal prohibition, actor knowledge and actual transaction each need evidence."
+        },
+        {
+          "id": "privacy",
+          "title": "Apply minimization and fairness",
+          "detail": "No sensitive personal information or public unsupported allegations in this prototype."
+        },
+        {
+          "id": "handoff",
+          "title": "Route through authorized channels only",
+          "detail": "Document proposed receiving authority; do not pretend prototype files are official submissions."
+        },
+        {
+          "id": "evaluate",
+          "title": "Measure corrective outcome, not arrests alone",
+          "detail": "Track verified compliance improvements and effects on civilian and humanitarian protection."
+        }
+      ]
+    },
+    "cia": {
+      "routes": [
+        {
+          "id": "home",
+          "path": "",
+          "title": "Overview",
+          "hint": "Foreign analysis mission and boundaries",
+          "group": "Foundation",
+          "sym": "◈"
+        },
+        {
+          "id": "sitrep",
+          "path": "modules/sitrep/",
+          "title": "SITREP · 2026-10-14",
+          "hint": "Dated public claims and civilian conditions",
+          "group": "Assess",
+          "sym": "◎"
+        },
+        {
+          "id": "doctrine",
+          "path": "modules/doctrine/",
+          "title": "CIA remit & analytic standards",
+          "hint": "Authorities, oversight and ICD 203",
+          "group": "Assess",
+          "sym": "§"
+        },
+        {
+          "id": "casebook",
+          "path": "modules/casebook/",
+          "title": "Public foreign-network casebook",
+          "hint": "Verified cases, claims, rebuttals",
+          "group": "Assess",
+          "sym": "▤"
+        },
+        {
+          "id": "register",
+          "path": "modules/register/",
+          "title": "Local analytic ledger",
+          "hint": "Device-local public-source notes",
+          "group": "Assess",
+          "sym": "▦"
+        },
+        {
+          "id": "evidence",
+          "path": "modules/evidence/",
+          "title": "Provenance and attribution",
+          "hint": "Manufacturer→exporter→knowledge gates",
+          "group": "Assess",
+          "sym": "◇"
+        },
+        {
+          "id": "compliance",
+          "path": "modules/compliance/",
+          "title": "Foreign procurement ecosystems",
+          "hint": "Non-tactical foreign-network research",
+          "group": "Understand",
+          "sym": "⬡"
+        },
+        {
+          "id": "framework",
+          "path": "modules/framework/",
+          "title": "Competing hypotheses",
+          "hint": "Alternative explanations and disconfirmers",
+          "group": "Understand",
+          "sym": "⌁"
+        },
+        {
+          "id": "cyber",
+          "path": "modules/cyber/",
+          "title": "Information integrity",
+          "hint": "Defensive document and account safeguards",
+          "group": "Understand",
+          "sym": "⛨"
+        },
+        {
+          "id": "humanitarian",
+          "path": "modules/humanitarian/",
+          "title": "Humanitarian & regional effects",
+          "hint": "Civilian impacts and do-no-harm analysis",
+          "group": "Protect",
+          "sym": "✳"
+        },
+        {
+          "id": "ceasefire",
+          "path": "modules/ceasefire/",
+          "title": "Diplomacy and ceasefire claims",
+          "hint": "Agreement-status and compliance rubric",
+          "group": "Protect",
+          "sym": "◉"
+        },
+        {
+          "id": "metrics",
+          "path": "modules/metrics/",
+          "title": "Early warning & indicators",
+          "hint": "Public indicators, coverage and falsification",
+          "group": "Protect",
+          "sym": "▥"
+        },
+        {
+          "id": "premortem",
+          "path": "modules/premortem/",
+          "title": "24-month red-team review",
+          "hint": "Analytic failure, misuse and safeguards",
+          "group": "Review",
+          "sym": "△"
+        },
+        {
+          "id": "nodes",
+          "path": "modules/nodes/",
+          "title": "Reciprocal institutional nodes",
+          "hint": "Unsigned public-only research handoffs",
+          "group": "Coordinate",
+          "sym": "⟡"
+        },
+        {
+          "id": "governance",
+          "path": "modules/governance/",
+          "title": "Privacy and data sovereignty",
+          "hint": "Local backups, attribution, corrections",
+          "group": "Coordinate",
+          "sym": "▣"
+        }
+      ],
+      "sources": [
+        {
+          "id": "CIA-MISSION",
+          "date": "accessed 2026-10-14",
+          "type": "CIA official",
+          "title": "CIA: About the agency; foreign intelligence and independent analysis",
+          "url": "https://www.cia.gov/about"
+        },
+        {
+          "id": "CIA-PRIV",
+          "date": "accessed 2026-10-14",
+          "type": "CIA official",
+          "title": "CIA Office of Privacy and Civil Liberties",
+          "url": "https://www.cia.gov/about/organization/privacy-and-civil-liberties"
+        },
+        {
+          "id": "ODNI-203",
+          "date": "2023 revision",
+          "type": "U.S. analytic standards",
+          "title": "Intelligence Community Directive 203: Analytic Standards",
+          "url": "https://www.dni.gov/files/documents/ICD/ICD-203.pdf"
+        },
+        {
+          "id": "ODNI-OBJECT",
+          "date": "accessed 2026-10-14",
+          "type": "U.S. analytic standards",
+          "title": "ODNI: Objectivity and analytic tradecraft",
+          "url": "https://www.dni.gov/index.php/how-we-work/objectivity"
+        },
+        {
+          "id": "UN-AUG",
+          "date": "2026-09-16",
+          "type": "UN verified minimum",
+          "title": "OHCHR: Protection of Civilians in Armed Conflict — August 2026",
+          "url": "https://ukraine.ohchr.org/en/Protection-of-Civilians-in-Armed-Conflict-August-2026"
+        },
+        {
+          "id": "UN-LIST",
+          "date": "accessed 2026-10-14",
+          "type": "UN report index",
+          "title": "UN HRMMU civilian protection monthly reports",
+          "url": "https://ukraine.ohchr.org/en/reports/protection-of-civilians"
+        },
+        {
+          "id": "REUTERS-TRUCE",
+          "date": "2026-10-11",
+          "type": "News, parties dispute agreement",
+          "title": "Reuters: Ukraine awaits details of energy-ceasefire proposal",
+          "url": "https://www.reuters.com/world/europe/ukraine-awaits-details-ceasefire-proposals-us-russia-maintains-attacks-zelenskiy-2026-10-11/"
+        },
+        {
+          "id": "REUTERS-TALKS",
+          "date": "2026-10-13",
+          "type": "News, proposal",
+          "title": "Reuters: Zelenskiy seeks talks with U.S. envoys",
+          "url": "https://www.reuters.com/world/zelenskiy-seeks-new-talks-with-us-envoys-ending-russia-war-2026-10-13/"
+        },
+        {
+          "id": "REUTERS-ALERT",
+          "date": "2026-10-13",
+          "type": "News, attributed reporting",
+          "title": "Reuters: Kyiv missile attack, disputed intelligence warning claims",
+          "url": "https://www.reuters.com/world/russian-missile-attack-kyiv-kills-one-2026-10-13/"
+        },
+        {
+          "id": "OFAC-ALABUGA",
+          "date": "2024-02-23",
+          "type": "U.S. Treasury designation",
+          "title": "Treasury: Russian UAV production and Iran-linked Alabuga procurement",
+          "url": "https://home.treasury.gov/news/press-releases/jy2117"
+        },
+        {
+          "id": "OFAC-SAHARA",
+          "date": "2024-04-25",
+          "type": "U.S. Treasury designation",
+          "title": "Treasury: Sahara Thunder, MODAFL and Generation Trading FZE",
+          "url": "https://home.treasury.gov/news/press-releases/jy2295"
+        },
+        {
+          "id": "OCCRP-GERAN",
+          "date": "2026-02-18",
+          "type": "Investigative trade data",
+          "title": "OCCRP: European-origin parts in Russian Geran-2 drones",
+          "url": "https://www.occrp.org/en/investigation/made-in-the-eu-dropped-on-kyiv-how-european-parts-are-enabling-russias-winter-drone-war"
+        },
+        {
+          "id": "BIS-CHPL",
+          "date": "2024-02-23",
+          "type": "U.S. export compliance",
+          "title": "BIS: Common High Priority Items List",
+          "url": "https://media.bis.gov/licensing/country-guidance/common-high-priority-items-list-chpl"
+        },
+        {
+          "id": "DOJ-GOLTSEV",
+          "date": "2025-01-08",
+          "type": "Criminal adjudication",
+          "title": "DOJ: Goltsev sentenced in export control conspiracy",
+          "url": "https://www.justice.gov/usao-edny/pr/canadian-national-sentenced-40-months-prison-multi-million-dollar-export-control"
+        },
+        {
+          "id": "UN-CHARTER",
+          "date": "1945",
+          "type": "International law",
+          "title": "Charter of the United Nations",
+          "url": "https://www.un.org/en/about-us/un-charter/full-text"
+        },
+        {
+          "id": "ICRC-IHL",
+          "date": "accessed 2026-10-14",
+          "type": "Humanitarian law",
+          "title": "ICRC: International humanitarian law overview",
+          "url": "https://www.icrc.org/en/law-and-policy/international-humanitarian-law"
+        },
+        {
+          "id": "UN-POW",
+          "date": "accessed 2026-10-14",
+          "type": "Humanitarian protection",
+          "title": "ICRC: Humanitarian role in Russia–Ukraine international armed conflict",
+          "url": "https://www.icrc.org/en/where-we-work/ukraine"
+        },
+        {
+          "id": "CISA-REPORT",
+          "date": "accessed 2026-10-14",
+          "type": "U.S. defensive cyber",
+          "title": "CISA: Cyber incident reporting",
+          "url": "https://www.cisa.gov/report"
+        }
+      ],
+      "cases": [
+        {
+          "name": "August 2026 OHCHR civilian casualties",
+          "date": "2026-09-16",
+          "classification": "UN VERIFIED MINIMUM",
+          "disposition": "At least 372 killed and 2,349 injured in Ukraine during August 2026, as documented in the September report.",
+          "source": "UN-AUG",
+          "fact": "OHCHR validated reported harm using its methodology; totals are minimums, not exhaustive or live figures.",
+          "gap": "Check newer monthly publication before comparing trends or claiming current rates."
+        },
+        {
+          "name": "October 2026 proposed energy truce",
+          "date": "2026-10-11",
+          "classification": "REPORTED PROPOSAL / DISPUTED COMPLIANCE",
+          "disposition": "U.S. proposal publicly announced; Ukraine requested details and reported subsequent attacks; no verified implemented bilateral agreement established.",
+          "source": "REUTERS-TRUCE",
+          "fact": "Statements are attributed to parties. A public proposal is not equivalent to both parties signing monitorable terms.",
+          "gap": "Obtain authenticated agreed text, verification mandate and independent incident findings."
+        },
+        {
+          "name": "Alabuga / Generation Trading / MODAFL",
+          "date": "2024-02-23",
+          "classification": "OFFICIAL U.S. SANCTIONS FINDING",
+          "disposition": "Treasury identified a foreign UAV procurement/production relationship with Alabuga and associated Iranian-linked entities.",
+          "source": "OFAC-ALABUGA",
+          "fact": "Official designation evidence for an Iran–Russia attack-drone network; sanctions designations are not automatically criminal convictions.",
+          "gap": "Do not infer every supply transfer or current status in 2026 from 2024 record."
+        },
+        {
+          "name": "OCCRP Geran-2 components",
+          "date": "2026-02-18",
+          "classification": "DOCUMENTARY INVESTIGATION",
+          "disposition": "Reporters identified 672 component shipments dated Jan 2024–Mar 2025 and multiple exporters; no evidence the named European manufacturers violated sanctions.",
+          "source": "OCCRP-GERAN",
+          "fact": "Manufacturer identification and trade flows differ from legally established knowledge of illicit end use.",
+          "gap": "Obtain lot trace, exporter of record, consignee, transaction history, and legal evidence of knowledge."
+        },
+        {
+          "name": "Nikolay Goltsev export-control conspiracy",
+          "date": "2025-01-08",
+          "classification": "CRIMINAL SENTENCE",
+          "disposition": "Goltsev sentenced to 40 months for conspiring to violate export controls; electronics supplied to Russian military-linked recipients.",
+          "source": "DOJ-GOLTSEV",
+          "fact": "A proved unlawful procurement conspiracy; exact individual recovered chip-to-shipment chains are not universally established.",
+          "gap": "Link individual models to authenticated invoices only with lawful records."
+        }
+      ],
+      "actions": [
+        {
+          "time": "0–72 hours",
+          "owner": "Public-interest research team",
+          "ask": "Publish a versioned fact freeze separating UN civilian data, party claims and independent reporting.",
+          "mechanism": "Reduce decision errors caused by conflation of an announced truce with a signed one.",
+          "gate": "Source date, rights review, citations and public-only scope.",
+          "measure": "Every material claim has a source, category and last-checked date.",
+          "stop": "Retract or qualify disputed facts; do not release sensitive locations.",
+          "cost": "Low desk-research cost; staff time variable."
+        },
+        {
+          "time": "0–72 hours",
+          "owner": "Independent analysts and domain experts",
+          "ask": "Draft at least three alternative explanations for negotiation deadlock and an observable refutation for each.",
+          "mechanism": "Make policy discussions robust against mono-causal assumptions.",
+          "gate": "Independent review, attribution and political neutrality.",
+          "measure": "Disconfirming evidence and confidence revisions publicly tracked.",
+          "stop": "Stop publishing unsupported motive accusations.",
+          "cost": "Low to moderate."
+        },
+        {
+          "time": "2–6 weeks",
+          "owner": "Manufacturers, distributors and export regulators within authority",
+          "ask": "Conduct voluntary public high-priority-component provenance review and clarify third-country diversion mechanisms.",
+          "mechanism": "Narrow lawful investigative leads and reduce false allegations.",
+          "gate": "Legal counsel, protected commercial data safeguards and due process.",
+          "measure": "Named model/shipper/recipient links corroborated or corrected.",
+          "stop": "Suspend outreach when identity or component linkage is unverified.",
+          "cost": "Moderate."
+        },
+        {
+          "time": "2–6 weeks",
+          "owner": "Independent research institutions; UN/OHCHR sources",
+          "ask": "Publish public civilian-impact and ceasefire-status baselines with transparent coverage gaps.",
+          "mechanism": "Support the evaluation of reciprocal civilian-protection proposals.",
+          "gate": "No release of protected individuals or vulnerable system detail.",
+          "measure": "Updated aggregate data and explicitly dated confidence classifications.",
+          "stop": "Withhold unverifiable incident allegations.",
+          "cost": "Moderate."
+        },
+        {
+          "time": "2–6 months",
+          "owner": "State Department, authorized negotiators and agreed neutral facilitators",
+          "ask": "Evaluate written sectoral energy/humanitarian truce terms before declaring success.",
+          "mechanism": "Verify mutual consent, scope and independent adjudication.",
+          "gate": "Negotiating-party consent and legal safeguards; CIA does not set policy.",
+          "measure": "Mutually acknowledged agreement, observer coverage and verified compliance.",
+          "stop": "Do not announce implementation without written terms and operational monitoring.",
+          "cost": "High uncertainty; negotiation-dependent."
+        },
+        {
+          "time": "2–6 months",
+          "owner": "U.S./Canadian regulatory authorities and corporate compliance teams",
+          "ask": "Review documented sanctions-evasion networks while explicitly protecting lawful defense and humanitarian trade.",
+          "mechanism": "Discourage knowing illicit procurement without collective suspicion.",
+          "gate": "National export law, standards of proof and rights review.",
+          "measure": "Verified cases resolved with recorded rebuttals and legal outcomes.",
+          "stop": "Review if unintended civilian impacts outweigh objective gains.",
+          "cost": "Moderate to high."
+        },
+        {
+          "time": "6–24 months",
+          "owner": "Governments, UN-mandated or consent-based observers and local stakeholders",
+          "ask": "Design rights-respecting ceasefire verification, safeguards and violation appeals.",
+          "mechanism": "Reduce the credible-commitment gap through reciprocal observable compliance.",
+          "gate": "Independent mandates, lawful authority, negotiated access and non-recognition of unlawful annexation.",
+          "measure": "Aggregate verified incidents, time to adjudication, appeals outcomes and civilian access.",
+          "stop": "Suspend unsafe disclosures and revert to minimum humanitarian protection.",
+          "cost": "High; multilateral."
+        },
+        {
+          "time": "2–10 years",
+          "owner": "Ukraine-led reconstruction authorities, multilateral lenders and communities",
+          "ask": "Develop transparent rights-centered recovery and non-recurrence accountability indicators.",
+          "mechanism": "Make peace materially credible while retaining sovereignty and humanitarian standards.",
+          "gate": "Ukrainian agency, audited governance and international law.",
+          "measure": "Civilian infrastructure reliability, displacement outcomes, and verified non-recurrence.",
+          "stop": "Correct corruption or discriminatory access through independent review.",
+          "cost": "High; reconstruction-dependent."
+        }
+      ],
+      "checks": [
+        {
+          "id": "mandate",
+          "title": "CIA mandate and foreign nexus confirmed",
+          "description": "Public foreign assessment only; no assumed domestic law enforcement or policy-making authority."
+        },
+        {
+          "id": "law",
+          "title": "Legal and human-rights review complete",
+          "description": "CIA privacy procedures, UN Charter, IHL, relevant sanctions and neutral humanitarian principles."
+        },
+        {
+          "id": "consent",
+          "title": "Civilian consent and humanitarian independence protected",
+          "description": "Do not recruit aid organizations as information sources or infer consent from access."
+        },
+        {
+          "id": "sources",
+          "title": "Source chain, age and access limits stated",
+          "description": "Differentiate first-hand official report, investigative reporting, party statement and inference."
+        },
+        {
+          "id": "alternatives",
+          "title": "At least two plausible alternatives documented",
+          "description": "Actively seek contrary evidence and avoid single-cause narratives."
+        },
+        {
+          "id": "confidence",
+          "title": "Confidence and disconfirmers recorded",
+          "description": "A confidence label is a supported judgment, not an invented numerical probability."
+        },
+        {
+          "id": "harm",
+          "title": "Second-order civilian harm assessed",
+          "description": "Consider humanitarian displacement, life support services and spillover risks."
+        },
+        {
+          "id": "sanctions",
+          "title": "Component, export and knowledge separated",
+          "description": "Origin never establishes culpability; preserve rebuttals and due process."
+        },
+        {
+          "id": "security",
+          "title": "No sensitive or identifying data stored",
+          "description": "No clandestine sources, surveillance targets, classified files, names of vulnerable people or precise locations."
+        },
+        {
+          "id": "fallback",
+          "title": "Review trigger and stop rule defined",
+          "description": "Correct publicly, halt sharing if data is unsafe, and refer official matters to proper authorities."
+        }
+      ]
+    },
+    "fbi": {
+      "routes": [
+        {
+          "id": "home",
+          "path": "",
+          "title": "Overview",
+          "hint": "Dashboard & scope",
+          "group": "Foundation",
+          "sym": "◈"
+        },
+        {
+          "id": "sitrep",
+          "path": "modules/sitrep/",
+          "title": "SITREP",
+          "hint": "Dated facts & uncertainty",
+          "group": "Assess",
+          "sym": "◎"
+        },
+        {
+          "id": "casebook",
+          "path": "modules/casebook/",
+          "title": "Public casebook",
+          "hint": "DOJ-verified prosecutions",
+          "group": "Assess",
+          "sym": "▤"
+        },
+        {
+          "id": "register",
+          "path": "modules/register/",
+          "title": "Research register",
+          "hint": "Local public-source notes",
+          "group": "Assess",
+          "sym": "▦"
+        },
+        {
+          "id": "evidence",
+          "path": "modules/evidence/",
+          "title": "Evidence lab",
+          "hint": "Attribution and hashing",
+          "group": "Verify",
+          "sym": "◇"
+        },
+        {
+          "id": "compliance",
+          "path": "modules/compliance/",
+          "title": "Corporate compliance",
+          "hint": "Export red flags & safeguards",
+          "group": "Verify",
+          "sym": "⬡"
+        },
+        {
+          "id": "framework",
+          "path": "modules/framework/",
+          "title": "Disruption framework",
+          "hint": "Lawful prevention sequence",
+          "group": "Plan",
+          "sym": "⌁"
+        },
+        {
+          "id": "cyber",
+          "path": "modules/cyber/",
+          "title": "Defensive cyber",
+          "hint": "Integrity and incident triage",
+          "group": "Plan",
+          "sym": "⛨"
+        },
+        {
+          "id": "humanitarian",
+          "path": "modules/humanitarian/",
+          "title": "Peace & civilian protection",
+          "hint": "Diplomacy, verification, justice",
+          "group": "Plan",
+          "sym": "✳"
+        },
+        {
+          "id": "nodes",
+          "path": "modules/nodes/",
+          "title": "Reciprocal nodes",
+          "hint": "Unsent public-only contracts",
+          "group": "Coordinate",
+          "sym": "⟡"
+        },
+        {
+          "id": "governance",
+          "path": "modules/governance/",
+          "title": "Governance & backups",
+          "hint": "Privacy, records, sources",
+          "group": "Coordinate",
+          "sym": "▣"
+        }
+      ],
+      "sources": [
+        {
+          "id": "FBI-CI",
+          "date": "accessed 2026-10-14",
+          "type": "Official scope",
+          "title": "FBI counterintelligence and espionage mission",
+          "url": "https://www.fbi.gov/investigate/counterintelligence"
+        },
+        {
+          "id": "FBI-TF",
+          "date": "accessed 2026-10-14",
+          "type": "Official scope",
+          "title": "FBI National Counterintelligence Task Force",
+          "url": "https://www.fbi.gov/investigate/counterintelligence/national-counterintelligence-task-force"
+        },
+        {
+          "id": "FBI-CONTACT",
+          "date": "accessed 2026-10-14",
+          "type": "Official intake",
+          "title": "FBI contact, tips and cybercrime reporting",
+          "url": "https://www.fbi.gov/contact-us"
+        },
+        {
+          "id": "DOJ-GOLTSEV",
+          "date": "2025-01-08",
+          "type": "Adjudicated",
+          "title": "DOJ: Nikolay Goltsev sentenced for export-control conspiracy",
+          "url": "https://www.justice.gov/usao-edny/pr/canadian-national-sentenced-40-months-prison-multi-million-dollar-export-control"
+        },
+        {
+          "id": "DOJ-SHEV",
+          "date": "2026-07-23",
+          "type": "Guilty plea",
+          "title": "DOJ: Andrey Shevlyakov pleaded guilty to export violations",
+          "url": "https://www.justice.gov/usao-edny/pr/estonian-national-pleads-guilty-exporting-electronics-benefit-russian-military"
+        },
+        {
+          "id": "DOJ-ZHARN",
+          "date": "2026-01-22",
+          "type": "Adjudicated",
+          "title": "DOJ: Sergei Zharnovnikov sentenced for export conspiracy",
+          "url": "https://www.justice.gov/usao-edny/pr/international-arms-dealer-sentenced-39-months-imprisonment-conspiring-export-american"
+        },
+        {
+          "id": "DOJ-YERM",
+          "date": "2024",
+          "type": "Guilty plea",
+          "title": "DOJ: Vadim Yermolenko pleaded guilty to export-control conspiracy",
+          "url": "https://www.justice.gov/usao-edny/pr/us-and-russian-national-pleads-guilty-helping-russias-defense-sector-evade-us-export"
+        },
+        {
+          "id": "BIS-CHPL",
+          "date": "2024-02-23",
+          "type": "Official guidance",
+          "title": "BIS Common High Priority Items List",
+          "url": "https://media.bis.gov/licensing/country-guidance/common-high-priority-items-list-chpl"
+        },
+        {
+          "id": "BIS-RED",
+          "date": "accessed 2026-10-14",
+          "type": "Official guidance",
+          "title": "BIS: Identify export-control red flags",
+          "url": "https://www.bis.gov/enforcement/identify-red-flags"
+        },
+        {
+          "id": "BIS-ENFORCE",
+          "date": "accessed 2026-10-14",
+          "type": "Official guidance",
+          "title": "BIS enforcement policy memoranda and compliance notes",
+          "url": "https://www.bis.gov/enforcement/enforcement-policy-memos"
+        },
+        {
+          "id": "OFAC",
+          "date": "accessed 2026-10-14",
+          "type": "Official screening",
+          "title": "U.S. Treasury OFAC sanctions list search",
+          "url": "https://ofac.treasury.gov/sanctions-list-search-tool"
+        },
+        {
+          "id": "ICRC",
+          "date": "2026-09",
+          "type": "Humanitarian",
+          "title": "ICRC Central Tracing Agency for missing persons, Ukraine",
+          "url": "https://www.icrc.org/en/document/central-tracing-agency-missing-persons-ukraine"
+        },
+        {
+          "id": "UN",
+          "date": "2022-03-02",
+          "type": "International law",
+          "title": "UN General Assembly resolution ES-11/1",
+          "url": "https://digitallibrary.un.org/record/3965290"
+        },
+        {
+          "id": "USSS",
+          "date": "accessed 2026-10-14",
+          "type": "Partner mandate",
+          "title": "U.S. Secret Service field offices and financial crime support",
+          "url": "https://www.secretservice.gov/contact/field-offices/"
+        },
+        {
+          "id": "CISA",
+          "date": "accessed 2026-10-14",
+          "type": "Cyber incident guidance",
+          "title": "CISA incident reporting and cyber resources",
+          "url": "https://www.cisa.gov/report"
+        }
+      ],
+      "cases": [
+        {
+          "name": "SH Brothers / SN Electronics procurement scheme",
+          "date": "2025-01-08",
+          "classification": "JUDICIAL FINDING",
+          "disposition": "Goltsev sentenced to 40 months; others pleaded guilty or were sentenced on separate counts",
+          "source": "DOJ-GOLTSEV",
+          "fact": "Two Brooklyn companies procured and unlawfully shipped U.S. dual-use electronics via foreign intermediaries to Russian sanctioned defense-sector recipients. FBI, HSI and BIS/OEE cooperated.",
+          "limits": "The DOJ case does not establish that all original U.S. component manufacturers knowingly violated export restrictions."
+        },
+        {
+          "name": "Andrey Shevlyakov electronics procurement",
+          "date": "2026-07-23",
+          "classification": "GUILTY PLEA",
+          "disposition": "Pleaded guilty to conspiracy to commit export violations",
+          "source": "DOJ-SHEV",
+          "fact": "A procurement network obtained sensitive electronics for Russian military and government contractors. The plea demonstrates a prosecuted unlawful procurement conspiracy.",
+          "limits": "The plea does not independently prove the individual shipping route for every particular recovered weapon component."
+        },
+        {
+          "name": "Sergei Zharnovnikov arms-export conspiracy",
+          "date": "2026-01-22",
+          "classification": "JUDICIAL FINDING",
+          "disposition": "Sentenced to 39 months",
+          "source": "DOJ-ZHARN",
+          "fact": "DOJ documented unlawful export of U.S.-made firearms and ammunition through Kyrgyzstan, in violation of export licensing restrictions.",
+          "limits": "The case is about specific firearms and ammunition, not a general finding about every arms producer or foreign distributor."
+        },
+        {
+          "name": "Vadim Yermolenko network",
+          "date": "2024",
+          "classification": "GUILTY PLEA",
+          "disposition": "DOJ announced guilty plea in export-control conspiracy",
+          "source": "DOJ-YERM",
+          "fact": "Federal prosecutors described a Russia-related defense procurement and export-control evasion conspiracy. FBI and other agencies supported the investigations.",
+          "limits": "Historical case; do not present the charged network as currently operating without 2026 verification."
+        }
+      ],
+      "actions": [
+        {
+          "time": "0–72 hours (after a substantiated public lead)",
+          "owner": "Company compliance / public researcher",
+          "ask": "Preserve existing lawful public records and request routine compliance review.",
+          "mechanism": "Avoid losing provenance while protecting legitimate trade.",
+          "gate": "Clear public source; no person-level targeting.",
+          "measure": "Part numbers and dated records traced; corrections recorded.",
+          "stop": "Stop attribution if model mismatch or unreliable source emerges."
+        },
+        {
+          "time": "2–6 weeks",
+          "owner": "Manufacturers / distributors / BIS where appropriate",
+          "ask": "Reconcile returned component model, distributor allocations and licensing guidance.",
+          "mechanism": "Narrow the suspected diversion path and reduce false positives.",
+          "gate": "Authorized corporate access; legal/privacy review.",
+          "measure": "Shipment-model matches corroborated, plus documented nonmatches.",
+          "stop": "Suspend escalation when export restrictions do not apply."
+        },
+        {
+          "time": "2–6 weeks",
+          "owner": "Exporters / financial compliance teams",
+          "ask": "Review relevant red flags, declared end use and legal reporting obligations.",
+          "mechanism": "Improve KYC and address possible sanctions/export-control evasion.",
+          "gate": "No speculative SAR disclosure; due process and privacy.",
+          "measure": "Documented compliance decisions and remediation.",
+          "stop": "Do not infer guilt from nationality or transaction geography."
+        },
+        {
+          "time": "2–6 months",
+          "owner": "BIS/OEE, HSI, FBI, DOJ subject to authority",
+          "ask": "Evaluate documented federal nexus and decide whether authorized investigative referral is appropriate.",
+          "mechanism": "Build legally admissible, independently assessed cases.",
+          "gate": "Institution-owned investigation, not public OS action.",
+          "measure": "Cases with validated authority and dispositions; false-positive rate.",
+          "stop": "Cease or narrow when probable factual basis is not established."
+        },
+        {
+          "time": "6–24 months",
+          "owner": "Relevant governments and industry consortia",
+          "ask": "Coordinate lawful supply-chain standards with humanitarian exceptions and appeal routes.",
+          "mechanism": "Reduce recurring diversion while maintaining essential civilian supply.",
+          "gate": "Privacy, competition, international legal review.",
+          "measure": "Verified repeat-diversion incidence and civilian burden.",
+          "stop": "Reassess if overblocking exceeds benefits."
+        },
+        {
+          "time": "2–10 years",
+          "owner": "Diplomatic institutions, affected states, independent monitors",
+          "ask": "Support verified de-escalation frameworks tied to civilian protection and Ukraine’s sovereign consent.",
+          "mechanism": "Make agreements more credible and less vulnerable to renewed aggression.",
+          "gate": "International law, consent and enforceable monitoring.",
+          "measure": "Independently verified incident trends, humanitarian access and POW/missing-person progress.",
+          "stop": "Pause concessions if material compliance breaches go unaddressed."
+        }
+      ],
+      "checks": [
+        {
+          "id": "legal",
+          "title": "Jurisdiction and legal basis confirmed",
+          "description": "Document relevant federal nexus, lead or partner authority; distinguish investigative allegation from judicial finding."
+        },
+        {
+          "id": "component",
+          "title": "Manufacturer and exporter distinguished",
+          "description": "Separate fab/brand, distributor, exporter, importer, recipient and end user."
+        },
+        {
+          "id": "license",
+          "title": "License and prohibition checked",
+          "description": "Do not infer illegality from product type or Russian connection alone; record the specific restriction and date."
+        },
+        {
+          "id": "intent",
+          "title": "Knowledge supported with admissible evidence",
+          "description": "Look for court findings, admissions, authenticated concealment or legal determinations; preserve exculpatory alternatives."
+        },
+        {
+          "id": "privacy",
+          "title": "Privacy and proportionality assessed",
+          "description": "Exclude private-person surveillance, sensitive information and overbroad collection."
+        },
+        {
+          "id": "human",
+          "title": "Civilian and humanitarian impacts considered",
+          "description": "Review exceptions, downstream civilian harm and possible unintended consequences."
+        },
+        {
+          "id": "partner",
+          "title": "Appropriate responsible agency identified",
+          "description": "FBI, BIS/OEE, HSI, DOJ, USSS, Treasury and non-enforcement bodies have different mandates."
+        },
+        {
+          "id": "handoff",
+          "title": "Handoff is authorized, minimal and reviewed",
+          "description": "This demo downloads unsigned public-only drafts; real case transfers need institutional authorization."
+        },
+        {
+          "id": "metrics",
+          "title": "Outcome and stop rule specified",
+          "description": "Measure verified corrective effect, due-process outcomes, false positives and civilian impacts."
+        }
+      ]
+    },
+    "un": {
+      "routes": [
+        {
+          "id": "home",
+          "path": "",
+          "title": "Overview",
+          "hint": "Peace support mission, dashboard and safeguards",
+          "group": "Foundation",
+          "sym": "◈"
+        },
+        {
+          "id": "sitrep",
+          "path": "modules/sitrep/",
+          "title": "SITREP · 2026-10-14",
+          "hint": "Verified protection data and attributed developments",
+          "group": "Situation",
+          "sym": "◎"
+        },
+        {
+          "id": "doctrine",
+          "path": "modules/doctrine/",
+          "title": "UN mandates & international law",
+          "hint": "Charter, mandates, impartiality, consent and sovereignty",
+          "group": "Situation",
+          "sym": "§"
+        },
+        {
+          "id": "casebook",
+          "path": "modules/casebook/",
+          "title": "Humanitarian & legal casebook",
+          "hint": "UN findings, claims, independent review and evidence gaps",
+          "group": "Situation",
+          "sym": "▤"
+        },
+        {
+          "id": "register",
+          "path": "modules/register/",
+          "title": "Local evidence ledger",
+          "hint": "Date, classify, verify and export public-source observations",
+          "group": "Evidence",
+          "sym": "▦"
+        },
+        {
+          "id": "evidence",
+          "path": "modules/evidence/",
+          "title": "Provenance & evidence lab",
+          "hint": "Verification gates and local SHA-256 integrity checks",
+          "group": "Evidence",
+          "sym": "◇"
+        },
+        {
+          "id": "compliance",
+          "path": "modules/compliance/",
+          "title": "Humanitarian access & safeguards",
+          "hint": "Access negotiations, coordination and protected information",
+          "group": "Humanitarian",
+          "sym": "✳"
+        },
+        {
+          "id": "framework",
+          "path": "modules/framework/",
+          "title": "Four peace portfolios",
+          "hint": "Humanitarian CBMs, sectoral truces, armistice and reconstruction",
+          "group": "Peacebuilding",
+          "sym": "⌁"
+        },
+        {
+          "id": "cyber",
+          "path": "modules/cyber/",
+          "title": "Defensive cyber & information integrity",
+          "hint": "Protect humanitarian information without covert activities",
+          "group": "Evidence",
+          "sym": "⛨"
+        },
+        {
+          "id": "humanitarian",
+          "path": "modules/humanitarian/",
+          "title": "Civilian protection & recovery",
+          "hint": "Winter resilience, aid, displaced people, POWs and missing persons",
+          "group": "Humanitarian",
+          "sym": "♡"
+        },
+        {
+          "id": "ceasefire",
+          "path": "modules/ceasefire/",
+          "title": "Ceasefire verification design",
+          "hint": "Mandates, incidents, evidence, adjudication and proportional response",
+          "group": "Peacebuilding",
+          "sym": "◉"
+        },
+        {
+          "id": "metrics",
+          "path": "modules/metrics/",
+          "title": "Public metrics & decision tree",
+          "hint": "Civilian harm, access, infrastructure and confidence measures",
+          "group": "Peacebuilding",
+          "sym": "▥"
+        },
+        {
+          "id": "premortem",
+          "path": "modules/premortem/",
+          "title": "24-month failure review",
+          "hint": "False peace, safety failures, rearmament and capture scenarios",
+          "group": "Review",
+          "sym": "△"
+        },
+        {
+          "id": "nodes",
+          "path": "modules/nodes/",
+          "title": "Reciprocal collaboration nodes",
+          "hint": "Public-only manual handoffs: UN and partner concepts",
+          "group": "Coordinate",
+          "sym": "⟡"
+        },
+        {
+          "id": "governance",
+          "path": "modules/governance/",
+          "title": "Governance & data sovereignty",
+          "hint": "Backups, privacy, corrections, source ledger and attributions",
+          "group": "Coordinate",
+          "sym": "▣"
+        }
+      ],
+      "sources": [
+        {
+          "id": "UN-CHARTER",
+          "date": "1945; accessed 2026-10-14",
+          "type": "Primary international law",
+          "title": "United Nations Charter, including Articles 2, 24, 25, 33 and 51",
+          "url": "https://www.un.org/en/about-us/un-charter/full-text"
+        },
+        {
+          "id": "UN-PEACE-PRINCIPLES",
+          "date": "2026-06-11",
+          "type": "UN Peacekeeping doctrine",
+          "title": "Consent, impartiality, non-use of force except self-defense and defense of mandate",
+          "url": "https://peacekeeping.un.org/en/principles-of-peacekeeping"
+        },
+        {
+          "id": "UN-MANDATES",
+          "date": "accessed 2026-10-14",
+          "type": "UN Peacekeeping institutional",
+          "title": "Mandates and legal basis for United Nations peacekeeping",
+          "url": "https://peacekeeping.un.org/en/mandates-and-the-legal-basis-for-peacekeeping"
+        },
+        {
+          "id": "OHCHR-AUG",
+          "date": "2026-09-16",
+          "type": "UN verified minimum",
+          "title": "OHCHR: Protection of Civilians in Armed Conflict — August 2026",
+          "url": "https://ukraine.ohchr.org/en/Protection-of-Civilians-in-Armed-Conflict-August-2026"
+        },
+        {
+          "id": "OHCHR-INDEX",
+          "date": "accessed 2026-10-14",
+          "type": "UN source index",
+          "title": "HRMMU monthly and thematic reports (check for newly published updates)",
+          "url": "https://ukraine.ohchr.org/en/reports"
+        },
+        {
+          "id": "OHCHR-OCT",
+          "date": "2026-10-09 (statement dated Oct 8)",
+          "type": "UN Human Rights official statement",
+          "title": "Volker Türk on deadly strikes in Ukraine and electricity outages",
+          "url": "https://ukraine.ohchr.org/en/Comment-by-UN-Human-Rights-Chief-Volker-T%C3%BCrk-on-deadly-strikes-in-Ukraine"
+        },
+        {
+          "id": "OCHA-HNRP",
+          "date": "2026-01-13",
+          "type": "UN humanitarian appeal",
+          "title": "2026 Ukraine Humanitarian Needs and Response Plan, 10.8m estimated in need; 4.1m target; $2.3bn appeal",
+          "url": "https://ukraine.un.org/en/308290-relentless-war-ukraine-grinds-humanitarian-partners-aim-reach-41-million-people-2026"
+        },
+        {
+          "id": "OCHA-WINTER",
+          "date": "2026-07-22",
+          "type": "UN humanitarian appeal",
+          "title": "Ukraine 2026–2027 Winter Response Plan, 2.1m target; $358.4m appeal",
+          "url": "https://ukraine.un.org/en/319798-humanitarian-community-launches-winter-response-plan-help-21-million-people-across-ukraine"
+        },
+        {
+          "id": "OSCE-SMM",
+          "date": "2022-03-31; accessed 2026-10-14",
+          "type": "OSCE institutional history (not UN)",
+          "title": "OSCE Special Monitoring Mission to Ukraine closed in 2022",
+          "url": "https://www.osce.org/special-monitoring-mission-to-ukraine"
+        },
+        {
+          "id": "UN-SC-MONITOR",
+          "date": "2025-04-07",
+          "type": "UN Security Council meeting",
+          "title": "UN officials on ceasefire monitoring, technological support and political conditions",
+          "url": "https://press.un.org/en/2025/sc16039.doc.htm"
+        },
+        {
+          "id": "UN-POW",
+          "date": "accessed 2026-10-14",
+          "type": "Independent humanitarian actor (not UN)",
+          "title": "ICRC work in Ukraine, missing persons and detention",
+          "url": "https://www.icrc.org/en/where-we-work/ukraine"
+        },
+        {
+          "id": "ICRC-IHL",
+          "date": "accessed 2026-10-14",
+          "type": "International humanitarian law",
+          "title": "ICRC general IHL rules and civilian protection",
+          "url": "https://www.icrc.org/en/law-and-policy/international-humanitarian-law"
+        },
+        {
+          "id": "UNHCR-UKR",
+          "date": "accessed 2026-10-14",
+          "type": "UN refugee agency",
+          "title": "UNHCR Ukraine operational response",
+          "url": "https://www.unhcr.org/emergencies/ukraine-emergency"
+        },
+        {
+          "id": "UN-WFP",
+          "date": "accessed 2026-10-14",
+          "type": "UN humanitarian agency",
+          "title": "World Food Programme Ukraine",
+          "url": "https://www.wfp.org/emergencies/ukraine-emergency"
+        },
+        {
+          "id": "UN-UNICEF",
+          "date": "accessed 2026-10-14",
+          "type": "UN humanitarian agency",
+          "title": "UNICEF Ukraine situation and children",
+          "url": "https://www.unicef.org/emergencies/war-ukraine-pose-immediate-threat-children"
+        },
+        {
+          "id": "UNDP-UKR",
+          "date": "accessed 2026-10-14",
+          "type": "UN development programme",
+          "title": "UNDP recovery and resilience in Ukraine",
+          "url": "https://www.undp.org/ukraine"
+        },
+        {
+          "id": "UN-UNMAS",
+          "date": "accessed 2026-10-14",
+          "type": "UN mine action",
+          "title": "UN Mine Action Service",
+          "url": "https://www.unmas.org/en"
+        },
+        {
+          "id": "UN-ES11-1",
+          "date": "2022-03-02",
+          "type": "UN General Assembly",
+          "title": "General Assembly Resolution ES-11/1: Aggression against Ukraine",
+          "url": "https://digitallibrary.un.org/record/3965290"
+        },
+        {
+          "id": "REUTERS-OCT14",
+          "date": "2026-10-14",
+          "type": "Independent news, attributed",
+          "title": "Reuters: Russian strikes kill civilians and damage Ukrainian energy facilities",
+          "url": "https://www.reuters.com/world/russian-strikes-kill-one-hit-energy-facilities-kyiv-mayor-says-2026-10-14/"
+        },
+        {
+          "id": "REUTERS-TRUCE",
+          "date": "2026-10-12",
+          "type": "Independent news, conflicting party statements",
+          "title": "Reuters: Energy ceasefire announcement and Russian strikes disputed",
+          "url": "https://www.reuters.com/business/energy/ukraine-accuses-russia-violating-trumps-energy-ceasefire-eu-imposes-new-2026-10-12/"
+        }
+      ],
+      "cases": [
+        {
+          "name": "OHCHR August 2026 civilian casualty finding",
+          "date": "2026-09-16",
+          "classification": "UN VERIFIED MINIMUM",
+          "source": "OHCHR-AUG",
+          "fact": "At least 372 killed and 2,349 injured during August 2026. January–August totals: 2,222 killed and 13,058 injured.",
+          "disposition": "UN verification methodology supports documented minimum, not exhaustive battlefield totals.",
+          "gap": "Check whether September reporting has been published; avoid treating August as October live data."
+        },
+        {
+          "name": "October 8 UN High Commissioner statement",
+          "date": "2026-10-09",
+          "classification": "UN OFFICIAL STATEMENT",
+          "source": "OHCHR-OCT",
+          "fact": "UN human rights chief condemned civilian deaths and major power disruptions after reported strikes; noted concern over civilian casualties in occupied territory and Russia.",
+          "disposition": "Statement reports figures attributed to local authorities; not a replacement for independently verified monthly casualty database.",
+          "gap": "Follow the next OHCHR methodology-based publication."
+        },
+        {
+          "name": "Ukraine 2026 humanitarian needs and response",
+          "date": "2026-01-13",
+          "classification": "UN HUMANITARIAN PLAN",
+          "source": "OCHA-HNRP",
+          "fact": "UN estimates 10.8 million need humanitarian assistance, seeks $2.3bn to reach 4.1 million highly vulnerable people.",
+          "disposition": "A funding appeal and target, not a claim that all funding has arrived or people have been reached.",
+          "gap": "Retrieve contemporary funding and reach dashboards before measuring execution."
+        },
+        {
+          "name": "2026–27 winter readiness plan",
+          "date": "2026-07-22",
+          "classification": "UN HUMANITARIAN PLAN",
+          "source": "OCHA-WINTER",
+          "fact": "Winter plan seeks $358.4m to support 2.1 million people from October 2026–March 2027.",
+          "disposition": "Plan targets heating, repairs, health, protection, food and cash assistance; donor funding is not assumed.",
+          "gap": "Obtain updated funding and distribution figures."
+        },
+        {
+          "name": "October 2026 proposed energy ceasefire",
+          "date": "2026-10-12",
+          "classification": "REPORTED PROPOSAL / NOT VERIFIED TRUCE",
+          "source": "REUTERS-TRUCE",
+          "fact": "US energy ceasefire publicly claimed; Russia and Ukraine did not confirm an independently verifiable implemented agreement on equal terms.",
+          "disposition": "Reported subsequent strikes should not automatically be styled a violation of a signed agreement whose terms are not evidenced.",
+          "gap": "Need authenticated bilateral scope, clock, independent observers, incident rubric and neutral case adjudication."
+        },
+        {
+          "name": "Historical OSCE civilian monitoring",
+          "date": "2022-03-31",
+          "classification": "CLOSED FIELD MISSION",
+          "source": "OSCE-SMM",
+          "fact": "OSCE SMM discontinued operations on March 31, 2022; OSCE is not a UN organ.",
+          "disposition": "Past monitoring models offer lessons, not evidence that a mission exists today.",
+          "gap": "New monitoring proposal would require fresh authority, consent and security guarantees."
+        }
+      ],
+      "actions": [
+        {
+          "time": "0–72 hours",
+          "owner": "UN country team + civil society (proposal)",
+          "ask": "Publish source-frozen protection brief and public correction log",
+          "mechanism": "Reduce false claims, identify urgent needs",
+          "gate": "Existing UN reporting and editorial review",
+          "cost": "Staff time; low additional tooling",
+          "measure": "Dated source ledger, tracked corrections",
+          "stop": "Pause if sources cannot be verified"
+        },
+        {
+          "time": "0–72 hours",
+          "owner": "OCHA coordination / partners (proposal)",
+          "ask": "Map public winter aid funding gaps and service access without personal data",
+          "mechanism": "Prioritize urgent civilian insulation, power, WASH and health",
+          "gate": "Public aggregate data and partner consent",
+          "cost": "Low–moderate; funding requirements separate",
+          "measure": "Verified aggregate gap by sector and region",
+          "stop": "Stop publishing information that could expose aid movements"
+        },
+        {
+          "time": "2–6 weeks",
+          "owner": "Neutral humanitarian intermediaries, parties by consent",
+          "ask": "Design protected medical evacuation and humanitarian passage proposals",
+          "mechanism": "Remove time-sensitive access bottlenecks",
+          "gate": "Host and affected-party consent; safe routes handled privately",
+          "cost": "Moderate–high; implementation variable",
+          "measure": "Completed authorized movements and independent access reviews",
+          "stop": "Suspend when credible threat to civilians or aid staff"
+        },
+        {
+          "time": "2–6 weeks",
+          "owner": "ICRC / competent detaining authorities (proposal)",
+          "ask": "Increase family-contact, missing-person and detainee protection channels",
+          "mechanism": "Protect people independently of negotiations",
+          "gate": "ICRC independence; agreement and confidentiality",
+          "cost": "Moderate, uncertain",
+          "measure": "Confirmed family notifications and case resolution in protected aggregates",
+          "stop": "Stop if data shared with unauthorized recipients"
+        },
+        {
+          "time": "2–6 months",
+          "owner": "Parties + mutually agreed technical observers (proposal)",
+          "ask": "Pilot time-limited energy and water infrastructure protection arrangements",
+          "mechanism": "Test reciprocal restraint with civil risk reduction",
+          "gate": "Signed terms, incident chain, observer safety, neutral adjudicator",
+          "cost": "Medium–high; site-specific unknown",
+          "measure": "Validated reduction in incidents in agreed scope",
+          "stop": "Suspend benefits, not humanitarian relief, on independently upheld breach"
+        },
+        {
+          "time": "2–6 months",
+          "owner": "Member States + UN mediator by consent (proposal)",
+          "ask": "Set up military-civilian incident deconfliction and adjudication rules",
+          "mechanism": "Control escalation from ambiguous accidents",
+          "gate": "Hotlines, secure submissions, agreed evidence standard",
+          "cost": "Moderate–high, mandate dependent",
+          "measure": "Adjudication timeliness and corrected claims",
+          "stop": "If impartial verification impossible, report unknown not compliance"
+        },
+        {
+          "time": "2–6 months",
+          "owner": "UN DPO/DPPA + parties + Security Council as appropriate (proposal)",
+          "ask": "Scope legally authorized monitoring architecture; do not deploy without mandate",
+          "mechanism": "Enable a credible general ceasefire if parties agree",
+          "gate": "Consent, UNSC action where required, budget, operational safety",
+          "cost": "High / uncertain",
+          "measure": "Signed mandate and independent incident methodology",
+          "stop": "Do not deploy if consent or safety requirements fail"
+        },
+        {
+          "time": "6–24 months",
+          "owner": "Ukraine, UNDP, local authorities, donors (proposal)",
+          "ask": "Rebuild energy, housing, health and cleared land with transparent safeguards",
+          "mechanism": "Reduce displacement pressure and renewed grievances",
+          "gate": "Procurement controls, local consent, mine-action certification",
+          "cost": "High, multi-year and context dependent",
+          "measure": "Service restoration, audited outcomes and independent complaints",
+          "stop": "Pause projects if forced return or discrimination risk arises"
+        },
+        {
+          "time": "2–10 years",
+          "owner": "Member States, Ukrainian civil society and rights bodies (proposal)",
+          "ask": "Embed sovereignty-respecting security, justice and reparations mechanisms",
+          "mechanism": "Reduce incentives for renewed coercion and build durable peace",
+          "gate": "International law, domestic consent, stable finance, independent review",
+          "cost": "Very high, politically uncertain",
+          "measure": "Repeated civilian-safety, justice and institutional trust assessments",
+          "stop": "No compulsory territorial/legal concessions by this prototype"
+        }
+      ],
+      "checks": [
+        {
+          "id": "source",
+          "title": "Primary dated source checked",
+          "description": "Link, date, document, quotation and possible correction verified."
+        },
+        {
+          "id": "mandate",
+          "title": "Actual UN mandate identified",
+          "description": "Identify OCHA/OHCHR/UNHCR/DPPA/DPO/UNDP or other responsibility; no automatic field authority."
+        },
+        {
+          "id": "consent",
+          "title": "Affected-party and civilian consent reviewed",
+          "description": "Independent humanitarian principles, access and dignity preserved."
+        },
+        {
+          "id": "law",
+          "title": "Charter and IHL review completed",
+          "description": "No endorsement of aggression, forced transfer or harmful conditionality."
+        },
+        {
+          "id": "attribution",
+          "title": "Claim category and attribution clear",
+          "description": "UN-verified figure distinguished from party statement or press reporting."
+        },
+        {
+          "id": "access",
+          "title": "Humanitarian access risk considered",
+          "description": "No exposing beneficiary routes, partner networks, or identifiable vulnerable persons."
+        },
+        {
+          "id": "ceasefire",
+          "title": "Agreement and monitor consent verified",
+          "description": "No truce declared operational from unilateral press announcement."
+        },
+        {
+          "id": "privacy",
+          "title": "Data minimization documented",
+          "description": "Public-source only; no names of protected individuals or sensitive locations."
+        },
+        {
+          "id": "dissent",
+          "title": "Independent dissent and spoiler test recorded",
+          "description": "Test failure and opposite hypotheses; note absence of independent access."
+        },
+        {
+          "id": "recovery",
+          "title": "Reconstruction/justice and durability reviewed",
+          "description": "Do not trade away sovereignty, accountability or civilian agency."
+        },
+        {
+          "id": "share",
+          "title": "Recipient and public-only handoff reviewed",
+          "description": "Only manually exported unsigned drafts, never a submitted UN report."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "bundle": "sol_peace_master_guided",
+  "edition": "1.1.0",
+  "generated_utc": "2026-10-14T20:40:41.440093+00:00",
+  "algorithm": "sha256",
+  "meaning": "Integrity only, not provenance or authorship",
+  "files": [
+    {
+      "path": "ATTRIBUTIONS_AND_LICENSES.md",
+      "bytes": 1662,
+      "sha256": "afd02aa64c8f0df1289f94e7b15159c7e71c2f224c68eeb9cf303b5bdf9d8140"
+    },
+    {
+      "path": "DEPLOYMENT.md",
+      "bytes": 4505,
+      "sha256": "1c0e7b164c765c05fc33980809bb81753fdb27e69ce9bac6c63113874b6bdb87"
+    },
+    {
+      "path": "GUIDED_PLAYBOOK.md",
+      "bytes": 2753,
+      "sha256": "9f41a501f5a17e9a4bd304bd2286826199615c01b3453408aa643cd3b9a013c3"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1102,
+      "sha256": "866c4a7e35de63ed11765281d7c3f16ec3bf443b85ffd4077b7f3dfdd6c9439c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8895,
+      "sha256": "fa4229e11fa01f1f08191106612bf5573dacadb4e63ed7b12bccf85ab5f74d70"
+    },
+    {
+      "path": "TESTING.md",
+      "bytes": 7412,
+      "sha256": "551026006b4a8900c4885aba2ba045064ab2d40584730a9b26df53fc6a4e4cda"
+    },
+    {
+      "path": "data/public_handoff_example.json",
+      "bytes": 1069,
+      "sha256": "b8548d8650a71730ea9671e6c6145fd144b661cacc29db362bdcbbcc959d720d"
+    },
+    {
+      "path": "desktop_preview.png",
+      "bytes": 701610,
+      "sha256": "8223bfa4f6e9d92cf595d07ebed0dce22199a03943f334d750c525428b2d6445"
+    },
+    {
+      "path": "icon.svg",
+      "bytes": 353,
+      "sha256": "fe50bfaaa8dd7ddb6bb299faafc050eea8b9aed824c7a2673f23b1c59d4ca0a8"
+    },
+    {
+      "path": "index.html",
+      "bytes": 100831,
+      "sha256": "ff0aa4a71c68ab15ff110e40d3dcfdd496eaf95a7051c5da4897f3ba8b09c6d5"
+    },
+    {
+      "path": "mobile_preview.png",
+      "bytes": 380830,
+      "sha256": "c68c5742450d13f9562c9a56af6b142fff7158ba5c97e8abd5ab204453830604"
+    },
+    {
+      "path": "service_worker.js",
+      "bytes": 1062,
+      "sha256": "2d014af7e24efd3d92aad8005a9558a44894395850d9371a627e906f6edaa28c"
+    },
+    {
+      "path": "site.webmanifest",
+      "bytes": 525,
+      "sha256": "1cdf96103fd097676fa2418fac8ff68b3219c031819179226dd09059afca2764"
+    },
+    {
+      "path": "tests/app_syntax.mjs",
+      "bytes": 78062,
+      "sha256": "275e9ac01fe0abde31342ba053e353ed1307caef12ded4187c92907af4bb540f"
+    },
+    {
+      "path": "tests/compatibility_browser.py",
+      "bytes": 2752,
+      "sha256": "f1fce77289219047e561cdf350f90c5467a7b7c78a4f4488f45476e5dcdd0aa9"
+    },
+    {
+      "path": "tests/guided_flow_browser.py",
+      "bytes": 5228,
+      "sha256": "5d986e2670ff53d589ab7fe3eb207ae46d88979853a65d2198dae2547233df1f"
+    },
+    {
+      "path": "tests/render_previews.py",
+      "bytes": 1148,
+      "sha256": "cecc6bb6a8cbd24147ec3ee609db679350245c2f2c92435671945cf3e974b2be"
+    },
+    {
+      "path": "tests/smoke_browser.py",
+      "bytes": 8307,
+      "sha256": "f737d9aedcbe9f9184a464c486c552fc8fd46bbf01147b06bb51b998ef237dff"
+    },
+    {
+      "path": "tests/verify_structure.py",
+      "bytes": 1165,
+      "sha256": "f6594b2570c2f69c0af57c8c98d68f0f1ac3543b68c9ef6ca8be6bbf85208ef6"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+[
+  {
+    "id": "CIA-MISSION",
+    "date": "accessed 2026-10-14",
+    "type": "CIA official",
+    "title": "CIA: About the agency; foreign intelligence and independent analysis",
+    "url": "https://www.cia.gov/about"
+  },
+  {
+    "id": "CIA-PRIV",
+    "date": "accessed 2026-10-14",
+    "type": "CIA official",
+    "title": "CIA Office of Privacy and Civil Liberties",
+    "url": "https://www.cia.gov/about/organization/privacy-and-civil-liberties"
+  },
+  {
+    "id": "ODNI-203",
+    "date": "2023 revision",
+    "type": "U.S. analytic standards",
+    "title": "Intelligence Community Directive 203: Analytic Standards",
+    "url": "https://www.dni.gov/files/documents/ICD/ICD-203.pdf"
+  },
+  {
+    "id": "ODNI-OBJECT",
+    "date": "accessed 2026-10-14",
+    "type": "U.S. analytic standards",
+    "title": "ODNI: Objectivity and analytic tradecraft",
+    "url": "https://www.dni.gov/index.php/how-we-work/objectivity"
+  },
+  {
+    "id": "UN-AUG",
+    "date": "2026-09-16",
+    "type": "UN verified minimum",
+    "title": "OHCHR: Protection of Civilians in Armed Conflict — August 2026",
+    "url": "https://ukraine.ohchr.org/en/Protection-of-Civilians-in-Armed-Conflict-August-2026"
+  },
+  {
+    "id": "UN-LIST",
+    "date": "accessed 2026-10-14",
+    "type": "UN report index",
+    "title": "UN HRMMU civilian protection monthly reports",
+    "url": "https://ukraine.ohchr.org/en/reports/protection-of-civilians"
+  },
+  {
+    "id": "REUTERS-TRUCE",
+    "date": "2026-10-11",
+    "type": "News, parties dispute agreement",
+    "title": "Reuters: Ukraine awaits details of energy-ceasefire proposal",
+    "url": "https://www.reuters.com/world/europe/ukraine-awaits-details-ceasefire-proposals-us-russia-maintains-attacks-zelenskiy-2026-10-11/"
+  },
+  {
+    "id": "REUTERS-TALKS",
+    "date": "2026-10-13",
+    "type": "News, proposal",
+    "title": "Reuters: Zelenskiy seeks talks with U.S. envoys",
+    "url": "https://www.reuters.com/world/zelenskiy-seeks-new-talks-with-us-envoys-ending-russia-war-2026-10-13/"
+  },
+  {
+    "id": "REUTERS-ALERT",
+    "date": "2026-10-13",
+    "type": "News, attributed reporting",
+    "title": "Reuters: Kyiv missile attack, disputed intelligence warning claims",
+    "url": "https://www.reuters.com/world/russian-missile-attack-kyiv-kills-one-2026-10-13/"
+  },
+  {
+    "id": "OFAC-ALABUGA",
+    "date": "2024-02-23",
+    "type": "U.S. Treasury designation",
+    "title": "Treasury: Russian UAV production and Iran-linked Alabuga procurement",
+    "url": "https://home.treasury.gov/news/press-releases/jy2117"
+  },
+  {
+    "id": "OFAC-SAHARA",
+    "date": "2024-04-25",
+    "type": "U.S. Treasury designation",
+    "title": "Treasury: Sahara Thunder, MODAFL and Generation Trading FZE",
+    "url": "https://home.treasury.gov/news/press-releases/jy2295"
+  },
+  {
+    "id": "OCCRP-GERAN",
+    "date": "2026-02-18",
+    "type": "Investigative trade data",
+    "title": "OCCRP: European-origin parts in Russian Geran-2 drones",
+    "url": "https://www.occrp.org/en/investigation/made-in-the-eu-dropped-on-kyiv-how-european-parts-are-enabling-russias-winter-drone-war"
+  },
+  {
+    "id": "BIS-CHPL",
+    "date": "2024-02-23",
+    "type": "U.S. export compliance",
+    "title": "BIS: Common High Priority Items List",
+    "url": "https://media.bis.gov/licensing/country-guidance/common-high-priority-items-list-chpl"
+  },
+  {
+    "id": "DOJ-GOLTSEV",
+    "date": "2025-01-08",
+    "type": "Criminal adjudication",
+    "title": "DOJ: Goltsev sentenced in export control conspiracy",
+    "url": "https://www.justice.gov/usao-edny/pr/canadian-national-sentenced-40-months-prison-multi-million-dollar-export-control"
+  },
+  {
+    "id": "UN-CHARTER",
+    "date": "1945",
+    "type": "International law",
+    "title": "Charter of the United Nations",
+    "url": "https://www.un.org/en/about-us/un-charter/full-text"
+  },
+  {
+    "id": "ICRC-IHL",
+    "date": "accessed 2026-10-14",
+    "type": "Humanitarian law",
+    "title": "ICRC: International humanitarian law overview",
+    "url": "https://www.icrc.org/en/law-and-policy/international-humanitarian-law"
+  },
+  {
+    "id": "UN-POW",
+    "date": "accessed 2026-10-14",
+    "type": "Humanitarian protection",
+    "title": "ICRC: Humanitarian role in Russia–Ukraine international armed conflict",
+    "url": "https://www.icrc.org/en/where-we-work/ukraine"
+  },
+  {
+    "id": "CISA-REPORT",
+    "date": "accessed 2026-10-14",
+    "type": "U.S. defensive cyber",
+    "title": "CISA: Cyber incident reporting",
+    "url": "https://www.cisa.gov/report"
+  }
+]

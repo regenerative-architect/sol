@@ -1,13 +1,13 @@
 {
   "id": "./",
-  "name": "SOL Peace Commons \u2014 Guided Constellation",
-  "short_name": "SOL Guided Peace",
+  "name": "SOL Peace Commons — Earth Intelligence & Trystero Default",
+  "short_name": "SOL Peace",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
   "background_color": "#09121c",
   "theme_color": "#101d2c",
-  "description": "Five-domain peacebuilding learning commons with contextual clues, progress HUD and consent-first peer collaboration.",
+  "description": "Offline-first accessible guided peacebuilding, source review, private proposals, and default consent-revocable P2P presence and local read-only EIE.",
   "icons": [
     {
       "src": "icon.svg",

@@ -27,12 +27,12 @@ with sync_playwright() as p:
   page.set_content((BASE/'index.html').read_text(),wait_until='domcontentloaded')
  page.wait_for_function('!!window.SOL_PRA_TEST',timeout=15000)
  ok('Master boots, script available')
- ok('10 routes available',page.locator('#nav a').count()==10)
+ ok('12 routes available',page.locator('#nav a').count()==12)
  ok('5 portal external links',len(page.locator('a[href^="https://regenerative-architect.github.io/sol/peace/"]').all())>=5)
  ok('Eight classes',page.evaluate('window.SOL_PRA_TEST.CLASSES.length')==8)
  ok('16 distinct quests',page.evaluate('window.SOL_PRA_TEST.QUESTS.length')==16)
  ok('Fifteen progressive skills',page.evaluate('window.SOL_PRA_TEST.SKILLS.length')==15)
- for r in ['nodes','guilds','quests','skills','workshop','commons','vault','governance','help','search','overview']:
+ for r in ['atlas','campaign','nodes','guilds','quests','skills','workshop','commons','vault','governance','help','search','overview']:
   page.evaluate('(r)=>location.hash="#/"+r',r)
   page.wait_for_timeout(70)
   ok('Route '+r,page.locator('h1').count()>=1 and page.locator('#view').inner_text().strip()!='')

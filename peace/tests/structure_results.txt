@@ -1,0 +1,6 @@
+PASS usmc (15, 16, 4, 8, 10)
+PASS usss (7, 7, 0, 6, 7)
+PASS cia (15, 18, 5, 8, 10)
+PASS fbi (11, 15, 4, 6, 9)
+PASS un (15, 20, 6, 9, 11)
+PASS embedded source archive, 63 original routes, SW static assets and legacy handoff format

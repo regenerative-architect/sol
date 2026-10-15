@@ -1,0 +1,82 @@
+[
+  {
+    "time": "0–72 hours",
+    "owner": "Public-interest research team",
+    "ask": "Publish a versioned fact freeze separating UN civilian data, party claims and independent reporting.",
+    "mechanism": "Reduce decision errors caused by conflation of an announced truce with a signed one.",
+    "gate": "Source date, rights review, citations and public-only scope.",
+    "measure": "Every material claim has a source, category and last-checked date.",
+    "stop": "Retract or qualify disputed facts; do not release sensitive locations.",
+    "cost": "Low desk-research cost; staff time variable."
+  },
+  {
+    "time": "0–72 hours",
+    "owner": "Independent analysts and domain experts",
+    "ask": "Draft at least three alternative explanations for negotiation deadlock and an observable refutation for each.",
+    "mechanism": "Make policy discussions robust against mono-causal assumptions.",
+    "gate": "Independent review, attribution and political neutrality.",
+    "measure": "Disconfirming evidence and confidence revisions publicly tracked.",
+    "stop": "Stop publishing unsupported motive accusations.",
+    "cost": "Low to moderate."
+  },
+  {
+    "time": "2–6 weeks",
+    "owner": "Manufacturers, distributors and export regulators within authority",
+    "ask": "Conduct voluntary public high-priority-component provenance review and clarify third-country diversion mechanisms.",
+    "mechanism": "Narrow lawful investigative leads and reduce false allegations.",
+    "gate": "Legal counsel, protected commercial data safeguards and due process.",
+    "measure": "Named model/shipper/recipient links corroborated or corrected.",
+    "stop": "Suspend outreach when identity or component linkage is unverified.",
+    "cost": "Moderate."
+  },
+  {
+    "time": "2–6 weeks",
+    "owner": "Independent research institutions; UN/OHCHR sources",
+    "ask": "Publish public civilian-impact and ceasefire-status baselines with transparent coverage gaps.",
+    "mechanism": "Support the evaluation of reciprocal civilian-protection proposals.",
+    "gate": "No release of protected individuals or vulnerable system detail.",
+    "measure": "Updated aggregate data and explicitly dated confidence classifications.",
+    "stop": "Withhold unverifiable incident allegations.",
+    "cost": "Moderate."
+  },
+  {
+    "time": "2–6 months",
+    "owner": "State Department, authorized negotiators and agreed neutral facilitators",
+    "ask": "Evaluate written sectoral energy/humanitarian truce terms before declaring success.",
+    "mechanism": "Verify mutual consent, scope and independent adjudication.",
+    "gate": "Negotiating-party consent and legal safeguards; CIA does not set policy.",
+    "measure": "Mutually acknowledged agreement, observer coverage and verified compliance.",
+    "stop": "Do not announce implementation without written terms and operational monitoring.",
+    "cost": "High uncertainty; negotiation-dependent."
+  },
+  {
+    "time": "2–6 months",
+    "owner": "U.S./Canadian regulatory authorities and corporate compliance teams",
+    "ask": "Review documented sanctions-evasion networks while explicitly protecting lawful defense and humanitarian trade.",
+    "mechanism": "Discourage knowing illicit procurement without collective suspicion.",
+    "gate": "National export law, standards of proof and rights review.",
+    "measure": "Verified cases resolved with recorded rebuttals and legal outcomes.",
+    "stop": "Review if unintended civilian impacts outweigh objective gains.",
+    "cost": "Moderate to high."
+  },
+  {
+    "time": "6–24 months",
+    "owner": "Governments, UN-mandated or consent-based observers and local stakeholders",
+    "ask": "Design rights-respecting ceasefire verification, safeguards and violation appeals.",
+    "mechanism": "Reduce the credible-commitment gap through reciprocal observable compliance.",
+    "gate": "Independent mandates, lawful authority, negotiated access and non-recognition of unlawful annexation.",
+    "measure": "Aggregate verified incidents, time to adjudication, appeals outcomes and civilian access.",
+    "stop": "Suspend unsafe disclosures and revert to minimum humanitarian protection.",
+    "cost": "High; multilateral."
+  },
+  {
+    "time": "2–10 years",
+    "owner": "Ukraine-led reconstruction authorities, multilateral lenders and communities",
+    "ask": "Develop transparent rights-centered recovery and non-recurrence accountability indicators.",
+    "mechanism": "Make peace materially credible while retaining sovereignty and humanitarian standards.",
+    "gate": "Ukrainian agency, audited governance and international law.",
+    "measure": "Civilian infrastructure reliability, displacement outcomes, and verified non-recurrence.",
+    "stop": "Correct corruption or discriminatory access through independent review.",
+    "cost": "High; reconstruction-dependent."
+  }
+]

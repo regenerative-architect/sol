@@ -1,0 +1,17 @@
+{
+  "name": "UN Peace Assurance & Civilian Protection OS \u2014 Unofficial Research Edition",
+  "short_name": "Peace Commons 05",
+  "description": "Independent public-source humanitarian and peace research, not United Nations affiliated",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f2f6f8",
+  "theme_color": "#143b56",
+  "icons": [
+    {
+      "src": "assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

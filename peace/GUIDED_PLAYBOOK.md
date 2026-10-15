@@ -1,33 +1,22 @@
-# SOL Peace Commons — Guided Constellation Playbook (Edition 1.1)
+# One gentle step at a time
 
-## Quick route: one continuous journey
+Open `index.html`. Start with **one finding**. There are no mandatory class screens, skill choices, or multiplayer prompts.
 
-1. **Find your calling.** Tap a class tile. A class changes suggestions, never legal permissions or access.
-2. **Follow evidence.** Tap **Begin quest**. The proof card unfolds *inside the quest*, rather than appearing as a blocking modal. Cite a public HTTPS source and explain your actual work (25+ characters). XP remains local and self-reported.
-3. **Grow a skill.** Once you have 90 XP, spend one point on a skill with its prerequisite satisfied. Traits show practices recorded in your quest log, not personal worth or professional certification.
-4. **Create a co-op project.** Fill the inline mini form. Choose 2+ disciplines through checkboxes. State civilian benefit, verification, and a stop rule. The draft stays on-device.
-5. **Exchange only with consent.** Export your local backup or a public-only project handoff. Optional Trystero room join requires explicit user action and connectivity; no agency systems are connected.
+When ready, the app offers a small private learning note about the source, followed by an optional idea for improving civilian protection. You may skip either step and continue. The full Atlas, classes, skills, quests, reciprocal nodes, and local JSON vault remain available from **Full research library** or the menu.
 
-## Pro-tip clues
+### Pro tip: recognize a useful observation
 
-Every phase includes a **💡 Pro tip** disclosure. Tap the heading (or focus it and press Enter/Space). Tooltips never cover the page and never prevent work. Cards are also keyboard navigable.
+A good note states **what the cited document demonstrates**, **what it does not demonstrate**, and **what another source could test**. Source links are live only with connectivity; the internal source registry is bundled offline and time-stamped rather than automatically updated.
 
-## HUD
+### Pro tip: build without overcommitting
 
-The compact HUD shows level, XP, self-attested quest count, and available skill points. The **Guided flow** control opens the continuous journey. **Motion on/off** is optional, and system reduced-motion preference is respected.
+Begin with one feasible nonviolent improvement, one measurable civilian outcome and one stop rule. Your proposal is a **private, unsigned draft**, not a communication to a government agency or United Nations office.
 
-## Progressive fade behavior
+### Pro tip: control your own progress
 
-Phase sections animate in when you open them. Proof cards and project review gates open inline. Success and error notifications appear briefly without taking keyboard focus. The sidebar still provides deeper tools when requested. All phases can be revisited without loss of saved progress.
+Export a JSON backup from the final flow step or the Vault. Saved XP represents self-reported learning, never official approval or claimed real-world impact. Imported handoffs stay unverified. Peer rooms and public exchange are optional and require explicit consent.
 
-## Privacy and data trust
+More technical information is in `FLOW_GUIDE.md`, `README.md`, and `DEPLOYMENT.md`.
 
-Local backups are **not encrypted**; store them securely. Public handoffs are unsigned and incoming documents enter an *unverified* queue. Do not submit protected personal data, classified material, real-time vulnerability reports, or operational targeting information.
 
-## Requirements and offline truth
-
-The main `index.html` works for local reading and self-attested activities without networking, subject to browser local-file storage limitations. The optional service worker requires a secure hosted origin and caches only same-origin shell files. Trystero needs online signaling and real peers; manual JSON export/import is the offline collaboration fallback.
-
-## Attribution
-
-Original implementation: **Foster + Navi / Planetary Restoration Archive** (MIT for original code). Trystero is an independent MIT-licensed dependency, requested only on explicit room join. See `ATTRIBUTIONS_AND_LICENSES.md`.
+**v2.2:** Trystero discovery now attempts to connect on hosted online visits by default, disclosing its privacy implications and offering immediate disconnect; nothing is shared automatically. The Earth Intelligence HUD provides local source-matching research prompts and exportable, unverified advisory drafts. For details read `EIE_HUD_GUIDE.md` and `PEER_RUNBOOK.md`.

@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "status": "unofficial_proposed",
+  "nodes": [
+    {
+      "id": "fbi",
+      "purpose": "lawful domestic federal criminal and counterintelligence investigations",
+      "active": false
+    },
+    {
+      "id": "usss",
+      "purpose": "specific cyber-enabled financial and protective mission",
+      "active": false
+    },
+    {
+      "id": "bis",
+      "purpose": "export controls, licensing and enforcement",
+      "active": false
+    },
+    {
+      "id": "hsi",
+      "purpose": "cross-border trade/smuggling investigation",
+      "active": false
+    },
+    {
+      "id": "doj",
+      "purpose": "prosecution and judicial actions",
+      "active": false
+    },
+    {
+      "id": "treasury",
+      "purpose": "sanctions and financial guidance",
+      "active": false
+    },
+    {
+      "id": "cia",
+      "purpose": "authorized foreign intelligence; not domestic policing",
+      "active": false
+    },
+    {
+      "id": "dod",
+      "purpose": "defense policy and readiness",
+      "active": false
+    },
+    {
+      "id": "un",
+      "purpose": "multilateral diplomatic and humanitarian coordination",
+      "active": false
+    }
+  ]
+}

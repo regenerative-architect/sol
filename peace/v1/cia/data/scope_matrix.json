@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "status": "unofficial_concept",
+  "sender_node": "cia_public_concept",
+  "handling": "PUBLIC_ONLY",
+  "nodes": [
+    {
+      "id": "usss",
+      "name": "U.S. Secret Service edition",
+      "status": "prior prototype, not connected",
+      "scope": "Financial-integrity leads in its statutory remit; independent intake required.",
+      "connected": false,
+      "authority_granted": false
+    },
+    {
+      "id": "fbi",
+      "name": "FBI edition",
+      "status": "prior prototype, not connected",
+      "scope": "Criminal and domestic national-security investigations; no automatic CIA handoff.",
+      "connected": false,
+      "authority_granted": false
+    },
+    {
+      "id": "dod",
+      "name": "U.S. Military edition",
+      "status": "prior prototype, not connected",
+      "scope": "Civilian protection and defense-support policy; no command integration.",
+      "connected": false,
+      "authority_granted": false
+    },
+    {
+      "id": "cia",
+      "name": "CIA foreign-analysis edition",
+      "status": "this local edition",
+      "scope": "Foreign analysis concepts only, no collection, covert action or domestic police role.",
+      "connected": false,
+      "authority_granted": false
+    },
+    {
+      "id": "state",
+      "name": "U.S. State Department",
+      "status": "concept only",
+      "scope": "Diplomatic and sanctions policy responsibilities; external authorization required.",
+      "connected": false,
+      "authority_granted": false
+    },
+    {
+      "id": "bis",
+      "name": "Commerce / BIS",
+      "status": "concept only",
+      "scope": "U.S. export-control authority and enforcement.",
+      "connected": false,
+      "authority_granted": false
+    },
+    {
+      "id": "un",
+      "name": "United Nations",
+      "status": "future concept",
+      "scope": "Independent civilian protection and diplomacy; neutrality and consent respected.",
+      "connected": false,
+      "authority_granted": false
+    },
+    {
+      "id": "icrc",
+      "name": "ICRC (independent)",
+      "status": "reference only",
+      "scope": "Impartial humanitarian mission; not a government intelligence partner.",
+      "connected": false,
+      "authority_granted": false
+    }
+  ]
+}
