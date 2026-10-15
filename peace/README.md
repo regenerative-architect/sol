@@ -1,3 +1,5 @@
+> **v2.7 connection update:** See [PEER_CONNECTION_GUIDE_v2_7.md](PEER_CONNECTION_GUIDE_v2_7.md) and [DEPLOYMENT_v2_7.md](DEPLOYMENT_v2_7.md) for the default Nostr + MQTT peer discovery, actual peer/data-test indicators and session-only TURN fallback. External public relays and cross-network WebRTC are not guaranteed.
+
 # SOL Peace Commons — Earth Intelligence + Trystero v2.2
 
 **One fluid, local-first peace-research workspace with Trystero as the default online collaboration layer and a read-only Earth Intelligence Engine (EIE) integrated into its HUD.** This is an independent public-interest prototype, not an official intelligence, policing, military, or UN system.
@@ -53,3 +55,8 @@ After the initial loading display, **Earth Intelligence** shrinks into an access
 ## EIE HUD 2.5 — compact launcher
 
 After the initial loading display, **Earth Intelligence** shrinks into an accessible 44px globe icon in the master HUD. Open it to use the unchanged offline research tools. The globe remains at the top even when collapsed, while the Trystero connection status/control is separate. For `prefers-reduced-motion`, the globe minimizes immediately. No private research data is shared automatically. See `CHANGELOG_v2_5.md` and `TESTING_v2_5.md`.
+
+
+## Current v2.6 correction: Earth Intelligence is *always* a real icon
+
+The old v2.5 banner description above is superseded. From first paint, Earth Intelligence is an **exactly 50×50px floating globe** in the lower-right corner, outside the peer/character HUD flex row. There is no auto-minimize timer. Press 🌐 to open the bounded nonmodal panel; press × or Escape to close. The icon does not transmit any research. Run `tests/eie_real_icon_browser.py` to verify icon geometry at three viewport widths. See `CHANGELOG_v2_6.md`.

@@ -1,0 +1,19 @@
+{
+  "id": "./",
+  "name": "SOL Peace Commons — Earth Intelligence & Trystero Default",
+  "short_name": "SOL Peace",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#09121c",
+  "theme_color": "#101d2c",
+  "description": "Offline-first accessible guided peacebuilding, source review, private proposals, and default consent-revocable P2P presence and local read-only EIE.",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

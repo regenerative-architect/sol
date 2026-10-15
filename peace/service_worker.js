@@ -1,5 +1,5 @@
-/* SOL Peace EIE + Trystero v2.5: public static resources only. No private IndexedDB data or third-party traffic cached. */
-const CACHE='sol-peace-master-shell-v8';
+/* SOL Peace EIE + Trystero v2.7: public static resources only. No private IndexedDB data or third-party traffic cached. */
+const CACHE='sol-peace-master-shell-v10';
 const SHELL=['./','./index.html','./icon.svg','./site.webmanifest','./data/integrated_public_records.json','./data/pathway_guides.json','./data/pathway_catalog.json',
 './usmc/index.html','./usmc/assets/styles.css','./usmc/assets/app.js',
 './usss/index.html','./usss/assets/styles.css','./usss/assets/app.js',

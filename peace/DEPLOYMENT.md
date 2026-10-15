@@ -30,3 +30,8 @@ Replace the master `index.html` and `service_worker.js` and add `data/pathway_gu
 ## 2.5 Earth Intelligence minimized-icon upgrade
 
 Back up local progress, replace `index.html` and `service_worker.js` from this bundle, and retain `data/` and all five research subdirectories. The EIE control shrinks to a globe icon after 1.7 seconds; select the icon to expand the unchanged research panel. The hosted cache changes to `sol-peace-master-shell-v8`; reload after service-worker activation. All other data formats are unchanged.
+
+
+## v2.6 icon-only correction
+
+Previous v2.5 CSS allowed a mobile peer HUD layout to keep a full-width row. v2.6 moves Earth Intelligence to a fixed circular launcher outside that layout; there is no loading-time banner. Replace **both** `index.html` and `service_worker.js`, then reload (or clear stale site cache if an old service worker is controlling the tab). New cache: `sol-peace-master-shell-v9`. Export your old local backup first; no storage migration is required.

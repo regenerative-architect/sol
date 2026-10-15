@@ -1,3 +1,5 @@
+> **IMPORTANT 2.7 update:** For current dual-strategy discovery and TURN troubleshooting, follow [PEER_CONNECTION_GUIDE_v2_7.md](PEER_CONNECTION_GUIDE_v2_7.md). This older runbook describes the original network implementation.
+
 # Trystero-default peer collaboration — operating runbook
 
 ## What “default” means

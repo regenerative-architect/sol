@@ -1,0 +1,688 @@
+{
+  "schema": "pra.sol_pathway_guides",
+  "version": 1,
+  "as_of": "2026-10-15",
+  "scope": "Five institutional research perspectives, not institutional participation",
+  "profiles": {
+    "usss": {
+      "label": "Financial integrity",
+      "summary": "Trace documented payment risks without treating every commercial transaction as a war crime.",
+      "boundary": "No bank access, covert financial surveillance, criminal adjudication or export-control authority assumed.",
+      "handoff": "Public financial-exposure matrix, procedural-status summary, corrective compliance question.",
+      "signal": "Financial fraud or sanctions-evasion concern documented in a public administrative or court source.",
+      "id": "usss",
+      "sources": [
+        {
+          "label": "Secret Service Cyber Fraud Task Forces",
+          "url": "https://www.secretservice.gov/contact/field-offices/"
+        },
+        {
+          "label": "Secret Service: illicit digital assets",
+          "url": "https://www.secretservice.gov/investigations/digitalassets"
+        }
+      ],
+      "chapters": [
+        {
+          "id": "usss-01",
+          "title": "Mission in one minute",
+          "plain": "A public-interest researcher can study cyber-enabled financial crimes and payment-system integrity without acting as an investigator.",
+          "advanced": "USSS Cyber Fraud Task Forces address defined financial and cyber-enabled offenses; public archive work is not a basis to access private banking or identity data.",
+          "practice": "Write one sentence identifying the potentially relevant financial-crime behavior; state the legal question rather than asserting guilt.",
+          "acceptance": "Can the described activity be distinguished from a lawful commercial payment?",
+          "avoid": "Overstating jurisdiction from a sanctions or export allegation alone."
+        },
+        {
+          "id": "usss-02",
+          "title": "Understand the lawful boundary",
+          "plain": "Financial integrity is the lens, not secret intelligence or war policy.",
+          "advanced": "A payment involving Russia is not automatically fraudulent or forbidden. Distinguish payer, payee, beneficial owner, reason for payment, applicable sanctions, and evidence of concealment.",
+          "practice": "Sketch a five-field public payment flow without private account identifiers.",
+          "acceptance": "Is there an actual suspected financial offense and a competent referral authority?",
+          "avoid": "Collecting bank account numbers, private addresses, or inferred criminal intent."
+        },
+        {
+          "id": "usss-03",
+          "title": "Build a dated source trail",
+          "plain": "Start with public regulatory notices, court records and corporate statements.",
+          "advanced": "Record publication date, period covered, exact conduct alleged, sanctions designation versus final conviction, and whether rebuttals exist.",
+          "practice": "Add one dated government notice and one corroborating independent publication.",
+          "acceptance": "Could another reviewer reproduce the conclusion from those sources?",
+          "avoid": "Treating a sanctions listing as a criminal verdict."
+        },
+        {
+          "id": "usss-04",
+          "title": "Disambiguate corporate entities",
+          "plain": "Check which legal entity appears in each document.",
+          "advanced": "Match names against jurisdiction, registration, subsidiaries and ownership changes; do not collapse affiliates or similarly named firms into one legal person.",
+          "practice": "Create manufacturer / exporter / intermediary / importer columns and mark missing links.",
+          "acceptance": "Do corporate relationships come from documented filings rather than names alone?",
+          "avoid": "Assigning all subsidiary conduct to a parent without evidence."
+        },
+        {
+          "id": "usss-05",
+          "title": "Construct a non-sensitive transaction timeline",
+          "plain": "Sequence publicly documented events before drawing causation.",
+          "advanced": "Separate contract date, export date, payment date, delivery and enforcement action; record uncertainty when only ranges are available.",
+          "practice": "Draw a three-event timeline from a court filing or regulation.",
+          "acceptance": "Can each date be traced to its source and timezone where material?",
+          "avoid": "Inventing unknown payment pathways."
+        },
+        {
+          "id": "usss-06",
+          "title": "Identify evidence of knowledge",
+          "plain": "Knowledge is a separate legal and factual question.",
+          "advanced": "Look for adjudicated admissions, falsified end-user certificates, evasive routing described in filings and court-tested communications, while tracking exculpatory evidence.",
+          "practice": "Classify two examples as allegation, official administrative finding or adjudicated criminal fact.",
+          "acceptance": "Does cited evidence establish knowing conduct or merely financial proximity?",
+          "avoid": "Assuming that discovering a component proves manufacturer complicity."
+        },
+        {
+          "id": "usss-07",
+          "title": "Choose the appropriate authority",
+          "plain": "Referral ownership depends on the activity and law.",
+          "advanced": "A financial-fraud concern may involve USSS and prosecutors; export licensing/enforcement generally implicates BIS, HSI or other competent agencies. Coordinate only through existing lawful channels.",
+          "practice": "Draft a short public-source routing table with two possible recipient types.",
+          "acceptance": "Have you avoided claiming that a public-interest prototype can submit a government case?",
+          "avoid": "Presenting an unofficial project as a Secret Service task force."
+        },
+        {
+          "id": "usss-08",
+          "title": "Design a proportional safeguard",
+          "plain": "Protect lawful commerce and innocent parties.",
+          "advanced": "Recommend distributor due diligence, payment-screening quality assurance and record retention before sweeping payment restrictions; ask counsel about legal bases and exceptions.",
+          "practice": "Draft one bounded intervention with civilian cost, reversal trigger and independent outcome.",
+          "acceptance": "Would a false positive freeze legitimate humanitarian or civilian funds?",
+          "avoid": "Financial exclusion without authority or due process."
+        },
+        {
+          "id": "usss-09",
+          "title": "Collaborate without leaking data",
+          "plain": "Share only the minimum public facts required for independent review.",
+          "advanced": "Use recipient-specific public-only JSON with source URLs, confidence, limitations and an explicit absence of agency endorsement. No personal identifiers, covert communications or live institutional link.",
+          "practice": "Prepare a hypothetical public-only handoff and inspect each field.",
+          "acceptance": "Can the receiver evaluate the issue without sensitive facts?",
+          "avoid": "Auto-sharing local or peer data because Trystero is connected."
+        },
+        {
+          "id": "usss-10",
+          "title": "Measure outcomes and review errors",
+          "plain": "A better metric is lawful, documented correction—not the number of accusations.",
+          "advanced": "Track verified filing corrections, screened transactions reviewed by authorized compliance teams, substantiated referrals and false-positive reversals.",
+          "practice": "Write a metric, one warning trigger and a stop rule.",
+          "acceptance": "Would measurement reward accuracy and civilian safety rather than volume?",
+          "avoid": "Treating a proposal as successful enforcement."
+        }
+      ]
+    },
+    "fbi": {
+      "label": "Lawful case evidence",
+      "summary": "Keep legal proceedings, manufacturer origin, exporter identity and proof of knowledge separate.",
+      "boundary": "No investigations, suspect surveillance, private data collection or purported official referrals.",
+      "handoff": "Public-source case chronology, proof ladder, correction and alternative explanation.",
+      "signal": "A public court record or enforceable export-control question exists.",
+      "id": "fbi",
+      "sources": [
+        {
+          "label": "FBI: investigation priorities",
+          "url": "https://www.fbi.gov/investigate/"
+        },
+        {
+          "label": "FBI: counterintelligence partnerships",
+          "url": "https://www.fbi.gov/investigate/counterintelligence/national-counterintelligence-task-force"
+        }
+      ],
+      "chapters": [
+        {
+          "id": "fbi-01",
+          "title": "What the FBI does",
+          "plain": "The FBI has investigative and intelligence functions under law; this community system has neither.",
+          "advanced": "Relevant public lenses include transnational procurement conspiracies, economic espionage, cyber incidents and federal criminal process. Roles overlap with DOJ, Commerce BIS and HSI.",
+          "practice": "Choose one public case and identify exactly what law and institution it involved.",
+          "acceptance": "Are you describing public education rather than opening a private investigation?",
+          "avoid": "Confusing a research index with a law-enforcement case system."
+        },
+        {
+          "id": "fbi-02",
+          "title": "Legal stage and presumption",
+          "plain": "A charge is not a conviction.",
+          "advanced": "Distinguish complaint, indictment, guilty plea, verdict, sentencing and administrative sanctions. State what is known about the evidentiary burden in each source.",
+          "practice": "Mark three casebook claims by procedural posture.",
+          "acceptance": "Can a defendant rebuttal or subsequent outcome change the phrasing?",
+          "avoid": "Identifying someone as guilty based solely on an allegation."
+        },
+        {
+          "id": "fbi-03",
+          "title": "Component origin versus end use",
+          "plain": "Manufacturer origin and knowing illicit export are different claims.",
+          "advanced": "Use manufacturer identity, product model, export documentation, consignee and unit-level provenance separately; never convert same-model shipment into serial-level proof.",
+          "practice": "Build a five-link evidence chain and leave unidentified links explicitly blank.",
+          "acceptance": "Which links are documented versus inferred?",
+          "avoid": "Equating product origin with knowledge of prohibited transfers."
+        },
+        {
+          "id": "fbi-04",
+          "title": "Open-source case chronology",
+          "plain": "Public dockets and press releases require context.",
+          "advanced": "Record charged time period, alleged mechanism, jurisdiction, cooperating agencies and stated limits; dates of publication may postdate the conduct.",
+          "practice": "Create a citation-first chronology with one counter-source or defense statement.",
+          "acceptance": "Could a reviewer distinguish the crime date from the reporting date?",
+          "avoid": "Cherry-picking prosecutors’ allegations as adjudicated facts."
+        },
+        {
+          "id": "fbi-05",
+          "title": "Export control crosswalk",
+          "plain": "Not all suspected technology diversion belongs to the FBI alone.",
+          "advanced": "BIS administers export controls; criminal investigations and prosecutions can involve FBI, HSI, DOJ and other partners. Any concrete compliance action requires professional legal review.",
+          "practice": "Write a hypothetical handoff with separate control, investigation and prosecution owners.",
+          "acceptance": "Does the action rest within the identified authority?",
+          "avoid": "Conflating regulatory enforcement, national intelligence and civilian policing."
+        },
+        {
+          "id": "fbi-06",
+          "title": "Protect evidence integrity",
+          "plain": "Preservation and authenticity are separate from guilt.",
+          "advanced": "Use original URLs, archived date, file SHA-256 and preservation notes. Hashes establish file consistency, not truth, authorship or chain of custody by themselves.",
+          "practice": "Hash an authorized local public document and record context.",
+          "acceptance": "Do you know who obtained the material and when?",
+          "avoid": "Handling stolen, classified, or private evidence inside a public peer room."
+        },
+        {
+          "id": "fbi-07",
+          "title": "Cyber incident boundaries",
+          "plain": "Support reporting and defense only.",
+          "advanced": "Public guidance can address secure backups, access control, phishing resilience and documenting observable harm. Do not probe targets, intercept traffic or trace private individuals.",
+          "practice": "Develop a lawful defensive incident checklist for a public institution.",
+          "acceptance": "Are all recommended measures defensive and consent-based?",
+          "avoid": "Turning an incident review into intrusion or surveillance instructions."
+        },
+        {
+          "id": "fbi-08",
+          "title": "Minimize privacy harms",
+          "plain": "Better evidence should not require more unnecessary personal data.",
+          "advanced": "Remove names of private persons, banking details, unneeded device identifiers and exact civilian whereabouts. Public court names still deserve contextual, non-defamatory treatment.",
+          "practice": "Redact a sample public handoff and note justified inclusions.",
+          "acceptance": "Could the same analytical result be achieved with less data?",
+          "avoid": "Publishing witness information or sensitive personal addresses."
+        },
+        {
+          "id": "fbi-09",
+          "title": "Referrals and reciprocal review",
+          "plain": "Propose routing; never simulate official submission.",
+          "advanced": "Offer a concise public-source memo with issue, sources, legal-status classification, limitations, competent authorities and steps requiring authorized investigators.",
+          "practice": "Prepare a two-paragraph public referral draft for independent professional review.",
+          "acceptance": "Does the draft clearly state it was not sent?",
+          "avoid": "Faking agency credentials or confirmation."
+        },
+        {
+          "id": "fbi-10",
+          "title": "Correct, withdraw, and audit",
+          "plain": "A corrected record is evidence of quality.",
+          "advanced": "Track challenges, source corrections, acquittals, withdrawn allegations and record retractions. Disclose when a prior inference must change.",
+          "practice": "Revise one hypothetical mistaken claim and keep its correction history.",
+          "acceptance": "Can the system reverse a harmful assertion quickly and transparently?",
+          "avoid": "Preserving erroneous accusations for gamified XP."
+        }
+      ]
+    },
+    "cia": {
+      "label": "Competing foreign explanations",
+      "summary": "Explore alternative hypotheses, confidence, source gaps and diplomatic implications.",
+      "boundary": "No clandestine collection, foreign influence operations, covert action or policy authority.",
+      "handoff": "Dated analytic note, competing hypotheses, disconfirming evidence and confidence rationale.",
+      "signal": "Multiple plausible explanations materially affect a civilian-safe recommendation.",
+      "id": "cia",
+      "sources": [
+        {
+          "label": "CIA: mission and intelligence cycle",
+          "url": "https://www.cia.gov/spy-kids/static/5c71692c0a4eee969769d6da433bde37/Classroom-briefing-who-we-are-and-what-we-do.pdf"
+        },
+        {
+          "label": "CIA: foreign intelligence and no police authority",
+          "url": "https://www.cia.gov/podcast/static/ba9803e599479d5a317afcf5559f3c18/The-Langley-Files-Episode-3-The-Recruiter-What-Does-It-Take-To-Join-CIA-Transcript_.pdf"
+        }
+      ],
+      "chapters": [
+        {
+          "id": "cia-01",
+          "title": "Foreign analysis, not law enforcement",
+          "plain": "This module models disciplined foreign-source analysis. It is not the CIA or a covert tool.",
+          "advanced": "CIA produces foreign-intelligence analysis for decision-makers and does not itself make policy. No collection tradecraft, clandestine methods or domestic enforcement are provided.",
+          "practice": "Describe a foreign-policy question in neutral, answerable terms.",
+          "acceptance": "Have you avoided speaking as though the system is an official agency?",
+          "avoid": "Using analysis claims to justify covert action."
+        },
+        {
+          "id": "cia-02",
+          "title": "Define the question and baseline",
+          "plain": "A precise question prevents vague speculation.",
+          "advanced": "Specify geography, period, actors, known facts, assumptions and how the answer could change a lawful civilian-protection or diplomacy decision.",
+          "practice": "Rewrite “Why does war continue?” into a narrowly testable observation question.",
+          "acceptance": "What dated evidence would answer it?",
+          "avoid": "Treating broad narratives as evidence."
+        },
+        {
+          "id": "cia-03",
+          "title": "Separate source types",
+          "plain": "A statement by a party is a fact about what was said, not proof the claim is true.",
+          "advanced": "Tag VERIFIED RECORD, PARTY CLAIM, INFERENCE, LEGAL FINDING and UNKNOWN; distinguish official institutional views from independently corroborated observations.",
+          "practice": "Grade three claims and write one sentence of uncertainty for each.",
+          "acceptance": "Can the label be justified without relying on author reputation alone?",
+          "avoid": "Conflating government position with objective fact."
+        },
+        {
+          "id": "cia-04",
+          "title": "Competing hypotheses",
+          "plain": "Never stop at the first plausible explanation.",
+          "advanced": "Construct at least two causal models—security dilemma, territorial ambitions, economic constraints, political incentives—and list discriminating signals and inconvenient facts for each.",
+          "practice": "Write two models of a stalled negotiation and one falsifier per model.",
+          "acceptance": "Would the second model change your recommendation if verified?",
+          "avoid": "Inventing hidden motives or confidential intelligence."
+        },
+        {
+          "id": "cia-05",
+          "title": "Timeline and base rates",
+          "plain": "Temporal order does not automatically imply causation.",
+          "advanced": "Mark when assistance, attacks and announcements occurred; test whether changes preceded claimed effects and what alternative drivers exist. Do not invent event probabilities.",
+          "practice": "Build a before/after timeline and list confounders.",
+          "acceptance": "Can the analysis distinguish coincidence from an observed mechanism?",
+          "avoid": "Presenting correlation as intention."
+        },
+        {
+          "id": "cia-06",
+          "title": "Confidence calibration",
+          "plain": "Explain why confidence is limited.",
+          "advanced": "Confidence should reflect independent corroboration, source proximity, alternative explanations and evidence gaps—not an arbitrary numeric probability.",
+          "practice": "Write a high/medium/low confidence note with reasons and future tests.",
+          "acceptance": "Is the confidence label consistent with the evidence?",
+          "avoid": "Showing spurious “93% certainty” for political intentions."
+        },
+        {
+          "id": "cia-07",
+          "title": "Early warning with stop rules",
+          "plain": "Focus on observable civilian-risk indicators.",
+          "advanced": "Look for public infrastructure incident records, humanitarian access changes, negotiation declarations and verifiable compliance. Avoid location-specific targeting or real-time combat intelligence.",
+          "practice": "Choose three non-operational early-warning indicators and reporting cadence.",
+          "acceptance": "Would reporting reveal protected civilian movements or humanitarian vulnerabilities?",
+          "avoid": "Publishing sensitive operational location information."
+        },
+        {
+          "id": "cia-08",
+          "title": "Structured dissent",
+          "plain": "Dissent strengthens a finding when grounded in evidence.",
+          "advanced": "Write strongest alternative interpretation, its supporting source, and a clear observation that could reverse the finding. Encourage corrections even when a team agreed.",
+          "practice": "Author one analytic dissent memo of 150 words.",
+          "acceptance": "Could a reader understand why credible people disagree?",
+          "avoid": "Rewarding confidence or consensus instead of corrections."
+        },
+        {
+          "id": "cia-09",
+          "title": "Bridge foreign analysis to diplomacy",
+          "plain": "Assessment does not authorize negotiation.",
+          "advanced": "Translate findings into conditional policy options for authorized decision-makers: action, independent verification, reciprocal response and civilian safeguard; mark decisions as external.",
+          "practice": "Create three non-coercive diplomatic policy options with reversible steps.",
+          "acceptance": "Does the summary preserve Ukraine’s sovereignty and negotiating agency?",
+          "avoid": "Suggesting secret bargains made by the prototype."
+        },
+        {
+          "id": "cia-10",
+          "title": "Review and expiration",
+          "plain": "Every finding should have an “expires when” rule.",
+          "advanced": "Attach an as-of date and update triggers, archive obsolete assumptions and track what changed. Reassess after talks, new casualty data or substantiated contradictory records.",
+          "practice": "Draft a correction trigger for one analysis.",
+          "acceptance": "Could someone distinguish old analysis from current verified status?",
+          "avoid": "Treating October 2026 material as perpetually live."
+        }
+      ]
+    },
+    "usmc": {
+      "label": "Civilian protection",
+      "summary": "Review defense policy, harm prevention, non-operational ceasefire safeguards and recovery.",
+      "boundary": "No military command, target selection, weapons employment, troop movements or offensive cyber.",
+      "handoff": "Civilian-harm review, protective contingency, monitored compliance requirement.",
+      "signal": "A proposed intervention may affect civilian safety or military escalation.",
+      "id": "usmc",
+      "sources": [
+        {
+          "label": "DoD civilian harm mitigation policy",
+          "url": "https://policy.defense.gov/Offices/Civilian-Harm-Mitigation-and-Response/"
+        },
+        {
+          "label": "DoD civilian harm mitigation action plan",
+          "url": "https://www.defense.gov/News/Releases/Release/Article/3140007/civilian-harm-mitigation-and-response-action-plan-fact-sheet/"
+        }
+      ],
+      "chapters": [
+        {
+          "id": "usmc-01",
+          "title": "Policy lens and legal remit",
+          "plain": "This is a civilian-protection learning lens, not military command software.",
+          "advanced": "Study U.S. defense-policy records, lawful security assistance, end-use accountability and DoD civilian-harm standards. It cannot issue orders or military recommendations for strikes.",
+          "practice": "Summarize a published civilian-harm policy in ordinary language.",
+          "acceptance": "Does the output avoid tactical targeting or weapons instructions?",
+          "avoid": "Claiming the prototype controls U.S. forces."
+        },
+        {
+          "id": "usmc-02",
+          "title": "Distinguish defense from aggression",
+          "plain": "Weapons supply and war prolongation are not synonymous.",
+          "advanced": "Separate lawful support for self-defense from illegal attacks and knowing facilitation of violations. Evaluate transfer conditions, recipient, end-use and observed behavior, not assumed motive.",
+          "practice": "Build a two-column legal-purpose and observed-end-use table.",
+          "acceptance": "What primary evidence supports each conclusion?",
+          "avoid": "Treating all defense assistance as deliberate escalation."
+        },
+        {
+          "id": "usmc-03",
+          "title": "Civilian harm assessment",
+          "plain": "Start with people, not equipment.",
+          "advanced": "Use public reports of deaths, injuries and damage; respect reporting gaps and avoid locations that expose civilians. Assess accessible shelter, health, water and energy effects.",
+          "practice": "Choose a public harm metric and describe undercount risk.",
+          "acceptance": "Can it be measured without identifying vulnerable people?",
+          "avoid": "Using real-time strike data or protected coordinates."
+        },
+        {
+          "id": "usmc-04",
+          "title": "End-use and procurement assurance",
+          "plain": "Legitimate procurement can still require accountability.",
+          "advanced": "Record contracting authority, export permission, intended use, monitoring provisions and civilian safeguards. A public researcher can propose audit questions but cannot conduct classified inspections.",
+          "practice": "Write a lawful procurement-accountability checklist with missing-data fields.",
+          "acceptance": "Have parties’ independent legal responsibilities remained distinct?",
+          "avoid": "Publishing sensitive procurement routes."
+        },
+        {
+          "id": "usmc-05",
+          "title": "Critical infrastructure resilience",
+          "plain": "Emphasize defensive continuity planning.",
+          "advanced": "Plan backup power, water continuity, medical supply redundancy and disaster recovery at non-sensitive planning levels. Favor civilian-led needs assessments.",
+          "practice": "Outline a city-level service-resilience concept without exposing facility vulnerabilities.",
+          "acceptance": "Can the same result be achieved without identifying targets?",
+          "avoid": "Detailed weak-point mapping of critical systems."
+        },
+        {
+          "id": "usmc-06",
+          "title": "Limited ceasefires and safety",
+          "plain": "A ceasefire proposal needs consent and independent checks.",
+          "advanced": "Define humanitarian scope, civilian-protection objective, incident reporting, independent adjudication and remedies, without supplying operational battlefield deployment details.",
+          "practice": "Draft a non-operational energy-infrastructure truce checklist.",
+          "acceptance": "What happens if one incident is disputed?",
+          "avoid": "Treating an announced truce as implemented."
+        },
+        {
+          "id": "usmc-07",
+          "title": "Incident evidence separation",
+          "plain": "Observation is not a final legal finding.",
+          "advanced": "Classify reported civilian harm, authenticated imagery, party claims, legal review and independent monitoring separately. Protect witnesses and avoid public chains that identify survivors.",
+          "practice": "Mark three hypothetical incident records as confirmed, claimed or unresolved.",
+          "acceptance": "Would protected persons be at risk if this record became public?",
+          "avoid": "Publishing personally identifiable witness information."
+        },
+        {
+          "id": "usmc-08",
+          "title": "Escalation premortem",
+          "plain": "Design bounded-downside interventions.",
+          "advanced": "Review whether monitoring signals can be spoofed, ceasefire provisions exploited, civilian relief politicized or third parties misunderstood; define a withdrawal trigger.",
+          "practice": "Write a 24-month failure story then revise one safeguard.",
+          "acceptance": "Would the fallback protect civilians if consensus collapses?",
+          "avoid": "Optimizing military outcomes over protection."
+        },
+        {
+          "id": "usmc-09",
+          "title": "Institutional handoff limits",
+          "plain": "No single institution owns all pieces of peace.",
+          "advanced": "Differentiate DoD civilian harm policy, DOJ enforcement, UN humanitarian mandates, independent civil society and Ukrainian consent; avoid informal transfers of sensitive data.",
+          "practice": "Draw a public responsibility matrix with consent gates.",
+          "acceptance": "Is every proposed recipient legally and practically appropriate?",
+          "avoid": "Equating a research comparison with military coordination."
+        },
+        {
+          "id": "usmc-10",
+          "title": "Reconstruction and recovery",
+          "plain": "Durability means functioning services after hostilities.",
+          "advanced": "Pair civilian resilience with local governance, technical standards, maintenance financing, independent audits and equitable access to benefits.",
+          "practice": "Draft a recovery outcome metric and an independent audit step.",
+          "acceptance": "Will benefits remain after donor funding ends?",
+          "avoid": "Civilian dependency and unmeasured environmental harm."
+        }
+      ]
+    },
+    "un": {
+      "label": "Humanitarian assurance",
+      "summary": "Center civilian needs, legal mandates, consent, impartial monitoring and durable recovery.",
+      "boundary": "No automatic UN mission deployment, mandate, negotiation or access to protected humanitarian data.",
+      "handoff": "Needs-based safeguard, consent/mandate gate, anonymized outcome metric.",
+      "signal": "Civilians, protected populations, negotiations or international humanitarian norms are affected.",
+      "id": "un",
+      "sources": [
+        {
+          "label": "UN peacekeeping principles",
+          "url": "https://peacekeeping.un.org/en/node/132275"
+        },
+        {
+          "label": "UN civilian protection mandate",
+          "url": "https://peacekeeping.un.org/en/protection-of-civilians-mandate"
+        }
+      ],
+      "chapters": [
+        {
+          "id": "un-01",
+          "title": "UN ecosystem, not one office",
+          "plain": "The UN includes distinct bodies and mandates.",
+          "advanced": "Differentiate OHCHR human-rights monitoring, OCHA humanitarian coordination, UNDP development, UNICEF child protection, Security Council mandates and peacekeeping missions.",
+          "practice": "Match a proposed civilian need to an appropriate UN function.",
+          "acceptance": "Is the specific body named rather than “the UN” as a monolith?",
+          "avoid": "Pretending the project can dispatch a UN mission."
+        },
+        {
+          "id": "un-02",
+          "title": "Charter principles and sovereignty",
+          "plain": "Peace work begins with law and consent.",
+          "advanced": "Respect the UN Charter, sovereignty, territorial integrity, human rights and international humanitarian law; distinguish de facto control from de jure recognition.",
+          "practice": "Write the governing legal principle and note contested interpretations.",
+          "acceptance": "Does a proposal avoid forced transfers or coerced territorial recognition?",
+          "avoid": "False moral equivalence about invasion and lawful defense."
+        },
+        {
+          "id": "un-03",
+          "title": "Humanitarian independence",
+          "plain": "Aid must serve people, not bargaining leverage.",
+          "advanced": "Apply humanity, neutrality, impartiality and operational independence appropriate to humanitarian actors. Do not make essential assistance conditional on political concessions.",
+          "practice": "Design a needs-based distribution safeguard.",
+          "acceptance": "Can relief reach civilians without exposing recipients?",
+          "avoid": "Turning beneficiary records into intelligence or leverage."
+        },
+        {
+          "id": "un-04",
+          "title": "Civilian casualty evidence",
+          "plain": "Document harm with dates and uncertainty.",
+          "advanced": "Use OHCHR reports and clearly separate verified minimum figures from alleged or likely larger totals; protect survivors, locations and witness identity.",
+          "practice": "Write an accurately dated casualty indicator and its limitations.",
+          "acceptance": "Could the number be safely audited and updated?",
+          "avoid": "Treating unverified claims as total verified casualties."
+        },
+        {
+          "id": "un-05",
+          "title": "Negotiation readiness",
+          "plain": "Consent-dependent actions cannot be initiated by an app.",
+          "advanced": "Clarify who can consent, who can monitor, which issues can be decoupled, and what the legal mandate would cover; protect Ukrainian agency and civilian participants.",
+          "practice": "Make a consent checklist for a humanitarian access arrangement.",
+          "acceptance": "Is it a proposal, a party claim or a signed and operating agreement?",
+          "avoid": "Claiming a peace agreement exists from an announcement."
+        },
+        {
+          "id": "un-06",
+          "title": "Monitoring mission authority",
+          "plain": "UN peacekeeping requires authorization and practical consent.",
+          "advanced": "Traditional principles include consent, impartiality and non-use of force except self-defense and defense of mandate. Security Council authorization, deployment and host acceptance cannot be assumed.",
+          "practice": "Map what would have to be formally authorized for observers.",
+          "acceptance": "Would this proposal still work if UN approval is blocked?",
+          "avoid": "Presenting a “UN force” as already active."
+        },
+        {
+          "id": "un-07",
+          "title": "Ceasefire incident reporting",
+          "plain": "Use a neutral, protective reporting standard.",
+          "advanced": "Define what counts as a report, minimum evidence, incident timestamp, independent reviewer, disputed status, safe disclosure and correction window.",
+          "practice": "Create a fictional incident form without coordinates or protected identities.",
+          "acceptance": "Can the parties contest a report through due process?",
+          "avoid": "Posting raw testimony publicly."
+        },
+        {
+          "id": "un-08",
+          "title": "POWs, missing people and children",
+          "plain": "Humanitarian cases require confidentiality and specialized mandates.",
+          "advanced": "Protect family privacy and use recognized humanitarian channels for tracing, detention and return issues. No crowdsourced person-tracking or location posting.",
+          "practice": "Propose anonymized aggregate progress indicators.",
+          "acceptance": "Are sensitive records kept out of peer rooms and public JSON?",
+          "avoid": "Exposing detainees, children, or displaced families."
+        },
+        {
+          "id": "un-09",
+          "title": "Recovery and reparations",
+          "plain": "Durable peace needs community agency.",
+          "advanced": "Prioritize water, health, shelter, education, demining and locally accountable procurement; separate needs estimates from funds committed, disbursed and spent.",
+          "practice": "Draft a locally governed reconstruction monitoring concept.",
+          "acceptance": "What independent community feedback can be measured?",
+          "avoid": "Large donor-led plans without local consent or maintenance."
+        },
+        {
+          "id": "un-10",
+          "title": "Peace durability and dissent",
+          "plain": "A truce is not the same as a durable settlement.",
+          "advanced": "Evaluate independent verification, compliance remedies, justice pathways, security commitments and survivor trust; preserve disagreement without abandoning fact standards.",
+          "practice": "Compare a sectoral truce and a general armistice across five gates.",
+          "acceptance": "Does the design survive a political or funding shock?",
+          "avoid": "Declaring success solely because fighting paused briefly."
+        }
+      ]
+    }
+  },
+  "scenarios": [
+    {
+      "id": "civilian",
+      "title": "Protect civilian services",
+      "description": "Keep water, health, food and energy service access measurable without identifying vulnerable facilities.",
+      "recommended": [
+        "un",
+        "usmc",
+        "cia"
+      ],
+      "evidence_source": "OHCHR / OCHA aggregate reports",
+      "deliverable": "Public harm metric; community consent; independent reporting; stop if disclosure increases risk."
+    },
+    {
+      "id": "diversion",
+      "title": "Document restricted component diversion",
+      "description": "Separate manufacturer, exporter, intermediary and knowledge of unlawful transfer.",
+      "recommended": [
+        "fbi",
+        "usss",
+        "cia"
+      ],
+      "evidence_source": "Court records; corporate filings; BIS guidance",
+      "deliverable": "Five-link evidence chain; legal posture; non-accusatory public notice; corrected false positives."
+    },
+    {
+      "id": "truce",
+      "title": "Assess a proposed sectoral ceasefire",
+      "description": "Test whether an energy or humanitarian pause has consent, defined scope, monitors and remedies.",
+      "recommended": [
+        "un",
+        "usmc",
+        "cia"
+      ],
+      "evidence_source": "Party statements and independent observer reports",
+      "deliverable": "Consent matrix; public verified-incident aggregate; dispute mechanism; fallback."
+    },
+    {
+      "id": "energy",
+      "title": "Map energy revenue and civilian costs",
+      "description": "Evaluate commercial trade links alongside legal relief exemptions and civilian effects.",
+      "recommended": [
+        "usss",
+        "cia",
+        "un"
+      ],
+      "evidence_source": "Independent energy trade research; official sanctions",
+      "deliverable": "Transaction categories; confidence notes; civilian cost; legal review."
+    },
+    {
+      "id": "cyber",
+      "title": "Defend civilian digital continuity",
+      "description": "Develop consent-based cyber resilience for relief organizations and public-service providers.",
+      "recommended": [
+        "fbi",
+        "usss",
+        "un"
+      ],
+      "evidence_source": "Public defensive guidance and incident reports",
+      "deliverable": "Offline backup plan; incident-notification tree; no offensive probing."
+    },
+    {
+      "id": "recovery",
+      "title": "Rebuild services with community governance",
+      "description": "Compare sustainable recovery options and independent outcomes over years.",
+      "recommended": [
+        "un",
+        "usmc",
+        "usss"
+      ],
+      "evidence_source": "World Bank, UN, public procurement reporting",
+      "deliverable": "Local ownership; lifecycle costs; audits; equity safeguards."
+    },
+    {
+      "id": "missing",
+      "title": "Protect POW and missing-person processes",
+      "description": "Safely track aggregate humanitarian progress while keeping family records private.",
+      "recommended": [
+        "un",
+        "cia"
+      ],
+      "evidence_source": "ICRC and UN public reporting",
+      "deliverable": "Aggregate indicator; confidentiality review; no crowdsourced person tracking."
+    },
+    {
+      "id": "evidence",
+      "title": "Test competing narratives fairly",
+      "description": "Identify which claims are independently supported and which would change the conclusions.",
+      "recommended": [
+        "cia",
+        "fbi",
+        "un"
+      ],
+      "evidence_source": "Court records, UN records and primary public statements",
+      "deliverable": "Two hypotheses; source matrix; corrections; protected identities."
+    },
+    {
+      "id": "finance",
+      "title": "Improve public financial transparency",
+      "description": "Target verifiable illicit behavior without penalizing lawful aid or commerce.",
+      "recommended": [
+        "usss",
+        "fbi",
+        "un"
+      ],
+      "evidence_source": "Regulator guidance; public enforcement actions",
+      "deliverable": "Evidence-graded compliance memo; humanitarian exemption test; stop rule."
+    },
+    {
+      "id": "review",
+      "title": "Red-team a 24-month peace failure",
+      "description": "Challenge plausible agreements for noncompliance, spoilers, rearmament and civilian harm.",
+      "recommended": [
+        "cia",
+        "usmc",
+        "un"
+      ],
+      "evidence_source": "Published verification doctrine; humanitarian indicators",
+      "deliverable": "Failure story; independent metric; reversal trigger; protection fallback."
+    }
+  ],
+  "shared_gates": [
+    "Current public source and date",
+    "What is verified, alleged and missing",
+    "Proper legal/mandate owner",
+    "Civilian impact and affected-community agency",
+    "Independent test and correction path",
+    "Proportional stop rule and safe fallback",
+    "Public-only export with explicit consent"
+  ]
+}

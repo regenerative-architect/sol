@@ -1,0 +1,44 @@
+[
+  {
+    "id": "usss_cftf",
+    "name": "USSS cyber fraud task forces",
+    "url": "https://www.secretservice.gov/contact/field-offices/",
+    "date": "Undated",
+    "type": "agency guidance"
+  },
+  {
+    "id": "bis_red_flags",
+    "name": "BIS Russia export-control evasion red flags",
+    "url": "https://www.bis.gov/enforcement/identify-red-flags",
+    "date": "Current guidance",
+    "type": "regulatory"
+  },
+  {
+    "id": "doj_goltsev",
+    "name": "DOJ Goltsev and Nasriddinov guilty pleas",
+    "url": "https://www.justice.gov/usao-edny/pr/brooklyn-resident-and-canadian-national-plead-guilty-multi-million-dollar-export-control-0",
+    "date": "2024-07-09",
+    "type": "judicial press release"
+  },
+  {
+    "id": "doj_shev",
+    "name": "DOJ Andrey Shevlyakov guilty plea",
+    "url": "https://www.justice.gov/usao-edny/pr/estonian-national-pleads-guilty-exporting-electronics-benefit-russian-military",
+    "date": "2026-07-23",
+    "type": "judicial press release"
+  },
+  {
+    "id": "doj_yerm",
+    "name": "DOJ Vadim Yermolenko guilty plea",
+    "url": "https://www.justice.gov/usao-edny/pr/us-and-russian-national-pleads-guilty-helping-russias-defense-sector-evade-us-export",
+    "date": "2024-11-01",
+    "type": "judicial press release"
+  },
+  {
+    "id": "doj_kahn",
+    "name": "DOJ Ilya Kahn guilty plea",
+    "url": "https://www.justice.gov/usao-edny/pr/businessman-pleads-guilty-export-tax-charges-connection-shipments-other-sensitive",
+    "date": "2024-11-07",
+    "type": "judicial press release"
+  }
+]

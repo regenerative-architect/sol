@@ -1,0 +1,114 @@
+[
+  {
+    "id": "UN-OCT",
+    "date": "2026-10-08",
+    "type": "UN primary",
+    "title": "OHCHR: Civilian attacks, energy disruption and all-party IHL protections",
+    "url": "https://ukraine.un.org/en/324088-comment-un-human-rights-chief-volker-t%C3%BCrk-deadly-strikes-ukraine"
+  },
+  {
+    "id": "UN-AUG",
+    "date": "2026-09-17",
+    "type": "UN verified data",
+    "title": "OHCHR: Protection of civilians in August 2026",
+    "url": "https://ukraine.un.org/en/323454-protection-civilians-armed-conflict-%E2%80%94-august-2026"
+  },
+  {
+    "id": "UN-SEP",
+    "date": "2026-09-24",
+    "type": "UN diplomacy",
+    "title": "UN General Assembly discussions of civilian protection and peace",
+    "url": "https://ukraine.un.org/en/323265-un-general-assembly-calls-protection-civilians-and-just-peace-ukraine"
+  },
+  {
+    "id": "UN-ENERGY",
+    "date": "2026-06-29",
+    "type": "UN primary",
+    "title": "OHCHR: Systematic attacks against Ukraine energy infrastructure",
+    "url": "https://ukraine.un.org/en/318327-attacks-against-ukraine%E2%80%99s-energy-infrastructure-and-update-human-rights-situation-ukraine-1"
+  },
+  {
+    "id": "UN-COM",
+    "date": "2026-09-21",
+    "type": "UN commission",
+    "title": "UN Commission: Energy infrastructure and civilian conditions",
+    "url": "https://ukraine.un.org/en/323052-un-commission-concerned-about-human-impact-russia%E2%80%99s-systematic-targeting-energy"
+  },
+  {
+    "id": "DOD-CHMR",
+    "date": "2022-08-25",
+    "type": "US official policy",
+    "title": "DoD Civilian Harm Mitigation and Response Action Plan",
+    "url": "https://www.defense.gov/News/Releases/Release/Article/3140007/civilian-harm-mitigation-and-response-action-plan-fact-sheet/"
+  },
+  {
+    "id": "DOD-CHMR-I",
+    "date": "2023-12-21",
+    "type": "US official policy",
+    "title": "DoD Instruction 3000.17 explained",
+    "url": "https://www.defense.gov/News/News-Stories/Article/Article/3624268/dod-issues-civilian-harm-mitigation-response-instruction/"
+  },
+  {
+    "id": "DOD-CHMR-REG",
+    "date": "accessed 2026-10-14",
+    "type": "US official documents",
+    "title": "DoD Policy civilian harm mitigation and annual reports",
+    "url": "https://policy.defense.gov/Offices/Civilian-Harm-Mitigation-and-Response/"
+  },
+  {
+    "id": "BIS-CHPL",
+    "date": "accessed 2026-10-14",
+    "type": "Export law guidance",
+    "title": "BIS Common High Priority Items List",
+    "url": "https://media.bis.gov/licensing/country-guidance/common-high-priority-items-list-chpl"
+  },
+  {
+    "id": "STATE-EUM",
+    "date": "archived 2025",
+    "type": "US official guidance",
+    "title": "State Department Blue Lantern end-use monitoring",
+    "url": "https://2021-2025.state.gov/end-use-monitoring-of-u-s-origin-defense-articles/"
+  },
+  {
+    "id": "UN-CHARTER",
+    "date": "1945",
+    "type": "Primary law",
+    "title": "Charter of the United Nations",
+    "url": "https://www.un.org/en/about-us/un-charter/full-text"
+  },
+  {
+    "id": "ICRC-IHL",
+    "date": "accessed 2026-10-14",
+    "type": "Humanitarian law",
+    "title": "ICRC overview of international humanitarian law",
+    "url": "https://www.icrc.org/en/law-and-policy/international-humanitarian-law"
+  },
+  {
+    "id": "CISA",
+    "date": "accessed 2026-10-14",
+    "type": "US official cyber",
+    "title": "CISA Report a Cyber Issue",
+    "url": "https://www.cisa.gov/report"
+  },
+  {
+    "id": "DOD-LAW",
+    "date": "accessed 2026-10-14",
+    "type": "US official law",
+    "title": "DoD Law of War Manual resources",
+    "url": "https://ogc.osd.mil/Law-of-War/"
+  },
+  {
+    "id": "DOJ-GOLTSEV",
+    "date": "2025-01-08",
+    "type": "Judicial outcome",
+    "title": "DOJ: Goltsev export-control conspiracy sentencing",
+    "url": "https://www.justice.gov/usao-edny/pr/canadian-national-sentenced-40-months-prison-multi-million-dollar-export-control"
+  },
+  {
+    "id": "DOJ-SHEV",
+    "date": "2026-07-23",
+    "type": "Guilty plea",
+    "title": "DOJ: Andrey Shevlyakov procurement conspiracy guilty plea",
+    "url": "https://www.justice.gov/usao-edny/pr/estonian-national-pleads-guilty-exporting-electronics-benefit-russian-military"
+  }
+]

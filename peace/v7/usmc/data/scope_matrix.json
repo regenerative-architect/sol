@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "status": "unofficial_concept",
+  "nodes": [
+    {
+      "id": "usss",
+      "name": "U.S. Secret Service",
+      "status": "prior research edition",
+      "scope": "Financial crime and protective remit; not military command.",
+      "connected": false,
+      "authority_granted": false
+    },
+    {
+      "id": "fbi",
+      "name": "FBI",
+      "status": "prior research edition",
+      "scope": "Federal investigation and domestic national-security laws; no presumption of case transfer.",
+      "connected": false,
+      "authority_granted": false
+    },
+    {
+      "id": "cia",
+      "name": "CIA",
+      "status": "future edition",
+      "scope": "Foreign intelligence under lawful oversight; not a domestic police function.",
+      "connected": false,
+      "authority_granted": false
+    },
+    {
+      "id": "dod",
+      "name": "U.S. Military / DoD",
+      "status": "this independent concept",
+      "scope": "Defense policy, civilian harm mitigation, assistance governance and lawful support.",
+      "connected": false,
+      "authority_granted": false
+    },
+    {
+      "id": "bis",
+      "name": "Commerce BIS / OEE",
+      "status": "concept referral only",
+      "scope": "Export controls and specialized compliance; not DoD military investigation.",
+      "connected": false,
+      "authority_granted": false
+    },
+    {
+      "id": "state",
+      "name": "U.S. Department of State",
+      "status": "concept referral only",
+      "scope": "Diplomacy, security assistance/end-use oversight and legal foreign-policy channels.",
+      "connected": false,
+      "authority_granted": false
+    },
+    {
+      "id": "un",
+      "name": "United Nations",
+      "status": "future concept",
+      "scope": "Civilian protection and diplomacy under multilateral mandate.",
+      "connected": false,
+      "authority_granted": false
+    },
+    {
+      "id": "icrc",
+      "name": "ICRC",
+      "status": "independent external",
+      "scope": "Neutral humanitarian mandate; never used as an intelligence handoff.",
+      "connected": false,
+      "authority_granted": false
+    }
+  ]
+}
